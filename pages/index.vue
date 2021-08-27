@@ -1,28 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">
-        nuxt-netlify-cms-blueprint
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      {{projects}}
     </div>
   </div>
 </template>
@@ -34,6 +13,12 @@ export default {
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     };
   },
+  async asyncData({ $content }) {
+    const projects = await $content("projects").fetch();
+    return {
+      projects,
+    };
+  }
 };
 </script>
 
