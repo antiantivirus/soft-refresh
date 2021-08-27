@@ -2,20 +2,38 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: static/img
-public_folder: /img
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dn8clcpvw
+    api_key: 547459265662886
+
+editor:
+  preview: false
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'project'
+    label: 'Project'
+    folder: 'content/project'
     format: 'frontmatter'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: 'slug'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Project Date', name: 'project_date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: "Images"
+        name: "galleryImages"
+        widget: "list"
+        summary: '{{fields.image}}'
+        fields:
+          - {label: 'Image', name: 'image', widget: 'image' }
+          - {label: 'Alt Text', name: 'alt', widget: 'string'}
+          - {label: 'Caption', name: 'caption', widget: 'string'}
