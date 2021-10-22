@@ -1,0 +1,11 @@
+html {
+    font-family: serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a:hover {
+    background-color: #00ff46;
+}
