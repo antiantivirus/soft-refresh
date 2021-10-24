@@ -19,9 +19,10 @@
           <p style="width: 50%">
             Soft Refresh is the practise of creative developer, visual artist and radio enthuiast Jack Murray-Brown. Currently based in Aberdeen and working part-time for Design and Code and part-time freelance.
           </p>
-          <p>Say hi</p>
+          <a href="mailto:jack@softrefre.sh">Say hi</a>
         </div>
         <div ref="board5">
+          <img class="h-full w-full object-cover" src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Me wearing reflective swimming goggles sitting on the beach with my right knee raised towards my head." />
         </div>
         <div ref="board6">
           
@@ -35,6 +36,14 @@
 
           <input type="checkbox" id="radio"/>
           <label for="radio">Radio</label>
+          <br/>
+
+          <input type="checkbox" id="radio"/>
+          <label for="radio">Workshop</label>
+          <br/>
+
+          <input type="checkbox" id="radio"/>
+          <label for="radio">Sound design</label>
           <br/>
 
           <input type="checkbox" id="art"/>

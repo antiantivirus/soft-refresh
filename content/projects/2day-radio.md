@@ -2,9 +2,20 @@
 title: 2Day Radio
 date: 2021-08-27T12:57:39.858Z
 project_date: 2021-08-27T12:57:39.865Z
-description: description
+display_project_date: 2018-2020
+description: Web development and studio assistance for 2day radio, a temporary community radio project that ran between 2018 and 2020
 tags:
   - Website
   - Radio
+media:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634906014/Soft%20Refresh/2day%20radio/2day-intro3_kwzpjj.gif
+    alt: ''
+    caption: ''
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634906402/Soft%20Refresh/2day%20radio/2day-schedule-pichi_zcztjx.png
+    alt: ''
+    caption: ''
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634906017/Soft%20Refresh/2day%20radio/2day-skwiggle1_vbn1wp.gif
+    alt: ''
+    caption: ''
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hosting creatives and local artists from within and around Aberdeen. It broadcast from various locations including the Worm Gallery, Temple of Jackie (Listen Again 2019) and was involved in the re-opening of Aberdeen Art Gallery.
