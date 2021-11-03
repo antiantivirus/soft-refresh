@@ -1,52 +1,13 @@
 <template>
   <div >
     <div>
-      <h1 ref="maluable-header" id="maluable-header">The web is malleable.</h1>
-      <!-- <img src="~/assets/images/web-in-park.svg" class="w-56" /> -->
-
-      <div id="grid">
-        <div ref="board1">
+        <div>
+          <div id="logo" class="mx-auto mt-24"></div>
+          <h1 class="text-center mx-auto mt-12 w-9/12 md:w-3/6	">
+            Soft Refresh is the practise of creative developer, visual artist and radio enthuiast Jack Murray-Brown. Currently based in Aberdeen and working part-time for <a href="https://designandcode.com" target="_blank">Design and Code</a> and part-time freelance.
+          </h1>
+          <a class="mx-auto block text-center mt-6 mb-12" href="mailto:jack@softrefre.sh">Say hi</a>
         </div>
-        <div ref="board2">
-        </div>
-        <div ref="board3">
-          <h3>Recent work</h3>
-          <div v-for="project in projects" :key="project.slug">
-            <nuxt-link :to="`projects/${project.slug}`">{{project.title}}</nuxt-link>
-          </div>
-        </div>
-        <div ref="board4">
-          <p style="width: 50%">
-            Soft Refresh is the practise of creative developer, visual artist and radio enthuiast Jack Murray-Brown. Currently based in Aberdeen and working part-time for Design and Code and part-time freelance.
-          </p>
-          <p>Say hi</p>
-        </div>
-        <div ref="board5">
-        </div>
-        <div ref="board6">
-          
-          <input type="checkbox" id="web"/>
-          <label for="web">Web</label>
-          <br/>
-
-          <input type="checkbox" id="visuals"/>
-          <label for="visuals">Visuals</label>
-          <br/>
-
-          <input type="checkbox" id="radio"/>
-          <label for="radio">Radio</label>
-          <br/>
-
-          <input type="checkbox" id="art"/>
-          <label for="art">Art</label>
-
-          <input type="checkbox" v-model="malleable"/>
-          {{malleable}}
-        </div>
-      </div>
-
-
- 
     </div>
   </div>
 </template>
@@ -69,26 +30,18 @@ export default {
       projects,
     };
   },
-  mounted(){
-    const height = window.screen.height / 2;
-    const width = window.screen.width / 2;
-
-    onmousemove = (e) => {
-      if (!this.malleable){
-        console.log("mouse location:", e.clientX, e.clientY)
-        this.$refs.board1.style.transform = `skew(${(e.clientX - width)/30}deg, ${(e.clientY - height)/30}deg)`
-        this.$refs.board2.style.transform = `skew(${(e.clientX - width)/20}deg, ${(e.clientY - height)/-30}deg)`
-        this.$refs.board3.style.transform = `skew(${(e.clientX - width)/10}deg, ${(e.clientY - height)/15}deg)`
-        this.$refs.board4.style.transform = `skew(${(e.clientX - width)/-10}deg, ${(e.clientY - height)/30}deg)`
-        this.$refs.board5.style.transform = `skew(${(e.clientX - width)/-100}deg, ${(e.clientY - height)/-30}deg)`
-        this.$refs.board6.style.transform = `skew(${(e.clientX - width)/-50}deg, ${(e.clientY - height)/30}deg)`
-      }
-    }
-  }
 };
 </script>
 
 <style scoped>
+
+#logo {
+  width: 100px;
+  height: 100px;
+  filter: blur(20px);
+  background-color: #00ff46;
+  border-radius: 50%;
+}
 
 #grid {
   display: grid;
