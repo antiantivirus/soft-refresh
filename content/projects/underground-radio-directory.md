@@ -10,13 +10,13 @@ tags:
   - Web
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897671/Soft%20Refresh/URD/urd_gif_fl24ys.gif
-    alt: ''
+    alt: 'Radio communities around the globe'
     caption: 'Radio communities around the globe'
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg
     alt: 'Underground Radio Directory hompage'
     caption: 'Underground Radio Directory hompage'
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897663/Soft%20Refresh/URD/URD-stations_r5xxg5.png
-    alt: ''
+    alt: 'A selection of stations listed on URD'
     caption: 'A selection of stations listed on URD'
 
 ---

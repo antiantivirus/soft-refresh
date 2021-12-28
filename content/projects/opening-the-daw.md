@@ -21,4 +21,8 @@ media:
     alt:
     caption:
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I organised a series of Ableton music production workshops that ran between 2019 and 2022. With the aim of providing a set of workshops that would allow artist and creatives in the city to get a good grasp of the basics of music production with Ableton. These workshops were made possible due to funding from Aberdeen City Council.
+
+The first series of workshops took place in early 2019 across venues Peacock Visual Arts and Foodstory. With three of the workshops being facilated by Marta NoOne with a special workshop on Max for Live facilated by ????
+
+The second series of workshops is due to take place in early 2022 at Aberdeen Art Gallery and will be faciliated by David Henderson (Mod-R).

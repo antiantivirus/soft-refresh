@@ -3,7 +3,7 @@ title: Lavendar Heated to 60c
 date: 2021-08-27T13:00:09.456Z
 project_date: 2021-08-27T13:00:09.465Z
 display_project_date: '2018'
-description: description
+description: Sound Design for Donald Butlers visual piece "Lavendar Heated to 60"
 tags:
   - Sound design
 media:

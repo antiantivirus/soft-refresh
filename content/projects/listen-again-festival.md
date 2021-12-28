@@ -3,11 +3,14 @@ title: Listen Again Festival
 date: 2021-08-27T12:57:15.748Z
 project_date: 2021-08-27T12:57:15.755Z
 display_project_date: '2019'
-description: Description
+description: Founder and curator for an experimental music festival.
 tags:
-  - Workshops
   - Curation
   - Community
+  - Festival
+  - Website
+  - Design
+  - Workshops
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920175/Soft%20Refresh/listen%20again%20festival/IMG_5886-pichi_ynkkws.jpg
     alt:

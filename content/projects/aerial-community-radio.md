@@ -7,6 +7,8 @@ description: Co-founder and web developer for a community radio station based in
 tags:
   - Website
   - Radio
+  - Design
+  - Community
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915123/Soft%20Refresh/aerial%20community%20radio/aerial-image-2_cyayly.jpg
     alt: 
@@ -21,4 +23,4 @@ media:
     alt:
     caption: aerial community radio website all messed up! e-zone madness!
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Co-founder and web developer for a community radio station based in Aberdeen. 
