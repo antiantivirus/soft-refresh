@@ -10,27 +10,26 @@ tags:
   - Print
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-30-pichi_ermgm1.jpg
-    alt:
-    caption:
+    alt: Aberdeen rave line riso poster pasted up
+    caption: Riso poster paste-up
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-20-pichi_j6c7vh.jpg
-    alt:
-    caption:
+    alt: Man with wierd and large paint brush and green jacket pasting up poster on granite wall with bright blue mural blurred in the background
+    caption: Me pasting up the riso posters
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916175/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-26-pichi_wsgfqa.jpg
-    alt:
-    caption:
+    alt: Paint brush pasting up aberdeen rave line riso poster
+    caption: Riso poster paste-up
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-5-pichi_kwnkhm.jpg
-    alt:
-    caption:
+    alt: Aberdeen rave line riso poster pasted up
+    caption: Riso poster paste-up
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-52-pichi_npo2j5.jpg
-    alt:
-    caption:
+    alt: Man with wierd and large paint brush and green jacket pasting up poster on white brick wall
+    caption: Me pasting up the riso posters
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-51-pichi_byh4oj.jpg
-    alt:
-    caption:
-
+    alt: Paste-up poster on pillar reads the duncefleer is calling
+    caption: Riso poster paste-up - the dancefleer is calling
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916175/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-32-pichi_opmz66.jpg
-    alt:
-    caption:
+    alt: Hand holding large paint brush pasting up poster on white brick wall
+    caption: Me pasting up the riso posters
 ---
 Aberdeen Rave Line is a phone number setup to provide information on the latest raves happening in the Aberdeen area.
 

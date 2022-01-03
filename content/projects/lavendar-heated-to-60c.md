@@ -7,9 +7,9 @@ description: Sound Design for Donald Butlers visual piece "Lavendar Heated to 60
 tags:
   - Sound design
 media:
-  - video: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/raFhUTPAeBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - video: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/raFhUTPAeBg" title="Lavender Heated to 60C, External" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     caption: Lavender Heated to 60C, External
-  - video: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/e265ZIbaaDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - video: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/e265ZIbaaDI" title="Lavender Heated to 60C, internal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     caption: Lavender Heated to 60C, internal
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634900807/Soft%20Refresh/Lavender%20heated%20to%2060c/lavendar_3_o8x5do.jpg
     alt: ''

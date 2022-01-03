@@ -6,6 +6,47 @@ display_project_date: '2021'
 description: What would you put on a small internet?
 tags:
   - Art
+media:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-41-pichi_xinhmp.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225540/Soft%20Refresh/SwampNET/SWAMPISLAND-1-pichi_pknknh.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225540/Soft%20Refresh/SwampNET/SWAMPISLAND-11-pichi_q2umxn.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225540/Soft%20Refresh/SwampNET/SWAMPISLAND-53-pichi_wuhoti.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-19-pichi_g54iac.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-5-pichi_dxaipf.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-4-pichi_cqcobi.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-20-pichi_fgdlow.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-51-pichi_edt7p5.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-17-pichi_e2luip.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-50-pichi_xbci9b.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-29-pichi_iy6rwe.jpg
+    alt:
+    caption:
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-46-pichi_f92yo6.jpg
+    alt:
+    caption:
+    
 ---
 What would you put on a small internet?
 

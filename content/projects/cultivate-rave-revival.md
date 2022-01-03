@@ -8,35 +8,35 @@ tags:
   - Visuals
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg
-    alt:
-    caption:
+    alt: Close up of LED panel attached to scaffolding. Panel showing red distrorted graffiti
+    caption: Close up of LED Panel
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921288/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6731-pichi_qh3kw0.jpg
-    alt:
-    caption:
+    alt: 4 LED panels attatched to scaffolding in dark environment showing red distrorted graffiti
+    caption: Visuals mapped across 4 LED panels
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6722-pichi_cpdsmd.jpg
-    alt:
-    caption:
+    alt: LED Panel attached to scaffolding shows euphoria graphic with contains words europhia above two rounded characters jumping from the ground looking like they are having euphoric time
+    caption: Euphoria!
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6698-pichi_qal6dw.jpg
-    alt:
-    caption:
+    alt: A large crowd in the foreground standing in front of Mall Grab who is DJing with LED panels attached to scaffolding in the background. The panels show a happy looking red character split mapped across all 4 panels. Red light from behind the scaffolding fills the space with a pink hue.
+    caption: Visuals mapped across 4 LED panels
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921331/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6716-pichi_cmotxx.jpg
-    alt:
-    caption:
+    alt: Mall grab DJing in front of scaffolding with square LED panel attached showing naughty looking character holding gun with smoke coming from it (bad tunes logo) in red.
+    caption: Bad Tunes!
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6710-pichi_t2ygka.jpg
-    alt:
-    caption:
+    alt: 
+    caption: Visuals mapped across 4 LED panels
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6553-pichi_reoutj.jpg
-    alt:
-    caption:
+    alt: 
+    caption: Daniel Avery enjoying the visuals during his B2B with HAAi
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6329-pichi_tc5uxv.jpg
-    alt:
-    caption:
+    alt: 
+    caption: X-Man in large split across the 4 panels as Slam deliver their trademark pounding techno
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6378-pichi_c4oisv.jpg
-    alt:
-    caption:
+    alt: 
+    caption: Rave graphic mirrored across the two outer panels
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921333/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6358-pichi_rodsqc.jpg
-    alt:
-    caption: 
+    alt: 
+    caption: White graffiti visuals
 ---
 Reviving old rave graphics for Cultivate's 2021 edition.
 
