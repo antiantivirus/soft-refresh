@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-      <div id="project-grid">
-        <div class="sticky top-0">
+      <div id="project-grid" class="grid grid-cols-1 xl:grid-cols-2">
+        <div class="sticky top-4 h-min text-col">
             <h1>{{project.title}}</h1>
-            <h2>{{project.description}}</h2>
             <p>{{project.display_project_date}}</p>
             <ul>
               <li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
@@ -48,8 +47,7 @@ export default {
 <style>
 
 #project-grid {
-    grid-template-columns: 1fr 2fr;
-    display: grid;
+  max-width: 1800px;
 }
 
 </style>

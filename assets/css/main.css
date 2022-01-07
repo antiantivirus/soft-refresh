@@ -2,3 +2,19 @@ html, body {
   /* background-color: #dde0d9; */
   background-color: #F2F3F2;
 }
+
+body {
+  padding: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+.text-col {
+  max-width: 600px;
+}
+
+.container {
+  max-width: none;
+}

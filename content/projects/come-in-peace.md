@@ -38,7 +38,7 @@ media:
     alt: 
     caption: Come In Peace terminal  
 ---
-Visuals for Manchester based Artist and DJ [Interplanatary Criminal](https://soundcloud.com/interplanetary-criminal) as part of [Meld](https://meldrecords.bandcamp.com/) and [Bohemia's](https://www.facebook.com/BohemiaAberdeen/) night at The Tunnels, Aberdeen..
+Visuals for Manchester based artist and DJ [Interplanatary Criminal](https://soundcloud.com/interplanetary-criminal) as part of [Meld](https://meldrecords.bandcamp.com/) and [Bohemia's](https://www.facebook.com/BohemiaAberdeen/) night at The Tunnels, Aberdeen..
 
 Easy now...Come In Peace
 

@@ -1,12 +1,5 @@
 <template>
-    <div>
-        {{selectedProjects}}
-        <button @click="opened = true">Who are you?</button>
-        <div class="grid grid-cols-2" v-if="opened == true">
-            <button style="height: 50px; width: 50px; background: red;" @click="addProject(project)" v-for="project in projects" :key="project.id">
-            </button>
-        </div>
-    </div>
+
 </template>
 
 <script>

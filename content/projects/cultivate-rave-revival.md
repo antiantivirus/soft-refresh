@@ -9,7 +9,7 @@ tags:
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg
     alt: Close up of LED panel attached to scaffolding. Panel showing red distrorted graffiti
-    caption: Close up of LED Panel
+    caption: Close up of LED Panel and visuals
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634921288/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6731-pichi_qh3kw0.jpg
     alt: 4 LED panels attatched to scaffolding in dark environment showing red distrorted graffiti
     caption: Visuals mapped across 4 LED panels
