@@ -13,7 +13,7 @@ h1 {
     font-weight: 300;
 }
 
-h1, .h1 {
+h1, .h1, p.large, .font-large {
     font-size: 2rem;
     font-weight: 400;
 }
@@ -27,8 +27,4 @@ a {
 
 a:hover {
     background-color: #00ff46;
-}
-
-p.large {
-    font-size: 2rem;
 }

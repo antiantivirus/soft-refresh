@@ -1,6 +1,11 @@
 <template>
   <div class="grid grid-cols-2">
     <div class="text-col">
+      <div class="inline mr-4" v-for="filter in filters" :key="filter">
+          <label class="font-large cursor-pointer">{{filter.name}}
+          <input type="checkbox" v-model="filter.selected" />
+          </label>
+      </div>
       <ul class="list-none m-0 p-0">
         <li v-for="project in projects" :key="project.slug" @mouseover="selectedProject = project" @mouseout="selectedProject = null">
           <nuxt-link  :to="`/projects/${project.slug}`">
@@ -14,10 +19,7 @@
       <img v-if="selectedProject" :src="selectedProject.media[0].image" />
     </div>
     <div>
-      <div class="inline mr-4" v-for="filter in filters" :key="filter">
-          <label>{{filter.name}}</label>
-          <input type="checkbox" v-model="filter.selected">
-      </div>
+
     </div>
     <div class="">
     </div>
