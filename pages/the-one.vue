@@ -5,10 +5,10 @@
       <h2 class="h1">My work centeres around community, our relation to technology and XYZ?</h2>
     </div>
     <span class="opacity-50">{{selectedProjects}}</span>
-    <div id="captcha-image" class="cursor-pointer" @click.prevent="captchaOpen = true" >
+    <button id="captcha-image" class="cursor-pointer border-0 p-0 m-0" @click.prevent="captchaOpen = true" >
       <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
       <input type="checkbox" :checked="captchaComplete" class="cursor-pointer"/>
-    </div>
+    </button>
     <div id="captcha" v-show="captchaOpen">
         <div class="fixed top-0 bg-green w-full">
           <p class="text-center">Please select my work</p>

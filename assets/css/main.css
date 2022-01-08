@@ -16,5 +16,13 @@ img {
 }
 
 .container {
-  max-width: none;
+  max-width: fit-content;
+}
+
+/* 'lg': '1024px', */
+@media (min-width: 1024px) {
+  .container {
+    margin-right: 150px;
+    margin-left: 0px;
+  }
 }
