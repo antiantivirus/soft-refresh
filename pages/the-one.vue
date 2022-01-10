@@ -3,8 +3,8 @@
     <div class="max-w-lg">
       <h1>Hiii I'm Jack and welcome to my website. I'm a developer, artist, dj and radio enthusiast currently based in Aberdeen.</h1>
       <h2 class="h1">My work centeres around community, our relation to technology and XYZ?</h2>
+      <span class="opacity-50">{{selectedProjects}}</span>
     </div>
-    <span class="opacity-50">{{selectedProjects}}</span>
     <button id="captcha-image" class="cursor-pointer border-0 p-0 m-0" @click.prevent="captchaOpen = true" >
       <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
       <input type="checkbox" :checked="captchaComplete" class="cursor-pointer"/>
@@ -25,27 +25,34 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 
 export default ({
   data(){
-       return {
-          captchaOpen: false,
-          captchaComplete: false,
-          selectedProjects: [],
-          projects: []
-       }
+    return {
+      captchaOpen: false,
+      captchaComplete: false,
+      projects: []
+    }
+  },
+  computed:{
+     selectedProjects(){
+      return this.$store.state.selectedProjects
+    }
   },
   methods: {
     addProject(project, index){
         //check if project is already selected
         //if not add to list
         //if it is remove from list
-        const checkIndex = this.selectedProjects.indexOf(project.title)
+        const checkIndex = this.selectedProjects.indexOf(project.slug)
         if (checkIndex == -1){
-          this.selectedProjects.push(project.title)
+          // this.selectedProjects.push(project.slug)
+          this.$store.commit('addProject', project.slug)
           this.projects[index].selected = true
         } else {
-          this.selectedProjects.splice(index,1)
+          // this.selectedProjects.splice(index,1)
+          this.$store.commit('removeProject', index)
           this.projects[index].selected = false
         }
     }
