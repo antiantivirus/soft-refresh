@@ -7,7 +7,7 @@ description: Showcasing the best in World Wide Wadio
 link: 'https://www.undergroundradiodirectory.com/'
 tags:
   - Radio
-  - Web
+  - Website
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897671/Soft%20Refresh/URD/urd_gif_fl24ys.gif
     alt: Radio communities around the globe

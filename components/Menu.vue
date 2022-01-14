@@ -12,6 +12,9 @@
         <nuxt-link to="/about">About</nuxt-link>
       </li>
       <li>
+        <nuxt-link to="/links">Links</nuxt-link>
+      </li>
+      <li>
         <a href="mailto:jack@antiantivirus.co.uk">Mail Me</a>
       </li>
       <li>
