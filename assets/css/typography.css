@@ -9,13 +9,18 @@ html {
 }
 
 h1 {
-    /* font-size: 3rem; */
+    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
-h1, .h1, p.large, .font-large {
+/* h1, .h1, p.large, .font-large {
     font-size: 2rem;
     font-weight: 400;
+} */
+
+h1 {
+    
 }
 
 a {

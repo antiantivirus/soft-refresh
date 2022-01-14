@@ -1,6 +1,7 @@
 <template>
-  <div class="grid grid-cols-2">
+  <div class="grid grid-cols-1 lg:grid-cols-2">
     <div class="text-col">
+      <!-- <h1>Selected work</h1> -->
       <div class="inline mr-4" v-for="filter in filters" :key="filter">
           <label class="font-large cursor-pointer">{{filter.name}}
           <input type="checkbox" v-model="filter.selected" @click="addFilter(filter.name)"/>
@@ -14,7 +15,7 @@
         </li>
       </ul>
     </div>
-    <div>
+    <div class="hidden lg:block">
       <p class="large" v-if="selectedProject">{{selectedProject.description}}</p>
       <img v-if="selectedProject" :src="selectedProject.media[0].image" />
     </div>
