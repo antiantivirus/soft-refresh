@@ -11,10 +11,10 @@ tags:
   - Community
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915123/Soft%20Refresh/aerial%20community%20radio/aerial-image-2_cyayly.jpg
-    alt: 
+    alt: Woman wearing grey coat and man wearing purple coat stand in a tunnel over a table with cdjs and laptop on it. In the background there is a piece of graffiti in black and green.
     caption: aerial community radio launch, October 2020
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915122/Soft%20Refresh/aerial%20community%20radio/aerial-image-1_cydcud.jpg
-    alt:
+    alt: It's dark, maybe arond 8pm and light from a electric lantern and laptop 
     caption: aerial community radio launch, October 2020
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2021-05-01_at_18.18.27-pichi_zqlbf2.jpg
     alt:
