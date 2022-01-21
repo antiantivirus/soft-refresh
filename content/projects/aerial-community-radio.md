@@ -11,16 +11,16 @@ tags:
   - Community
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915123/Soft%20Refresh/aerial%20community%20radio/aerial-image-2_cyayly.jpg
-    alt: Woman wearing grey coat and man wearing purple coat stand in a tunnel over a table with cdjs and laptop on it. In the background there is a piece of graffiti in black and green.
+    alt: Woman wearing grey coat and man wearing purple coat stand in a tunnel graffiti covered tunnel, over a table with cdjs and laptop on it. In the background there is a piece of graffiti in black and green.
     caption: aerial community radio launch, October 2020
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915122/Soft%20Refresh/aerial%20community%20radio/aerial-image-1_cydcud.jpg
-    alt: It's dark, maybe arond 8pm and light from a electric lantern and laptop 
+    alt: It's dark, its october in Aberdeen, maybe arond 8pm and light from a electric lantern and laptop fill the scene with dim light. Figures can just be made out standing inside a tunnels next to the beach.
     caption: aerial community radio launch, October 2020
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2021-05-01_at_18.18.27-pichi_zqlbf2.jpg
-    alt:
+    alt: Screenshot showing aerial website for the subcity takeover, text is skewed all over the place and difficult ot read. Logos are upside down. Most prominent text reads celebrating 25 years of subcity. In the background a blue lit scene showcases 2 people djing.
     caption: e-zone for subcity collaboration, celebrating 25 years of subcity radio.
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg
-    alt:
+    alt: Screenshot showing the aerial website all messed up! The images are skewed, logos all over the place and upside down. In the background there is a video of the north sea taken from aberdeen beach on a slightly grey but clear day.
     caption: aerial community radio website all messed up! e-zone madness!
 ---
 Co-founder and web developer for a community radio station based in Aberdeen. 
