@@ -12,10 +12,10 @@ tags:
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7052-pichi_klbqme.jpg
     alt:
-    caption:
+    caption: Close up of publication
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7066-2-pichi_rrxc3l.jpg
     alt:
-    caption:
+    caption: Publication
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7032-pichi_xljt0w.jpg
     alt:
     caption:

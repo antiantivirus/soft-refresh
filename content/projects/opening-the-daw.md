@@ -10,16 +10,16 @@ tags:
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg
     alt:
-    caption:
+    caption: Marta NoOne teaching a workshop at the worm gallery, castlegate.
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1282-pichi_txft4u.jpg
     alt:
-    caption:
+    caption: A workshop participants learning Ableton
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1274-pichi_msaz3m.jpg
     alt:
-    caption:
+    caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1275-pichi_rfedae.jpg
     alt:
-    caption:
+    caption: Projection of Ableton 
 ---
 I organised a series of Ableton music production workshops that ran between 2019 and 2022. With the aim of providing a set of workshops that would allow artist and creatives in the city to get a good grasp of the basics of music production with Ableton. These workshops were made possible due to funding from Aberdeen City Council.
 

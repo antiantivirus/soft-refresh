@@ -10,7 +10,7 @@ tags:
   - Website
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897671/Soft%20Refresh/URD/urd_gif_fl24ys.gif
-    alt: Radio communities around the globe
+    alt: gif showing radio communities around the globe with the words underground radio directory appears
     caption: Radio communities around the globe
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg
     alt: Underground Radio Directory hompage

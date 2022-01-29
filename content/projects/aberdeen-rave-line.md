@@ -17,19 +17,19 @@ media:
     caption: Me pasting up the riso posters
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916175/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-26-pichi_wsgfqa.jpg
     alt: Paint brush pasting up aberdeen rave line riso poster
-    caption: Riso poster paste-up
+    caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-5-pichi_kwnkhm.jpg
     alt: Aberdeen rave line riso poster pasted up
-    caption: Riso poster paste-up
+    caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-52-pichi_npo2j5.jpg
     alt: Man with wierd and large paint brush and green jacket pasting up poster on white brick wall
-    caption: Me pasting up the riso posters
+    caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916174/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-51-pichi_byh4oj.jpg
     alt: Paste-up poster on pillar reads the duncefleer is calling
-    caption: Riso poster paste-up - the dancefleer is calling
+    caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916175/Soft%20Refresh/aberdeen%20rave%20line/rrrraveline-32-pichi_opmz66.jpg
     alt: Hand holding large paint brush pasting up poster on white brick wall
-    caption: Me pasting up the riso posters
+    caption: 
 ---
 Aberdeen Rave Line is a phone number setup to provide information on the latest raves happening in the Aberdeen area.
 
