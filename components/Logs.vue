@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="log in logsProp" :key="log.title" class="mb-12">
+    <div v-for="log in logsProp" :key="log.title" class="mb-6">
       <h4>{{log.title}}</h4>
       <div v-for="(item, index) in log.media" :key="index">
         <div v-if="item.image">
@@ -10,7 +10,10 @@
           <Vid :video="item"></Vid>
         </div>
       </div>
+      <div class="mb-6">
       <nuxt-content :document="log" />
+      </div>
+      <hr>
     </div>
   </div>
 </template>
@@ -23,3 +26,9 @@ export default ({
   }
 })
 </script>
+
+<style scoped>
+.log {
+  border-bottom: 1px solid black;
+}
+</style>
