@@ -4,6 +4,7 @@
     <div id="content">
       <Nuxt />
     </div>
+    <JMB />
   </div>
 </template>
 

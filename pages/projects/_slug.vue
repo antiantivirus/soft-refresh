@@ -1,6 +1,6 @@
 <template>
   <div class="the-grid contents-grid">
-    <section @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')">
+    <section @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Title and basic info">
       <h1>{{project.title}}</h1>
       <p>{{project.display_project_date}}</p>
       <ul class="p-0">
@@ -11,11 +11,11 @@
       <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}} &#xf08e;</a>
     </section>
 
-    <section @mouseover="hoverUpdate('m', 'Murray')" @mouseout="hoverUpdate('m','M')">
+    <section @mouseover="hoverUpdate('m', 'Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Project Description">
       <nuxt-content :document="project" />
     </section>
 
-    <section @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')">
+    <section @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')" aria-label="Project Media">
       <div v-for="(item, index) in project.media" :key="index">
         <div v-if="item.image">
           <Photo :image="item"></Photo>
