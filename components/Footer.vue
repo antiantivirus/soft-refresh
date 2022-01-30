@@ -1,9 +1,9 @@
 <template>
-  <div class="the-grid initial-grid bg-grey z-50" style="background-color: #bebebe;">
+  <footer class="the-grid initial-grid bg-grey z-50" style="background-color: #bebebe;">
     <span class="initial">{{j}}</span>
     <span class="initial">{{m}}</span>
     <span class="initial">{{b}}</span>
-  </div>
+  </footer>
 </template>
 
 <script>

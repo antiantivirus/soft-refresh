@@ -1,10 +1,10 @@
 <template>
   <div>
-    <JMB />
-    <div id="content">
+    <Header />
+    <main id="content">
       <Nuxt />
-    </div>
-    <JMB />
+    </main>
+    <Footer />
   </div>
 </template>
 

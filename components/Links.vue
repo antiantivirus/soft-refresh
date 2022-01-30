@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Here are some links to parts of the internet I find interesting, because you know the hyperlink is the backbone of the Internet [ahem ahem F U Insta]</h4>    
+    <h4>Here are some links to parts of the Internet I find interesting, because you know the hyperlink is the backbone of the web [ahem ahem F U Insta]</h4>    
     <ul class="list-none p-0">
       <li v-for="link in links.contents" v-if="link.source">
         <a target="_blank" :href="link.source.url">{{link.title}}</a>

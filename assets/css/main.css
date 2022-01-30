@@ -4,6 +4,16 @@ html, body {
   /* overflow: hidden; */
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #00ff46;;
+}
+
+::selection {
+  color: black;
+  background: #00ff46;;
+}
+
 body {
   padding: 25px;
 }
