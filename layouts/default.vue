@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Menu /> -->
+    <JMB />
     <div id="content">
       <Nuxt />
     </div>

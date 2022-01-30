@@ -41,7 +41,7 @@ export default ({
     }
   },
   computed:{
-     selectedProjects(){
+    selectedProjects(){
       return this.$store.state.selectedProjects
     }
   },

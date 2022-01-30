@@ -1,30 +1,30 @@
 <template>
-  <div class="container">
-      <div id="project-grid" class="grid grid-cols-1 xl:grid-cols-2">
-        <div class="text-col">
-          <div class="sticky top-6 h-min">
-            <h1>{{project.title}}</h1>
-            <p>{{project.display_project_date}}</p>
-            <ul>
-              <li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
-                {{tag}}
-              </li>
-            </ul>
-            <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}} &#xf08e;</a>
-            <nuxt-content :document="project" />
-          </div>
+  <div class="the-grid contents-grid">
+    <section @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')">
+      <h1>{{project.title}}</h1>
+      <p>{{project.display_project_date}}</p>
+      <ul class="p-0">
+        [<li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
+          {{tag}},
+        </li>]
+      </ul>
+      <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}} &#xf08e;</a>
+    </section>
+
+    <section @mouseover="hoverUpdate('m', 'Murray')" @mouseout="hoverUpdate('m','M')">
+      <nuxt-content :document="project" />
+    </section>
+
+    <section @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')">
+      <div v-for="(item, index) in project.media" :key="index">
+        <div v-if="item.image">
+          <Photo :image="item"></Photo>
         </div>
-        <div>
-          <div v-for="(item, index) in project.media" :key="index">
-            <div v-if="item.image">
-              <Photo :image="item"></Photo>
-            </div>
-            <div v-else>
-              <Vid :video="item"></Vid>
-            </div>
-          </div>
+        <div v-else>
+          <Vid :video="item"></Vid>
         </div>
       </div>
+    </section>
   </div>
 </template>
 
@@ -43,6 +43,17 @@ export default {
       project,
     };
   },
+  methods: {
+    hoverUpdate(item, value){
+      if (item == 'j') {
+        this.$store.commit('updateJ', value)
+      } else if (item == 'm'){
+        this.$store.commit('updateM', value)
+      } else {
+        this.$store.commit('updateB', value)
+      }
+    }
+  }
 };
 </script>
 

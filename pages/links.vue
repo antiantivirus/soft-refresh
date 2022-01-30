@@ -1,7 +1,6 @@
 <template>
   <div>
     <!-- {{links.contents}} -->
-    <h1>Here are some links to parts of the internet I find interesting and I hope you will too.</h1>
     <ul>
       <li v-for="link in links.contents" >
         {{link}}

@@ -10,7 +10,7 @@ html {
 
 h1, h2 {
     /* font-size: 3rem; */
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
 }
 
@@ -19,8 +19,13 @@ h3, a {
     font-weight: 600;
 }
 
-p {
+p, details summary, h4, h5, figcaption {
     font-size: 1.2rem;
+    font-weight: 300;
+}
+
+figcaption {
+    font-style: italic;
 }
 
 /* h1, .h1, p.large, .font-large {

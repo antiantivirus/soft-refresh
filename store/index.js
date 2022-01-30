@@ -1,6 +1,9 @@
 export const state = () => ({
   selectedProjects: [],
-  selectedProjectIndex: 0
+  selectedProjectIndex: 0,
+  j: 'J',
+  m: 'M',
+  b: 'B'
 })
 
 export const mutations = {
@@ -15,5 +18,14 @@ export const mutations = {
   },
   previousProject(state){
     state.selectedProjectIndex -= 1
+  },
+  updateJ(state, value){
+    state.j = value
+  },
+  updateM(state, value){
+    state.m = value
+  },
+  updateB(state, value){
+    state.b = value
   }
 }
