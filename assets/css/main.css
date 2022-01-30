@@ -6,12 +6,12 @@ html, body {
 
 ::-moz-selection { /* Code for Firefox */
   color: black;
-  background: #00ff46;;
+  background: #00ff46;
 }
 
 ::selection {
   color: black;
-  background: #00ff46;;
+  background: #00ff46;
 }
 
 body {
