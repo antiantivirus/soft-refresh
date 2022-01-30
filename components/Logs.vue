@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="log in logsProp" :key="log.title" class="mb-8">
+    <div v-for="log in logsProp" :key="log.title" class="mb-12">
       <h4>{{log.title}}</h4>
       <div v-for="(item, index) in log.media" :key="index">
         <div v-if="item.image">
