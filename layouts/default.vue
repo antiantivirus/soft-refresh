@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Menu />
+    <!-- <Menu /> -->
     <div id="content">
       <Nuxt />
     </div>
@@ -13,7 +13,7 @@
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
   #content {
-    margin-right: 150px;
+    /* margin-right: 150px; */
   }
 }
 

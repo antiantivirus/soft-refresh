@@ -8,10 +8,19 @@ html {
     font-family: 'Tex Gyre', sans-serif;
 }
 
-h1 {
-    font-size: 3rem;
+h1, h2 {
+    /* font-size: 3rem; */
     font-size: 1.5rem;
     font-weight: 300;
+}
+
+h3, a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 /* h1, .h1, p.large, .font-large {
@@ -26,7 +35,7 @@ h1 {
 a {
     color: black;
     text-decoration: underline;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-weight: 300;
 }
 

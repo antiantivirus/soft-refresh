@@ -1,6 +1,7 @@
 <template>
   <div class="grid grid-cols-1 lg:grid-cols-2">
-    <div class="text-col">
+    <div class="text-col ">
+      <div class="sticky top-4">
       <!-- <h1>Selected work</h1> -->
       <div class="inline mr-4" v-for="filter in filters" :key="filter">
           <label class="font-large cursor-pointer">{{filter.name}}
@@ -14,6 +15,7 @@
           </nuxt-link>
         </li>
       </ul>
+      </div>
     </div>
     <div class="hidden lg:block">
       <p class="large" v-if="selectedProject">{{selectedProject.description}}</p>

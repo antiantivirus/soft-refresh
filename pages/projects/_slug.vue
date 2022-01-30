@@ -1,7 +1,8 @@
 <template>
   <div class="container">
       <div id="project-grid" class="grid grid-cols-1 xl:grid-cols-2">
-        <div class="sticky top-4 h-min text-col">
+        <div class="text-col">
+          <div class="sticky top-6 h-min">
             <h1>{{project.title}}</h1>
             <p>{{project.display_project_date}}</p>
             <ul>
@@ -11,6 +12,7 @@
             </ul>
             <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}} &#xf08e;</a>
             <nuxt-content :document="project" />
+          </div>
         </div>
         <div>
           <div v-for="(item, index) in project.media" :key="index">

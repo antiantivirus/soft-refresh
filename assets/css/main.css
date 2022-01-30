@@ -1,6 +1,7 @@
 html, body {
   /* background-color: #dde0d9; */
-  background-color: #F2F3F2;
+  background-color: #bebebe;
+  /* overflow: hidden; */
 }
 
 body {
@@ -22,7 +23,7 @@ img {
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
   .container {
-    margin-right: 150px;
+    /* margin-right: 150px; */
     margin-left: 0px;
   }
 }
