@@ -40,3 +40,7 @@ media:
 ---
 Reviving old rave graphics for Cultivate's 2021 edition.
 
+Mapped across 4 seperate LED panels, I produced visuals that explored old rave graphics and the cultivation of grafitti in Aberdeen. Mixing re-purposed rave graphics made into 3D figures with quick snapshots of graffiti from across Aberdeen to create an immersive visual experience.
+
+Exploring the 90s rave aesthetics of DIY/rough and ready these visuals matched the aesthics of the surrounding bare scaffolding that the LED Panels were attached too.
+

@@ -1,6 +1,6 @@
 ---
 title: Channel S0 Token
-date: 2021-08-27T12:57:39.858Z
+date: 2022-01-26T12:57:39.858Z
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1643552162/Soft%20Refresh/Logs/s0-founder-token_druq6x.jpg
     alt: 

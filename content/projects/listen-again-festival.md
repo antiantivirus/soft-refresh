@@ -55,4 +55,6 @@ media:
     alt: Attaching cables to breadboard
     caption: 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In the summer of 2019 I founded and ran the first edition of the Listen Again Festival, as a fringe festival to the [Look Again Festival](https://lookagainaberdeen.co.uk/).
+
+The program for Listen Again 2019 involved; an algorave (live coding electronic music), the first in scotland to feature local live coding artists plus PC Music artist Lil Data, held alongside a live coding workshop; performance of two programmed arduinos inside now closed, soon to be demolished Aberdeen Market; a workshop on responsive audio and sensor processing; a discussion evening on the histories of and old narratives of club culture in aberdeen; takeover of 2day radio, a community radio project based in Aberdeen.

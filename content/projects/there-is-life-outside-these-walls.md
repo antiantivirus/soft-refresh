@@ -17,4 +17,8 @@ media:
     alt: Mouse moving about with a swiggle following it like a long snake.
     caption: Interactive Skwiggle
 ---
-Installation as part of XXYY exhibition held at The Tunnels on XXYY date.
+Two neural networks dreaming
+
+Installation shown as part of Monami exhibition (13/03/20) curated by [Veronica Petukhov](https://www.vncptk.tumblr.com/), at The Tunnels.
+
+‘There is life outside these walls’ considered the current climate of social media and the web as its moves increasingly towards a series of walled gardens. How might we reflect on rave culture, net communities of the past and agricultural practises to bring about a change in our current digital rituals. Eåxploring neural networks, sms and inter-connected ecosystems to create two living/dreaming entities.

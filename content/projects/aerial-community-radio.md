@@ -4,6 +4,7 @@ date: 2021-08-27T12:58:08.149Z
 project_date: 2021-08-27T12:58:08.159Z
 display_project_date: '2020 - present'
 description: Co-founder and web developer for a community radio station based in Aberdeen
+link: https://checkyouraeri.al/
 tags:
   - Website
   - Radio
@@ -23,4 +24,6 @@ media:
     alt: Screenshot showing the aerial website all messed up! The images are skewed, logos all over the place and upside down. In the background there is a video of the north sea taken from aberdeen beach on a slightly grey but clear day.
     caption: aerial community radio website all messed up! e-zone madness!
 ---
-Co-founder and web developer for a community radio station based in Aberdeen. 
+Co-founder and web developer for a community radio station based in Aberdeen.
+
+aerial was setup to provide a platform for artist, djs and creatives to express themselves. Drawing on my years of experience in radio from my student days I helped to create a unique website and identity + technical setup of the station and remote broadcasts.

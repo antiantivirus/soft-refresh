@@ -8,7 +8,7 @@ html {
     font-family: 'Tex Gyre', sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
     margin-top: 0px;
 }
 
@@ -23,12 +23,12 @@ h3, a {
     font-weight: 600;
 }
 
-p, details summary, h4, h5, figcaption {
+p, details summary, h4, h5, figcaption, .figcaption, li, span, ul {
     font-size: 1.2rem;
     font-weight: 300;
 }
 
-figcaption {
+figcaption, .figcaption {
     font-style: italic;
 }
 
@@ -50,4 +50,14 @@ a {
 
 a:hover, a.nuxt-link-active {
     background-color: #00ff46;
+}
+
+.initial {
+    font-size: 8rem;
+    text-align: center;
+    display: block;
+}
+  
+.mt-72 {
+margin-top: 18rem;
 }

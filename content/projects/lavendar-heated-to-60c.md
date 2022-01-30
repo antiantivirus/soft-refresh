@@ -7,9 +7,9 @@ description: Sound Design for Donald Butlers visual piece "Lavendar Heated to 60
 tags:
   - Sound design
 media:
-  - video: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/raFhUTPAeBg" title="Lavender Heated to 60C, External" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - embed: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/raFhUTPAeBg" title="Lavender Heated to 60C, External" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     caption: Lavender Heated to 60C, External
-  - video: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/e265ZIbaaDI" title="Lavender Heated to 60C, internal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - embed: <iframe width="100%" height="56.25%" src="https://www.youtube-nocookie.com/embed/e265ZIbaaDI" title="Lavender Heated to 60C, internal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     caption: Lavender Heated to 60C, internal
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634900807/Soft%20Refresh/Lavender%20heated%20to%2060c/lavendar_3_o8x5do.jpg
     alt: Pink light at the top of the image fills with basement space with a nice pinky glow. Two TVs on stands facing opposite directions are installed in a corner showing Lavendar Heated to 60c film.
@@ -21,7 +21,7 @@ media:
     alt: Pink hue fills the space with two TVs facing opposite direction show Lavendar Heated to 60c film.
     caption: Installation of work at Look Again Space, St Andrews Street, Aberdeen.
 ---
-Sound Design for Donald Butlers visual piece "Lavendar Heated to 60"
+Sound Design for [Donald Butlers](https://www.donaldbutler.xyz) moving image "Lavendar Heated to 60"
 
 Working with Ableton, live coding and analog sythesis to create an audio representation of the work.
 

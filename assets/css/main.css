@@ -90,6 +90,12 @@ details[open] > summary::before {
   grid-template-rows: 1fr;
 }
 
+/* sticky */
+
+.sticky {
+  top: 1rem;
+}
+
 /* figures */
 
 figure {
