@@ -4,12 +4,14 @@
         <section class="pb-24" @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Intro">
             <h1>Hi, I'm Jack and welcome to my website.</h1>
             <h2>I'm a developer, artist, DJ and radio enthusiast currently based in Aberdeen.</h2>
-            <p>Over time my work has evolved to center around community. I enjoy working with process and find this just as important as the outcome. I make websites, do visuals for club environments, something radio and enjoy a wild swim amongst other things.</p>
-            <p>Thanks for visiting and I hope you enjoy having a look around.</p>
             <figure class="mb-6">
               <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
               <figcaption>Me just before a swim in the North Sea</figcaption>
             </figure>
+            <p>Over time my work has evolved to center around community. I enjoy working with process and find this just as important as the outcome. I make websites, do visuals for club environments, something radio and enjoy a wild swim amongst other things.</p>
+            <p>I'm currently working part-time as New Media Developer at <a href="https://designandcode.com">Design and Code</a> and part-time freelance.
+            <p>Thanks for visiting and I hope you enjoy having a look around.</p>
+
             <hr>
             <details class="mt-6">
               <summary>Technical</summary>

@@ -3,10 +3,10 @@
     <section @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Title and basic info">
       <h1>{{project.title}}</h1>
       <p>{{project.display_project_date}}</p>
-      <ul class="p-0">
-        [<li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
-          {{tag}},
-        </li>]
+      <ul class="p-0 project-tags">
+        [ <li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
+        {{tag}}<span v-if="index+1 < project.tags.length">, </span>
+        </li> ]
       </ul>
       <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}} &#xf08e;</a>
     </section>
