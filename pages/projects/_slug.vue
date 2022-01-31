@@ -1,29 +1,50 @@
 <template>
-  <div class="container">
-      <div id="project-grid">
-        <div class="sticky top-0">
-            <h1>{{project.title}}</h1>
-            <h2>{{project.description}}</h2>
-            <p>{{project.display_project_date}}</p>
-            <ul>
-              <li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
-                {{tag}}
-              </li>
-            </ul>
-            <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}} &#xf08e;</a>
-            <nuxt-content :document="project" />
+  <div class="the-grid contents-grid">
+    <section class="" @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
+      <div>
+        <h1>{{project.title}}</h1>
+        <p>Date: {{project.display_project_date}}</p>
+        <p class="inline">Tags:</p><ul class="inline p-0 project-tags">
+          [ <li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
+          {{tag}}<span v-if="index+1 < project.tags.length">, </span>
+          </li> ]
+        </ul>
+        <br>
+        <br>
+        <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
+      </div>
+      <div>
+        <nuxt-content :document="project" />
+      </div>
+    </section>
+
+    <section @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')" aria-label="Project Media">
+      <div v-for="(item, index) in project.media" :key="index">
+        <div v-if="item.image">
+          <Photo :image="item" />
         </div>
-        <div>
-          <div v-for="(item, index) in project.media" :key="index">
-            <div v-if="item.image">
-              <Photo :image="item"></Photo>
-            </div>
-            <div v-else>
-              <Vid :video="item"></Vid>
-            </div>
-          </div>
+        <div v-else-if="item.gif">
+          <GIF :gif="item" />
+        </div>
+        <div v-else-if="item.video">
+          <Vid :video="item" />
+        </div>
+        <div v-else>
+          <Embed :embed="item" />
         </div>
       </div>
+    </section>
+
+    <section class="lg:order-first" @mouseover="hoverUpdate('j', 'Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Project Description">
+      <h3>Selected Work</h3>
+      <ul class="list-none m-0 p-0">
+        <li v-for="project in projects" :key="project.title">
+          <nuxt-link  :to="`/projects/${project.slug}`">
+            {{project.title}}
+          </nuxt-link>
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
 
@@ -37,19 +58,31 @@ export default {
     } catch (e) {
       error({ message: "Project not found" });
     }
+    const projects = await $content("projects").fetch();
 
     return {
       project,
+      projects
     };
   },
+  methods: {
+    hoverUpdate(item, value){
+      if (item == 'j') {
+        this.$store.commit('updateJ', value)
+      } else if (item == 'm'){
+        this.$store.commit('updateM', value)
+      } else {
+        this.$store.commit('updateB', value)
+      }
+    }
+  }
 };
 </script>
 
 <style>
 
 #project-grid {
-    grid-template-columns: 1fr 2fr;
-    display: grid;
+  max-width: 1800px;
 }
 
 </style>

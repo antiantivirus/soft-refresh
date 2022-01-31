@@ -12,10 +12,10 @@ tags:
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7052-pichi_klbqme.jpg
     alt:
-    caption:
+    caption: Close up of publication
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7066-2-pichi_rrxc3l.jpg
     alt:
-    caption:
+    caption: Publication
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7032-pichi_xljt0w.jpg
     alt:
     caption:
@@ -41,8 +41,8 @@ media:
     alt:
     caption:
 ---
-Publication design, hand stitching and website development for contemporary art exhibition in Aberdeen. Paradigms was an exhibition of work by emerging artists in Aberdeen and Plymouth, curated by Rachel Grant. Paradigms are systems of ideas, values and practice that constitute a way of viewing reality. The artists works as such were wide ranging in character and often explored their everyday environments.
+Publication design, hand stitching and web development (website launching soon) for contemporary art exhibition in Aberdeen. Paradigms was an exhibition of work by emerging artists in Aberdeen and Plymouth, curated by Rachel Grant. Paradigms are systems of ideas, values and practice that constitute a way of viewing reality. The artists works as such were wide ranging in character and often explored their everyday environments.
 
-The design of the publication leant upon the exhibited work and the areas in which they ... including ecology, xxxx, yyyy.
+The design of the publication leant upon the exhibited work and the areas in which it explored including ecology, xxxx, yyyy.
 
-The exhibition included artists; Molly Erin McCarthy, Rhys Morgan, Carly Seller, Phoebe McBride and Abby Beatrice Quick and a newly commissioned text from writer Tilly Craig.
+The exhibition included artists; [Molly Erin McCarthy](https://mollyerh.xyz/), [Rhys Morgan](https://www.rhysmorganartist.com/), [Carly Seller](https://carlyseller.com/), [Phoebe McBride](https://www.phoebemcbride.com/) and [Abby Beatrice Quick](https://abbybeatricequick.com/) and a newly commissioned text from writer [Tilly Craig](https://www.tillycraig.com/).

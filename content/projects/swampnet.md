@@ -8,43 +8,37 @@ tags:
   - Art
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-41-pichi_xinhmp.jpg
-    alt:
-    caption:
+    alt: E Ink display shows the words SwampNET hanging in mid-air via invisible string against a blurry green backdrop of the swamp
+    caption: E Ink display showing SwampNET
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225540/Soft%20Refresh/SwampNET/SWAMPISLAND-1-pichi_pknknh.jpg
-    alt:
-    caption:
+    alt: A group gather round SwampNET in the swamp
+    caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225540/Soft%20Refresh/SwampNET/SWAMPISLAND-11-pichi_q2umxn.jpg
-    alt:
-    caption:
+    alt: e ink display and parts of raspberry pi hang in mid air via invisible string in front of a blurred background of the swamp
+    caption: Installation of work
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225540/Soft%20Refresh/SwampNET/SWAMPISLAND-53-pichi_wuhoti.jpg
-    alt:
+    alt: wide shot of installation of SwampNET in the swamp.
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-19-pichi_g54iac.jpg
-    alt:
-    caption:
+    alt: Clickboard sitting on a green blanket has hand written responses including finding nemo to the question, what would you put on a small internet?
+    caption: Finding nemo on repeat <3
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-5-pichi_dxaipf.jpg
-    alt:
+    alt: White man holds a notepad above a clipboard that is sitting on a green blanket, slightly covered is a diagram of a decentralised network
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-4-pichi_cqcobi.jpg
-    alt:
+    alt: a transparent piece of plastic with small text on it floats in mid-air held by invisible in front of a blurry me wearing a green cap and black jacket
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-20-pichi_fgdlow.jpg
-    alt:
-    caption:
-  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-51-pichi_edt7p5.jpg
-    alt:
+    alt: SwampNet is written on a notepad that is held to a clipboard with some pens and pencils next to it. all of this is lying on a nice green blanket.
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-17-pichi_e2luip.jpg
-    alt:
+    alt: The three parts of a SwampNET hang in mid air held by invisible string against a blurred background of the swmap
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-50-pichi_xbci9b.jpg
-    alt:
+    alt: close up shot of one part of the SwampNET, a raspberry pi zero has wires attached to it.
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-29-pichi_iy6rwe.jpg
-    alt:
-    caption:
-  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-46-pichi_f92yo6.jpg
-    alt:
+    alt: an e reader displayed a graphic with the words 'take the web to the swamp more often'
     caption:
     
 ---

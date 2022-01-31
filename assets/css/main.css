@@ -1,4 +1,153 @@
 html, body {
   /* background-color: #dde0d9; */
-  background-color: #F2F3F2;
+  background-color: #dcdcdc;
+  /* overflow: hidden; */
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #00ff46;
+}
+
+::selection {
+  color: black;
+  background: #00ff46;
+}
+
+body {
+  padding: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+.text-col {
+  max-width: 600px;
+}
+
+.container {
+  max-width: fit-content;
+}
+
+.the-grid {
+  display: grid;
+  grid-column: 1;
+}
+
+/* details */
+
+details {
+	padding-top: 0px;
+}
+
+.details-contents {
+	margin-top: 2.5rem;
+}
+
+details > summary {
+  list-style-type: none;
+	cursor: pointer;
+	position: relative;
+	padding-left: 15px;
+}
+
+details[open] > summary {
+  list-style-type: none;
+}
+
+
+details > summary::before {
+	content: '+';
+	width: 15px;
+	display: inline-block;
+	position: absolute;
+	bottom: 1px;
+	left: 0px;
+}
+
+details > summary:hover {
+  background-color: #00ff46;
+}
+
+details[open] > summary::before {
+	content: '-';
+}
+
+/* grid */
+
+.the-grid {
+  grid-column-gap: 2rem;
+}
+
+.initial-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+}
+
+.contents-grid {
+  grid-template-rows: 1fr;
+}
+
+/* sticky */
+
+.sticky {
+  top: 1rem;
+}
+
+/* figures */
+
+figure {
+  margin: 0px 0px 2.5rem 0px;
+}
+
+/* 'lg': '1024px', */
+@media (min-width: 1024px) {
+  .container {
+    /* margin-right: 150px; */
+    margin-left: 0px;
+  }
+
+  .contents-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .the-grid {
+    grid-column-gap: 3rem;
+  }
+
+  .initial-grid {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+}
+
+/* 'xl': '1280px', */
+@media (min-width: 1280px) { 
+  .the-grid {
+    grid-column-gap: 4rem;
+  }
+
+  .initial-grid {
+    /* margin-top: 4rem;
+    margin-bottom: 4rem; */
+  }
+}
+
+/* '2xl': '1536px', */
+@media (min-width: 1536px) { 
+  .the-grid {
+    grid-column-gap: 6%;
+  }
+
+  .initial-grid {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+
+  .initial-grid {
+    /* margin-top: 8rem;
+    margin-bottom: 8rem; */
+  }
 }

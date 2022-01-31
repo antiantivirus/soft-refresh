@@ -1,19 +1,63 @@
-html {
-    font-family: 'Arial', sans-serif;
+@font-face {
+    font-family: "Tex Gyre";
+    src: local("Oxygen"),
+     url(~assets/fonts/texgyreheroscn-regular.woff) format("woff");
 }
 
-h1 {
+html {
+    font-family: 'Tex Gyre', sans-serif;
+}
+
+h1, h2, h3 {
+    margin-top: 0px;
+}
+
+h1, h2 {
     /* font-size: 3rem; */
+    font-size: 2rem;
     font-weight: 300;
+}
+
+h3, a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p, details summary, h4, h5, figcaption, .figcaption, li, span, ul {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+figcaption, .figcaption {
+    font-style: italic;
+}
+
+/* h1, .h1, p.large, .font-large {
+    font-size: 2rem;
+    font-weight: 400;
+} */
+
+h1 {
+    
 }
 
 a {
     color: black;
     text-decoration: underline;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-weight: 300;
 }
 
-a:hover {
+a:hover, a.nuxt-link-active {
     background-color: #00ff46;
+}
+
+.initial {
+    font-size: 8rem;
+    text-align: center;
+    text-decoration: none !important;
+}
+  
+.mt-72 {
+    margin-top: 18rem;
 }
