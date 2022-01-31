@@ -55,9 +55,9 @@ a:hover, a.nuxt-link-active {
 .initial {
     font-size: 8rem;
     text-align: center;
-    display: block;
+    text-decoration: none !important;
 }
   
 .mt-72 {
-margin-top: 18rem;
+    margin-top: 18rem;
 }

@@ -26,4 +26,4 @@ media:
 ---
 Co-founder and web developer for a community radio station based in Aberdeen.
 
-aerial was setup to provide a platform for artist, djs and creatives to express themselves. Drawing on my years of experience in radio from my student days I helped to create a unique website and identity + technical setup of the station and remote broadcasts.
+aerial was setup to provide a platform for artist, djs and creatives to express themselves. Drawing on my years of experience in radio I helped to create a unique website and identity + technical setup of the station and remote broadcasts.

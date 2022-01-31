@@ -13,8 +13,8 @@ tags:
   - Workshops
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920175/Soft%20Refresh/listen%20again%20festival/IMG_5886-pichi_ynkkws.jpg
-    alt: Marta NoOne giving modular synthesis workshop
-    caption: A woman gives a modular synthesis workshops as a small ground are gathered round sitting in a circle.
+    caption: Marta NoOne giving modular synthesis workshop
+    alt: A woman gives a modular synthesis workshops as a small ground are gathered round sitting in a circle.
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920177/Soft%20Refresh/listen%20again%20festival/IMG_5902-pichi_ubs29p.jpg
     alt: Closeup of modular system used at workshop
     caption: Closeup image of modular synth
@@ -28,8 +28,8 @@ media:
     alt: closeup of laptop screen showing the words '4 other is talking - recieved', 'now you shut up', and 'im talking'
     caption: Closeup of the two arduinos talking to each other.
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920179/Soft%20Refresh/listen%20again%20festival/IMG_5938-pichi_eqxyrj.jpg
-    alt: Live coding workshop facilated by artist Bea Dawkins
-    caption: Two men sit at laptops in the foreground whilst a woman in the background is holding the workshops in front of a project screen with code on it
+    caption: Live coding workshop facilated by artist Bea Dawkins
+    alt: Two men sit at laptops in the foreground whilst a woman in the background is holding the workshops in front of a project screen with code on it
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920176/Soft%20Refresh/listen%20again%20festival/IMG_5821-pichi_njz54z.jpg
     alt: sweætshops performs at D2
     caption: sweætshops performs at D2
@@ -37,20 +37,20 @@ media:
     alt:
     caption: OTOH performs at D2
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920176/Soft%20Refresh/listen%20again%20festival/IMG_6096-pichi_yrpsmq.jpg
-    alt: 2Day Radio takover of Jackie's Temple at 
-    caption:
+    alt: 2Day Radio takover of Jackie's Temple at Marshall Square
+    caption: 2Day Radio takover of Jackie's Temple at Marshall Square
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920179/Soft%20Refresh/listen%20again%20festival/IMG_6046-pichi_qshqv6.jpg
     alt: Umbra DJing for 2Day Radio's takeover of Jackie's Temple
-    caption:
+    caption: Umbra DJing for 2Day Radio's takeover of Jackie's Temple
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920177/Soft%20Refresh/listen%20again%20festival/IMG_6075-pichi_wnltzd.jpg
-    alt: 2Day Radio takover of Jackie's Temple at
+    alt: 
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920176/Soft%20Refresh/listen%20again%20festival/IMG_5763-pichi_bwzi11.jpg
     alt: Closeup of laptop at Bela workshop faciliated by Lil Data
     caption:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920177/Soft%20Refresh/listen%20again%20festival/IMG_5769-pichi_tnspac.jpg
     alt: Lil Data (Jack Armitage) 
-    caption:
+    caption: Lil Data (Jack Armitage) facilating Bela workshop
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634920176/Soft%20Refresh/listen%20again%20festival/IMG_5792-pichi_hhyrut.jpg
     alt: Attaching cables to breadboard
     caption: 

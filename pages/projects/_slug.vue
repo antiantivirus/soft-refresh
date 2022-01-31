@@ -1,6 +1,6 @@
 <template>
   <div class="the-grid contents-grid">
-    <section @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Title and basic info">
+    <section class="" @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
       <div>
         <h1>{{project.title}}</h1>
         <p>Date: {{project.display_project_date}}</p>
@@ -13,9 +13,6 @@
         <br>
         <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
       </div>
-    </section>
-
-    <section @mouseover="hoverUpdate('m', 'Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Project Description">
       <div>
         <nuxt-content :document="project" />
       </div>
@@ -37,6 +34,17 @@
         </div>
       </div>
     </section>
+
+    <section class="lg:order-first" @mouseover="hoverUpdate('j', 'Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Project Description">
+      <h3>Selected Work</h3>
+      <ul class="list-none m-0 p-0">
+        <li v-for="project in projects" :key="project.title">
+          <nuxt-link  :to="`/projects/${project.slug}`">
+            {{project.title}}
+          </nuxt-link>
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
 
@@ -50,9 +58,11 @@ export default {
     } catch (e) {
       error({ message: "Project not found" });
     }
+    const projects = await $content("projects").fetch();
 
     return {
       project,
+      projects
     };
   },
   methods: {
