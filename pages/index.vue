@@ -15,7 +15,7 @@
               <summary>Technical</summary>
               <p>Having graduated from University of Aberdeen with a 2:1 in Computing Science, I have a strong foundation and understanding of computing, programming and the web.</p>
               <p>Listed below are my main areas of technical knowledge:</p>
-              <p>[Javascript, HTML, CSS, Vue.js, Nuxt.js, p5.js, PHP, Wordpress, Illustrator, Figma, Blender, Three.js, Ruby on Rails, Ruby, Liquid, Photoshop]</p>
+              <p>[Javascript, HTML, CSS, Vue.js, Nuxt.js, p5.js, PHP, Wordpress, Hugo, Illustrator, Figma, Blender, Three.js, Ruby on Rails, Ruby, Liquid, Photoshop]</p>
             </details>
             <details class="mb-6">
               <summary>Links</summary>
