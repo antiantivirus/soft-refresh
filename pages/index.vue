@@ -29,7 +29,7 @@
         </section>
         <section class="pb-24" @mouseover="hoverUpdate('m', 'Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Selected work">
             <h3>Selected work</h3>
-            <ul class="list-none m-0 p-0">
+            <ul class="grid grid-cols-2 gap-4 list-none m-0 p-0">
               <li v-for="project in projects" :key="project.title">
                 <nuxt-link  :to="`/projects/${project.slug}`">
                   {{project.title}}
