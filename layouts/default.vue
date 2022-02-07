@@ -1,10 +1,12 @@
 <template>
-  <div>
+  <div class="grid grid-cols-12">
+    <div class="col-span-2">
     <Header />
-    <main id="content">
+    </div>
+    <main class="p-24 col-span-10" id="content">
       <Nuxt />
     </main>
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 

@@ -1,47 +1,80 @@
 <template>
   <div>
-    <div class="the-grid contents-grid">
-        <section class="pb-24" @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Intro">
-            <h1>Hi, I'm Jack and welcome to my website.</h1>
-            <h2>I'm a developer, artist, DJ and radio enthusiast currently based in Aberdeen.</h2>
-            <figure class="mb-6">
-              <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
-              <figcaption>Me just before a swim in the North Sea</figcaption>
-            </figure>
-            <p>Over time my work has evolved to center around community. I enjoy working with process and find this just as important as the outcome. I assemble websites, do visuals for club environments, make radio and enjoy a wild swim amongst other things.</p>
-            <p>I'm currently working part-time as New Media Developer at <a href="https://designandcode.com">Design and Code</a> and part-time freelance.
-            <p>Thanks for visiting and I hope you enjoy having a look around.</p>
-            <details class="mt-3">
-              <summary>Technical</summary>
-              <p>Having graduated from University of Aberdeen with a 2:1 in Computing Science, I have a strong foundation and understanding of computing, programming and the web.</p>
-              <p>Listed below are my main areas of technical knowledge:</p>
-              <p>[Javascript, HTML, CSS, Vue.js, Nuxt.js, p5.js, PHP, Wordpress, Hugo, Illustrator, Figma, Blender, Three.js, Ruby on Rails, Ruby, Liquid, Photoshop]</p>
-            </details>
-            <details class="mb-6">
-              <summary>Links</summary>
-              <Links/>
-            </details>
-            <hr>
-            <br>
-            <a href="mailto:jack@antiantivirus.co.uk">Mail Me</a><br/>
-            <a href="https://twitter.com/the1antivirus" target="_blank">Twitter</a><br/>
-            <a href="https://www.are.na/jack-murray-brown" target="_blank">Are.na</a><br/>
-        </section>
-        <section class="pb-24" @mouseover="hoverUpdate('m', 'Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Selected work">
-            <h3>Selected work</h3>
-            <ul class="list-none m-0 p-0">
-              <li v-for="project in projects" :key="project.title">
-                <nuxt-link  :to="`/projects/${project.slug}`">
-                  {{project.title}}
-                </nuxt-link>
-              </li>
-            </ul>
-        </section>
-        <section class="pb-24" @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')" aria-label="Log">
-            <h3>Log</h3>
-            <!-- <p>I use social media pretty sparingly so here are the latest updates from me:</p> -->
-            <Logs :logsProp="logs"/>
-        </section>
+    <h3>Seriously selected work!</h3>
+    <div class="the-grid contents-grid gap-12">
+      <div>
+        <nuxt-link to="/logs/radiophrenia-to-eternity" class="homepage-item relative" style="background-color: #CAB54E">
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643552471/Soft%20Refresh/Logs/Artboard_1_1200x-100-pichi-1_bknlmn.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">I've just launched a new podcast exploring community radio!</h4>
+          </div>
+        </nuxt-link>
+      </div>
+      <div>
+        <nuxt-link to="/work/underground-radio-directory" class="homepage-item" style="background-color: #E69F8B">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Website showcasing the best in world wide wadio</h4>
+          </div>
+        </nuxt-link>
+      </div>
+      <div>
+        <div class="homepage-item" style="background-color: #DB400F">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Visuals exploring rave archives</h4>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="homepage-item" style="background-color: #8A9EBC">
+        <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7052-pichi_klbqme.jpg"/>
+        <div class="p-4">
+          <h4 class="m-0">Website and hand-stitched publication for a contemporary art exhibition</h4>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div class="homepage-item" style="background-color: #9e96c4">
+        <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg"/>
+        <div class="p-4">
+          <h4 class="m-0">Real community radio hours</h4>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div class="homepage-item" style="background-color: #87837e">
+        <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg"/>
+        <div class="p-4">
+          <h4 class="m-0">Music production workshops</h4>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div class="homepage-item" style="background-color: #E1BAD1">
+        <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png"/>
+        <div class="p-4">
+          <h4 class="m-0">Website for Berlin based magazine</h4>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div class="homepage-item" style="background-color: #54A589">
+        <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"/>
+        <div class="p-4">
+          <h4 class="m-0">Visuals for Interplanatart Criminal</h4>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div class="homepage-item" style="background-color: #656F30">
+        <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641225540/Soft%20Refresh/SwampNET/SWAMPISLAND-11-pichi_q2umxn.jpg"/>
+        <div class="p-4">
+          <h4 class="m-0">What would you put a small internet? (in a swamp)</h4>
+        </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -78,3 +111,10 @@ export default ({
   }
 })
 </script>
+
+<style scoped>
+.homepage-item {
+  border: 1px black solid;
+  display: block;
+}
+</style>
