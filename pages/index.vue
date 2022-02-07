@@ -33,6 +33,7 @@
               <li v-for="project in projects" :key="project.title">
                 <nuxt-link  :to="`/projects/${project.slug}`">
                   {{project.title}}
+                  <img :src="project.media[0].image"/>
                 </nuxt-link>
               </li>
             </ul>
