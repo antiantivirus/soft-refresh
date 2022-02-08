@@ -35,6 +35,13 @@ img {
   grid-column: 1;
 }
 
+/* borders */
+
+.border-me {
+  border: 1px black solid;
+  display: block;
+}
+
 /* details */
 
 details {
