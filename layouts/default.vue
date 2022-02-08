@@ -1,9 +1,9 @@
 <template>
-  <div class="grid grid-cols-12">
-    <div class="col-span-2">
+  <div class="grid lg:grid-cols-12">
+    <div class="lg:col-span-2 mb-12 lg:mb-0">
     <Header />
     </div>
-    <main class="p-24 col-span-10" id="content">
+    <main class="lg:p-24 lg:col-span-10" id="content">
       <Nuxt />
     </main>
     <!-- <Footer /> -->

@@ -2,6 +2,7 @@
   <div class="grid xl:grid-cols-12 gap-12">
     <section class="xl:col-span-4" @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
       <div>
+        <div class="mb-8">
         <h1>{{project.title}}</h1>
           <p>Date: {{project.display_project_date}}</p>
           <p class="inline">Tags:</p><ul class="inline p-0 project-tags">
@@ -9,17 +10,15 @@
             {{tag}}<span v-if="index+1 < project.tags.length">, </span>
             </li> ]
           </ul>
-          <a v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
-          <hr/>
-        <details class="mb-6" open>
+          <a class="block mt-4" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
+        </div>
+        <details class="border-me p-4 mb-2" open>
             <summary>Info</summary>
             <nuxt-content :document="project" />
-            <hr/>
         </details>
-        <details open>
+        <details v-if="project.technical" class="border-me p-4">
             <summary>Technical</summary>
             <nuxt-content :document="project" />
-            <hr/>
         </details>
       </div>
     </section>
