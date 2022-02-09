@@ -40,6 +40,14 @@
       </ul>
     </details>
     <details>
+      <summary>Radio</summary>
+      <ul class="list-none pl-0 ml-0">
+        <li v-for="show in radioShows" :key="show.slug">
+          <button @click="playShow(show.embed)">{{show.title}}</button>
+        </li>
+      </ul>
+    </details>
+    <details>
       <summary>Links</summary>
       <Links/>
     </details>
@@ -56,12 +64,19 @@ export default ({
   data(){
     return {
       work: null,
-      logs: null
+      logs: null,
+      radioShows: null
     }
   },
   async fetch() {
     this.work = await this.$content("work").fetch()
     this.logs = await this.$content("logs").fetch()
+    this.radioShows = await this.$content("radio").fetch()
+  },
+  methods: {
+    playShow(show){
+      this.$store.commit('playShow', show)
+    }
   },
   computed: {
     j() {

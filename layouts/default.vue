@@ -1,15 +1,18 @@
 <template>
-  <div class="grid lg:grid-cols-12">
-    <div class="lg:col-span-2 mb-12 lg:mb-0">
-    <Header />
-    </div>
-    <main class="lg:px-24 lg:py-12 lg:col-span-10" id="content">
-      <nuxt-link v-if="!home" to="/">← Back home</nuxt-link>
-      <div class="lg:py-12">
-        <Nuxt />
+  <div>
+    <div class="grid lg:grid-cols-12">
+      <div class="lg:col-span-2 mb-12 lg:mb-0">
+      <Header />
       </div>
-    </main>
-    <!-- <Footer /> -->
+      <main class="lg:px-24 lg:py-12 lg:col-span-10" id="content">
+        <nuxt-link v-if="!home" to="/">← Back home</nuxt-link>
+        <div class="lg:py-12">
+          <Nuxt />
+          <Radio />
+        </div>
+      </main>
+      <!-- <Footer /> -->
+    </div>
   </div>
 </template>
 

@@ -110,7 +110,7 @@ export default ({
       } else {
         this.$store.commit('updateB', value)
       }
-    }
+    },
   }
 })
 </script>
