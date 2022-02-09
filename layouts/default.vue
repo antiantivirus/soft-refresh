@@ -3,12 +3,17 @@
     <div class="lg:col-span-2 mb-12 lg:mb-0">
     <Header />
     </div>
-    <main class="lg:p-24 lg:col-span-10" id="content">
-      <Nuxt />
+    <main class="lg:px-24 lg:py-12 lg:col-span-10" id="content">
+      <nuxt-link v-if="!home" to="/">← Back home</nuxt-link>
+      <div class="lg:py-12">
+        <Nuxt />
+      </div>
     </main>
     <!-- <Footer /> -->
   </div>
 </template>
+
+
 
 <style scoped>
 

@@ -39,7 +39,7 @@ img {
 
 .border-me {
   border: 1px black solid;
-  display: block;
+  /* display: block; */
 }
 
 /* details */

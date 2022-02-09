@@ -1,15 +1,20 @@
 <template>
   <figure class="mb-10">
-      <v-lazy-image
-        :src="srcAdjustAspect"
-        :src-placeholder="srcCloudinaryTiny"
-        :srcset="responsiveSrcSet"
-        sizes=" 
-          (min-width: 1366px) 916px, 
-          (min-width: 1536px) 1536px,
-          100vw
-        "
-      />
+    <client-only>
+      <Photoswipe>
+        <v-lazy-image
+          :src="srcAdjustAspect"
+          :src-placeholder="srcCloudinaryTiny"
+          :srcset="responsiveSrcSet"
+          sizes=" 
+            (min-width: 1366px) 916px, 
+            (min-width: 1536px) 1536px,
+            100vw
+          "
+          v-pswp="srcAdjustAspect"
+        />
+      </Photoswipe>
+    </client-only>
     <figcaption>{{image.caption}}</figcaption>
   </figure>
 </template>
@@ -63,6 +68,14 @@ export default {
 
 
 <style>
+
+.pswipe-gallery {
+  height: 100%;
+}
+
+.pswp__img {
+  max-height: none;
+}
 
 .v-lazy-image {
   filter: blur(10px);

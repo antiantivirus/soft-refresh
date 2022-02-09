@@ -12,7 +12,8 @@
     "@nuxt/content": "^1.11.1",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
-    "v-lazy-image": "^1.4.0"
+    "v-lazy-image": "^1.4.0",
+    "vue-pswipe": "^0.15.3"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.4.3"

@@ -1,6 +1,6 @@
 <template>
   <div class="grid xl:grid-cols-12 gap-12">
-    <section class="xl:col-span-4" @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
+    <section class="xl:col-span-5 xl:col-span-5"  @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
       <div>
         <div class="mb-8">
         <h1>{{project.title}}</h1>
@@ -23,7 +23,7 @@
       </div>
     </section>
 
-    <section class="xl:col-span-8" @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')" aria-label="Project Media">
+    <section class="xl:col-span-7 2xl:col-span-8" @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')" aria-label="Project Media">
       <div v-for="(item, index) in project.media" :key="index">
         <div v-if="item.image">
           <Photo :image="item" />

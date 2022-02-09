@@ -9,6 +9,7 @@
         <figcaption>Me just before a swim in the North Sea</figcaption>
       </figure>
     </details>
+
     <details>
       <summary>About</summary>
       <p>Over time my work has evolved to center around community. I enjoy working with process and find this just as important as the outcome. I assemble websites, do visuals for club environments, make radio and enjoy a wild swim amongst other things.</p>
@@ -21,12 +22,22 @@
         <p>[Javascript, HTML, CSS, Vue.js, Nuxt.js, p5.js, PHP, Wordpress, Hugo, Illustrator, Figma, Blender, Three.js, Ruby on Rails, Ruby, Liquid, Photoshop]</p>
       </details>
     </details>
+
     <details>
       <summary>Selected work</summary>
+      <ul class="list-none pl-0 ml-0">
+        <li v-for="project in work" :key="project.slug">
+          <nuxt-link :to="`/work/${project.slug}`">{{project.title}}</nuxt-link>
+        </li>
+      </ul>
     </details>
     <details>
       <summary>Log</summary>
-      <Logs/>
+      <ul class="list-none pl-0 ml-0">
+        <li v-for="log in logs" :key="log.slug">
+          <nuxt-link :to="`/logs/${log.slug}`">{{log.title}}</nuxt-link>
+        </li>
+      </ul>
     </details>
     <details>
       <summary>Links</summary>
@@ -42,6 +53,16 @@
 import { mapMutations } from 'vuex'
 
 export default ({
+  data(){
+    return {
+      work: null,
+      logs: null
+    }
+  },
+  async fetch() {
+    this.work = await this.$content("work").fetch()
+    this.logs = await this.$content("logs").fetch()
+  },
   computed: {
     j() {
       return this.$store.state.j

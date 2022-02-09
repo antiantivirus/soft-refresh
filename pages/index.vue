@@ -1,80 +1,83 @@
 <template>
   <div>
     <h3 class="italic">Seriously selected work!</h3>
-    <div class="the-grid contents-grid gap-12">
-      <div>
-        <nuxt-link to="/logs/radiophrenia-to-eternity" class="border-me relative" style="background-color: #CAB54E">
+    <div class="seriously-selected-grid">
+      <article>
+        <nuxt-link to="/logs/radiophrenia-to-eternity" class="border-me homepage-item" style="background-color: #CAB54E">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643552471/Soft%20Refresh/Logs/Artboard_1_1200x-100-pichi-1_bknlmn.jpg"/>
           <div class="p-4">
             <h4 class="m-0">I've just launched a new podcast exploring community radio!</h4>
           </div>
         </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/underground-radio-directory" class="border-me" style="background-color: #E69F8B">
+      </article>
+      <article>
+        <nuxt-link to="/work/underground-radio-directory" class="border-me homepage-item" style="background-color: #E69F8B">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Website showcasing the best in world wide wadio</h4>
           </div>
         </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/cultivate-rave-revival" class="border-me" style="background-color: #DB400F">
+      </article>
+      <article>
+        <nuxt-link to="/work/cultivate-rave-revival" class="border-me homepage-item" style="background-color: #DB400F">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Visuals exploring rave archives</h4>
           </div>
         </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/paradigms" class="border-me" style="background-color: #8A9EBC">
+      </article>
+      <article>
+        <nuxt-link to="/work/paradigms" class="border-me homepage-item" style="background-color: #8A9EBC">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7052-pichi_klbqme.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Website and hand-stitched publication for a contemporary art exhibition</h4>
           </div>
         </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/aerial-community-radio" class="border-me" style="background-color: #9e96c4">
+      </article>
+      <article>
+        <nuxt-link to="/work/aerial-community-radio" class="border-me homepage-item" style="background-color: #9e96c4">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Real community radio hours</h4>
           </div>
         </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/opening-the-daw" class="border-me" style="background-color: #87837e">
+      </article>
+      <article>
+        <nuxt-link to="/work/opening-the-daw" class="border-me homepage-item" style="background-color: #87837e">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Music production workshops</h4>
           </div>
         </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/soft-eis-presse" class="border-me" style="background-color: #E1BAD1">
+      </article>
+      <article>
+        <nuxt-link to="/work/soft-eis-presse" class="border-me homepage-item" style="background-color: #E1BAD1">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png"/>
           <div class="p-4">
-            <h4 class="m-0">Website for Berlin based magazine</h4>
+            <h4 class="m-0">Website for a Berlin based magazine</h4>
           </div>
         </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/come-in-peace" class="border-me" style="background-color: #54A589">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"/>
-          <div class="p-4">
-            <h4 class="m-0">Visuals for Interplanatart Criminal</h4>
-          </div>
-        </nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/work/swampnet" class="border-me" style="background-color: #656F30">
+      </article>
+      <article>
+        <nuxt-link to="/work/swampnet" class="border-me homepage-item" style="background-color: #656F30">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-41-pichi_xinhmp.jpg"/>
           <div class="p-4">
             <h4 class="m-0">What would you put a small internet? (in a swamp)</h4>
           </div>
         </nuxt-link>
-      </div>
+      </article>
+      <article>
+        <nuxt-link to="/work/come-in-peace" class="border-me homepage-item" style="background-color: #54A589">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <span id="flower-1">🌱</span>
+      <span id="flower-2">🌱</span>
+      <span id="flower-3">🌱</span>
     </div>
   </div>
 </template>
@@ -113,5 +116,76 @@ export default ({
 </script>
 
 <style scoped>
+.seriously-selected-grid {
+  grid-template-columns: repeat(9, minmax(1fr));
+  display: grid;
+  gap: 2rem;
+  grid-auto-rows: 1fr;
+  align-items: center;
+}
+
+article:nth-child(1) {
+    grid-row: 1 / span 3;
+    grid-column: 2 / span 2;
+}
+
+article:nth-child(2) {
+    grid-row: 2 / span 3;
+    grid-column: 4 / span 2;
+}
+
+article:nth-child(3) {
+    grid-row: 3 / span 3;
+    grid-column: 1 / span 2;
+}
+
+article:nth-child(4) {
+    grid-row: 5 / span 3;
+    grid-column: 4 / span 3;
+}
+
+article:nth-child(5) {
+    grid-row: 6 / span 3;
+    grid-column: 1 / span 3;
+}
+
+article:nth-child(6) {
+    grid-row: 9 / span 3;
+    grid-column: 2 / span 3;
+}
+
+article:nth-child(7) {
+    grid-row: 12 / span 3;
+    grid-column: 4 / span 3;
+}
+
+article:nth-child(8) {
+    grid-row: 12 / span 3;
+    grid-column: 1 / span 2;
+}
+
+article:nth-child(9) {
+    grid-row: 14 / span 3;
+    grid-column: 3 / span 2;
+}
+
+#flower-1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+}
+
+#flower-2 {
+    grid-row: 5 / span 1;
+    grid-column: 3 / span 1;
+}
+
+#flower-3 {
+    grid-row: 9 / span 1;
+    grid-column: 6 / span 1;
+}
+
+.homepage-item {
+  display: block;
+}
 
 </style>
