@@ -1,7 +1,20 @@
 <template>
   <div>
+    <div class="relative h-full">
+      <div class="mx-auto max-w-sm -mt-12 border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
+        <h1>Hi, I'm Jack and welcome to my website.</h1>
+        <h2>I'm a developer, artist, DJ and radio enthusiast currently based in Aberdeen.</h2>
+        <figure class="mb-6">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
+          <figcaption>Me just before a swim in the North Sea</figcaption>
+        </figure>
+        <!-- <div class="absolute top-0 left-0 w-full h-full lil-intro"></div> -->
+        <!-- <div class="temp-gauge border-me"></div> -->
+      </div> 
+      <!-- <img class="absolute right-0 bottom-0" src="~/assets/images/web-in-park.svg" style="max-width: 250px; bottom: -100px;"/> -->
+    </div>
     <h3 class="italic">Seriously selected work!</h3>
-    <div class="seriously-selected-grid">
+    <div class="md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-6 seriously-selected-grid">
       <article>
         <nuxt-link to="/logs/radiophrenia-to-eternity" class="border-me homepage-item" style="background-color: #CAB54E">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
@@ -83,9 +96,6 @@
           </div>
         </nuxt-link>
       </article>
-      <span id="flower-1">🌱</span>
-      <span id="flower-2">🌱</span>
-      <span id="flower-3">🌱</span>
     </div>
   </div>
 </template>
@@ -124,7 +134,7 @@ export default ({
 </script>
 
 <style scoped>
-.seriously-selected-grid {
+/* .seriously-selected-grid {
   grid-template-columns: repeat(9, minmax(1fr));
   display: grid;
   gap: 2rem;
@@ -190,10 +200,27 @@ article:nth-child(9) {
 #flower-3 {
     grid-row: 9 / span 1;
     grid-column: 6 / span 1;
-}
+} */
 
 .homepage-item {
   display: block;
+}
+
+.lil-intro {
+  transform: rotate(-3deg);
+  background: conic-gradient(#CAB54E, #E69F8B, #DB400F, #8A9EBC, #87837e, #E1BAD1, #656F30, #54A589,#CAB54E);
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.temp-gauge {
+  height: 100%;
+  position: absolute;
+  width: 20px;
+  top: 0px;
+  right: -10px;
+  border: ridge 5px;
+  background: linear-gradient(#CAB54E, #E69F8B, #DB400F, #8A9EBC, #87837e, #E1BAD1, #656F30, #54A589,#CAB54E);
 }
 
 </style>

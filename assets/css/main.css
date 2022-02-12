@@ -56,7 +56,7 @@ details > summary {
   list-style-type: none;
 	cursor: pointer;
 	position: relative;
-	padding-left: 15px;
+	/* padding-left: 15px; */
 }
 
 details[open] > summary {
@@ -64,20 +64,20 @@ details[open] > summary {
 }
 
 
-details > summary::before {
+details > summary::after {
 	content: '+';
 	width: 15px;
 	display: inline-block;
 	position: absolute;
 	bottom: 1px;
-	left: 0px;
+	right: 0px;
 }
 
 details > summary:hover {
   background-color: #00ff46;
 }
 
-details[open] > summary::before {
+details[open] > summary::after {
 	content: '-';
 }
 
