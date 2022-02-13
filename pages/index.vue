@@ -209,7 +209,7 @@ article:nth-child(9) {
 .lil-intro {
   transform: rotate(-3deg);
   background: conic-gradient(#CAB54E, #E69F8B, #DB400F, #8A9EBC, #87837e, #E1BAD1, #656F30, #54A589,#CAB54E);
-  filter: blur(20px);
+  filter: blur(100px);
   z-index: -1;
 }
 
