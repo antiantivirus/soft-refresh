@@ -3,7 +3,8 @@ export const state = () => ({
   selectedProjectIndex: 0,
   j: 'J',
   m: 'M',
-  b: 'B'
+  b: 'B',
+  radioShow: null
 })
 
 export const mutations = {
@@ -27,5 +28,8 @@ export const mutations = {
   },
   updateB(state, value){
     state.b = value
+  },
+  playShow(state, show){
+    state.radioShow = show
   }
 }

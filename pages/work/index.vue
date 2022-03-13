@@ -63,7 +63,7 @@ export default{
     }
   },
   async fetch() {
-    this.projects = await this.$content("projects").where({ tags: {$containsAny:this.filtersSelected} } ).fetch()
+    this.projects = await this.$content("work").where({ tags: {$containsAny:this.filtersSelected} } ).fetch()
   },
   methods: {
     addFilter(option){

@@ -25,11 +25,13 @@ export default {
   css: [
     '@/assets/css/main.css',
     '@/assets/css/typography.css',
+    '@/assets/css/transitions.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '@/plugins/vue-lazy-image.js', ssr: false},
+    {src: '~plugins/vue-pswipe', ssr: false},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

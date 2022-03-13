@@ -5,7 +5,8 @@
 }
 
 html {
-    font-family: 'Tex Gyre', sans-serif;
+    /* font-family: 'Tex Gyre', sans-serif; */
+    font-family: serif;
 }
 
 h1, h2, h3 {
@@ -14,13 +15,13 @@ h1, h2, h3 {
 
 h1, h2 {
     /* font-size: 3rem; */
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
-h3, a {
+h3, a, button {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 p, details summary, h4, h5, figcaption, .figcaption, li, span, ul {
@@ -60,4 +61,13 @@ a:hover, a.nuxt-link-active {
   
 .mt-72 {
     margin-top: 18rem;
+}
+
+/* button */
+
+button {
+    background: #00ff46;
+    color: black;
+    border: 0px;
+    padding: 20px;
 }

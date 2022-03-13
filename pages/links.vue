@@ -1,11 +1,10 @@
 <template>
-  <div>
+  <div class="text-col mx-auto">
+    <h1>A selection of links to parts of the internet I find interesting.</h1>
     <!-- {{links.contents}} -->
-    <ul>
-      <li v-for="link in links.contents" >
-        {{link}}
-        {{link.source}}
-        <a target="_blank" :href="link.source">{{link.title}}</a>
+    <ul class="list-none p-0">
+      <li v-for="link in links.contents" v-if="link.source">
+        <a target="_blank" :href="link.source.url">{{link.title}}</a>
       </li>
     </ul>
   </div>

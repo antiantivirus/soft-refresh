@@ -28,9 +28,10 @@
 export default {
   data(){
     return {
-      menuOpen: false
+      menuOpen: false,
     }
   },
+
   computed: {
     menuButtonText(){
       if (this.menuOpen){

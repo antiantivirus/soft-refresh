@@ -8,6 +8,7 @@ link: https://www.undergroundradiodirectory.com/
 tags:
   - Radio
   - Website
+colour: '#E69F8B'
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897671/Soft%20Refresh/URD/urd_gif_fl24ys.gif
     alt: gif showing radio communities around the globe with the words underground radio directory appears

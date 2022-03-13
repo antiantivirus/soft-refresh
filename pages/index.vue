@@ -1,47 +1,101 @@
 <template>
   <div>
-    <div class="the-grid contents-grid">
-        <section class="pb-24" @mouseover="hoverUpdate('j','Jack')" @mouseout="hoverUpdate('j','J')" aria-label="Intro">
-            <h1>Hi, I'm Jack and welcome to my website.</h1>
-            <h2>I'm a developer, artist, DJ and radio enthusiast currently based in Aberdeen.</h2>
-            <figure class="mb-6">
-              <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
-              <figcaption>Me just before a swim in the North Sea</figcaption>
-            </figure>
-            <p>Over time my work has evolved to center around community. I enjoy working with process and find this just as important as the outcome. I assemble websites, do visuals for club environments, make radio and enjoy a wild swim amongst other things.</p>
-            <p>I'm currently working part-time as New Media Developer at <a href="https://designandcode.com">Design and Code</a> and part-time freelance.
-            <p>Thanks for visiting and I hope you enjoy having a look around.</p>
-            <details class="mt-3">
-              <summary>Technical</summary>
-              <p>Having graduated from University of Aberdeen with a 2:1 in Computing Science, I have a strong foundation and understanding of computing, programming and the web.</p>
-              <p>Listed below are my main areas of technical knowledge:</p>
-              <p>[Javascript, HTML, CSS, Vue.js, Nuxt.js, p5.js, PHP, Wordpress, Hugo, Illustrator, Figma, Blender, Three.js, Ruby on Rails, Ruby, Liquid, Photoshop]</p>
-            </details>
-            <details class="mb-6">
-              <summary>Links</summary>
-              <Links/>
-            </details>
-            <hr>
-            <br>
-            <a href="mailto:jack@antiantivirus.co.uk">Mail Me</a><br/>
-            <a href="https://twitter.com/the1antivirus" target="_blank">Twitter</a><br/>
-            <a href="https://www.are.na/jack-murray-brown" target="_blank">Are.na</a><br/>
-        </section>
-        <section class="pb-24" @mouseover="hoverUpdate('m', 'Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Selected work">
-            <h3>Selected work</h3>
-            <ul class="list-none m-0 p-0">
-              <li v-for="project in projects" :key="project.title">
-                <nuxt-link  :to="`/projects/${project.slug}`">
-                  {{project.title}}
-                </nuxt-link>
-              </li>
-            </ul>
-        </section>
-        <section class="pb-24" @mouseover="hoverUpdate('b','Brown')" @mouseout="hoverUpdate('b','B')" aria-label="Log">
-            <h3>Log</h3>
-            <!-- <p>I use social media pretty sparingly so here are the latest updates from me:</p> -->
-            <Logs :logsProp="logs"/>
-        </section>
+    <div class="relative h-full">
+      <div class="mx-auto max-w-sm -mt-12 border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
+        <h1>Hi, I'm Jack and welcome to my website.</h1>
+        <h2>I'm a developer, artist, DJ and radio enthusiast currently based in Aberdeen.</h2>
+        <figure class="mb-6">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
+          <figcaption>Me just before a swim in the North Sea</figcaption>
+        </figure>
+        <!-- <div class="absolute top-0 left-0 w-full h-full lil-intro"></div> -->
+        <!-- <div class="temp-gauge border-me"></div> -->
+      </div> 
+      <!-- <img class="absolute right-0 bottom-0" src="~/assets/images/web-in-park.svg" style="max-width: 250px; bottom: -100px;"/> -->
+    </div>
+    <h3 class="italic">Seriously selected work!</h3>
+    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
+      <article>
+        <nuxt-link to="/logs/radiophrenia-to-eternity" class="border-me homepage-item" style="background-color: #CAB54E">
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643552471/Soft%20Refresh/Logs/Artboard_1_1200x-100-pichi-1_bknlmn.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">I've just launched a new podcast exploring community radio!</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/underground-radio-directory" class="border-me homepage-item" style="background-color: #E69F8B">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Website showcasing the best in world wide wadio</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/cultivate-rave-revival" class="border-me homepage-item" style="background-color: #DB400F">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Visuals exploring rave archives</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/paradigms" class="border-me homepage-item" style="background-color: #8A9EBC">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7052-pichi_klbqme.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Website and hand-stitched publication for a contemporary art exhibition</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/aerial-community-radio" class="border-me homepage-item" style="background-color: #9e96c4">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Real community radio hours</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/opening-the-daw" class="border-me homepage-item" style="background-color: #87837e">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Music production workshops</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/soft-eis-presse" class="border-me homepage-item" style="background-color: #E1BAD1">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png"/>
+          <div class="p-4">
+            <h4 class="m-0">Website for a Berlin based magazine</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/swampnet" class="border-me homepage-item" style="background-color: #656F30">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-41-pichi_xinhmp.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">What would you put a small internet? (in a swamp)</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/come-in-peace" class="border-me homepage-item" style="background-color: #54A589">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <!-- <article>
+        <nuxt-link to="work/A-C-01001001-D" class="border-me homepage-item" style="background-color: #E3D9CE">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1644370635/Soft%20Refresh/acid/ACID-HOUSE-SMILEY_-_May_8th_2020_at_11.13.28_PM_tvmc1x.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Visuals for Optimo. A C 01001001 D!</h4>
+          </div>
+        </nuxt-link>
+      </article> -->
     </div>
   </div>
 </template>
@@ -58,12 +112,12 @@ export default ({
     }
   },
   async asyncData({ $content }) {
-    const projects = await $content("projects").fetch();
-    const logs = await $content("logs").sortBy('date', 'desc').fetch();
-    return {
-      projects,
-      logs
-    };
+    // const projects = await $content("projects").fetch();
+    // const logs = await $content("logs").sortBy('date', 'desc').fetch();
+    // return {
+    //   projects,
+    //   logs
+    // };
   },
   methods: {
     hoverUpdate(item, value){
@@ -74,7 +128,99 @@ export default ({
       } else {
         this.$store.commit('updateB', value)
       }
-    }
+    },
   }
 })
 </script>
+
+<style scoped>
+/* .seriously-selected-grid {
+  grid-template-columns: repeat(9, minmax(1fr));
+  display: grid;
+  gap: 2rem;
+  grid-auto-rows: 1fr;
+  align-items: center;
+}
+
+article:nth-child(1) {
+    grid-row: 1 / span 3;
+    grid-column: 2 / span 2;
+}
+
+article:nth-child(2) {
+    grid-row: 2 / span 3;
+    grid-column: 4 / span 2;
+}
+
+article:nth-child(3) {
+    grid-row: 3 / span 3;
+    grid-column: 1 / span 2;
+}
+
+article:nth-child(4) {
+    grid-row: 5 / span 3;
+    grid-column: 4 / span 3;
+}
+
+article:nth-child(5) {
+    grid-row: 6 / span 3;
+    grid-column: 1 / span 3;
+}
+
+article:nth-child(6) {
+    grid-row: 9 / span 3;
+    grid-column: 2 / span 3;
+}
+
+article:nth-child(7) {
+    grid-row: 12 / span 3;
+    grid-column: 4 / span 3;
+}
+
+article:nth-child(8) {
+    grid-row: 12 / span 3;
+    grid-column: 1 / span 2;
+}
+
+article:nth-child(9) {
+    grid-row: 14 / span 3;
+    grid-column: 3 / span 2;
+}
+
+#flower-1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+}
+
+#flower-2 {
+    grid-row: 5 / span 1;
+    grid-column: 3 / span 1;
+}
+
+#flower-3 {
+    grid-row: 9 / span 1;
+    grid-column: 6 / span 1;
+} */
+
+.homepage-item {
+  display: block;
+}
+
+.lil-intro {
+  transform: rotate(-3deg);
+  background: conic-gradient(#CAB54E, #E69F8B, #DB400F, #8A9EBC, #87837e, #E1BAD1, #656F30, #54A589,#CAB54E);
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.temp-gauge {
+  height: 100%;
+  position: absolute;
+  width: 20px;
+  top: 0px;
+  right: -10px;
+  border: ridge 5px;
+  background: linear-gradient(#CAB54E, #E69F8B, #DB400F, #8A9EBC, #87837e, #E1BAD1, #656F30, #54A589,#CAB54E);
+}
+
+</style>

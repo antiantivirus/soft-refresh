@@ -19,7 +19,7 @@ media:
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1275-pichi_rfedae.jpg
     alt:
-    caption: Projection of Ableton 
+    caption: 
 ---
 I organised a series of Ableton music production workshops that ran between 2019 and 2022. With the aim of providing a set of workshops that would allow artist and creatives in the city to get a good grasp of the basics of music production with Ableton. These workshops were made possible due to funding from Aberdeen City Council.
 
