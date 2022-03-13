@@ -14,7 +14,7 @@
       <!-- <img class="absolute right-0 bottom-0" src="~/assets/images/web-in-park.svg" style="max-width: 250px; bottom: -100px;"/> -->
     </div>
     <h3 class="italic">Seriously selected work!</h3>
-    <div class="md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-6 seriously-selected-grid">
+    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
       <article>
         <nuxt-link to="/logs/radiophrenia-to-eternity" class="border-me homepage-item" style="background-color: #CAB54E">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
@@ -88,14 +88,14 @@
           </div>
         </nuxt-link>
       </article>
-      <article>
+      <!-- <article>
         <nuxt-link to="work/A-C-01001001-D" class="border-me homepage-item" style="background-color: #E3D9CE">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1644370635/Soft%20Refresh/acid/ACID-HOUSE-SMILEY_-_May_8th_2020_at_11.13.28_PM_tvmc1x.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Visuals for Optimo. A C 01001001 D!</h4>
           </div>
         </nuxt-link>
-      </article>
+      </article> -->
     </div>
   </div>
 </template>

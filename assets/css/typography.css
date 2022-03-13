@@ -19,7 +19,7 @@ h1, h2 {
     font-weight: 300;
 }
 
-h3, a {
+h3, a, button {
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -61,4 +61,13 @@ a:hover, a.nuxt-link-active {
   
 .mt-72 {
     margin-top: 18rem;
+}
+
+/* button */
+
+button {
+    background: #00ff46;
+    color: black;
+    border: 0px;
+    padding: 20px;
 }

@@ -1,26 +1,28 @@
 <template>
-  <header style="background-color: #dcdcdc;">
-    <transition name="fade-up">
-      <menu class="fixed w-screen h-screen top-0 left-0 m-0 p-12 box-border lg:w-auto lg:h-auto" v-if="mobileMenuOpen" style="background-color: #dcdcdc;">
-        <nuxt-link class="block" to="/">Jack Murray-Brown</nuxt-link>
-        <nuxt-link class="block" to="/about">About</nuxt-link>
-        <details>
-          <summary class="underline">Selected work</summary>
-          <ul class="list-none pl-0 ml-0">
-            <li v-for="project in work" :key="project.slug">
-              <nuxt-link class="block" :to="`/work/${project.slug}`">{{project.title}}</nuxt-link>
-            </li>
-          </ul>
-        </details>
-        <nuxt-link class="block" to="/logs">Log</nuxt-link>
-        <nuxt-link class="block" to="/radio">Radio</nuxt-link>
-        <nuxt-link class="block" to="/links">Links</nuxt-link>
-        <a class="block" href="mailto:jack@antiantivirus.co.uk">Mail Me</a>
-        <a class="block" href="https://twitter.com/the1antivirus" target="_blank">Twitter</a>
-        <a class="block" href="https://www.are.na/jack-murray-brown" target="_blank">Are.na</a>
-      </menu>
+  <header class="lg:w-full" style="background-color: #dcdcdc;">
+    <transition name="fade-up">\
+      <div id="menu" class="w-full fixed w-screen h-screen top-0 left-0 p-8 box-border lg:w-full 2xl:p-12 lg:h-auto z-10" v-show="mobileMenuOpen" style="background-color: #dcdcdc;">
+        <menu class="p-0" >
+          <nuxt-link id="home-link" class="block" to="/" >Jack Murray-Brown</nuxt-link>
+          <nuxt-link class="block" to="/about">About</nuxt-link>
+          <details>
+            <summary class="underline">Selected work</summary>
+            <ul class="list-none pl-0 ml-0">
+              <li v-for="project in work" :key="project.slug">
+                <nuxt-link class="block" :to="`/work/${project.slug}`">{{project.title}}</nuxt-link>
+              </li>
+            </ul>
+          </details>
+          <nuxt-link class="block" to="/logs">Log</nuxt-link>
+          <!-- <nuxt-link class="block" to="/radio">Radio</nuxt-link> -->
+          <nuxt-link class="block" to="/links">Links</nuxt-link>
+          <a class="block" href="mailto:jack@antiantivirus.co.uk">Mail Me</a>
+          <a class="block" href="https://twitter.com/the1antivirus" target="_blank">Twitter</a>
+          <a class="block" href="https://www.are.na/jack-murray-brown" target="_blank">Are.na</a>
+        </menu>
+      </div>
     </transition>
-    <div class="fixed bottom-0 left-0 w-screen p-8 box-border lg:hidden">
+    <div class="fixed bottom-0 left-0 w-screen p-8 box-border lg:hidden z-20">
       <button class="w-full " @click="mobileMenuOpen = !mobileMenuOpen">{{mobileMenuText}}</button>
     </div>
   </header>
@@ -48,6 +50,11 @@ export default ({
       this.$store.commit('playShow', show)
     }
   },
+  watch: {
+    async $route() {
+      this.mobileMenuOpen = false
+    },
+  },
   computed: {
     j() {
       return this.$store.state.j
@@ -68,3 +75,32 @@ export default ({
   }
 })
 </script>
+
+<style scoped>
+
+#home-link {
+  background-color: transparent;
+}
+
+#home-link:hover {
+  background-color: #00ff46;
+}
+
+menu {
+  margin-block-start: 0px;
+}
+
+@media (min-width: 1024px) { 
+  #menu {
+    max-width: 25vw;
+    display: block !important;
+  }
+}
+
+@media (min-width: 1536px) { 
+  #menu {
+  max-width: 16.66vw;
+  }
+}
+
+</style>
