@@ -49,6 +49,19 @@ export default {
     '@nuxt/content',
   ],
 
+  generate: {
+    routes: function() {
+      const fs = require('fs');
+      const path = require('path');
+      return fs.readdirSync('./content/work').map(file => {
+        return {
+          route: `/work/${path.parse(file).name}`, // Return the slug
+          payload: require(`./content/work/${file}`),
+        };
+      });
+    },
+  },
+
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
