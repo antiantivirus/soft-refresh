@@ -37,7 +37,7 @@ export default ({
       work: null,
       logs: null,
       radioShows: null,
-      mobileMenuOpen: true
+      mobileMenuOpen: false
     }
   },
   async fetch() {
@@ -67,9 +67,9 @@ export default ({
     },
     mobileMenuText(){
       if (this.mobileMenuOpen){
-        return '- menu'
+        return 'close menu'
       } else {
-        return '+ menu'
+        return 'menu'
       }
     }
   }
