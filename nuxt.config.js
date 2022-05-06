@@ -1,9 +1,9 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  // ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  // target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -49,18 +49,17 @@ export default {
     '@nuxt/content',
   ],
 
-  generate: {
-    routes: function() {
-      const fs = require('fs');
-      const path = require('path');
-      return fs.readdirSync('./content/work').map(file => {
-        return {
-          route: `/work/${path.parse(file).name}`, // Return the slug
-          payload: require(`./content/work/${file}`),
-        };
-      });
-    },
-  },
+  // generate: {
+  //   routes: function() {
+  //     const fs = require('fs')
+  //     return fs.readdirSync('./content/work').map(file => {
+  //       return {
+  //         route: `/work/${file.slice(2, -5)}`,
+  //         payload: require(`./content/work/${file}`)
+  //       }
+  //     })
+  //   }
+  // },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
