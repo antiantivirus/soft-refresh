@@ -20,6 +20,6 @@ media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181075/Soft%20Refresh/GUTS/GUTS-1875_m0fwok.jpg
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181074/Soft%20Refresh/GUTS/GUTS-1919_m6f0vz.jpg
 ---
-GUTS is a club night based in Glasgow with a difference - transparency woven into the project from the start. With the aim to enable other to follow in the steps of GUTS and provide a outlet for learning more about how to put on club nights. The Lineup featured Jennifer Walton, Proc Fiskal amongst others.
+GUTS is a club night based in Glasgow with a difference - transparency woven into the project from the start. With the aim to enable other to follow in the steps of GUTS and provide a outlet for learning more about how to put on club nights. The Lineup featured Jennifer Walton and Proc Fiskal amongst others.
 
 For this project I designed and developed a bespoke website, the home of all the guts after the event took place. In addition, on the night I did live visuals across two flat screen TVs installed in the warehouse space, mapping different visuals across the two screens. Showcasing the 3D elements from the project in animated and warped form whilst also providing an ever-updating BPM counter and notice board, in-keeping with the transparent focus.
