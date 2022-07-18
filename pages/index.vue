@@ -16,11 +16,11 @@
     <h3 class="italic">Seriously selected work!</h3>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
       <article>
-        <nuxt-link to="/logs/radiophrenia-to-eternity" class="border-me homepage-item" style="background-color: #CAB54E">
+        <nuxt-link to="/work/guts" class="border-me homepage-item" style="background-color: #F6D4FE">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643552471/Soft%20Refresh/Logs/Artboard_1_1200x-100-pichi-1_bknlmn.jpg"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_800/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg"/>
           <div class="p-4">
-            <h4 class="m-0">I've just launched a new podcast exploring community radio!</h4>
+            <h4 class="m-0">Visuals and website for GUTS, a Glasgow based club night with a focus on transparency.</h4>
           </div>
         </nuxt-link>
       </article>
