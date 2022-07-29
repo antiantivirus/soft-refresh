@@ -3,7 +3,7 @@
     <div class="relative h-full">
       <div class="mx-auto max-w-sm -mt-12 border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
         <h1>Hi, I'm Jack and welcome to my website.</h1>
-        <h2>I'm a developer, artist, DJ and radio enthusiast currently based in Berlin.</h2>
+        <h2>I'm an artist working between web, radio and visuals currently based in Berlin.</h2>
         <figure class="mb-6">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Me just before a swim in the North Sea</figcaption>
