@@ -6,7 +6,7 @@
       <details open class="border-me p-4 mb-2">
       <summary>About</summary>
         <p>Over time my work has evolved to center around community. I enjoy working with process and find this just as important as the outcome. I assemble websites, do visuals for club environments, make radio and enjoy a wild swim amongst other things.</p>
-        <p>I'm currently working part-time as New Media Developer at <a href="https://designandcode.com">Design and Code</a> and part-time freelance.
+        <p>I'm currently working as a Freelancer in Berlin and looking for work on web, radio and club visuals project, please get in touch if you think .</p>
         <p>Thanks for visiting and I hope you enjoy having a look around.</p>
       </details>
 

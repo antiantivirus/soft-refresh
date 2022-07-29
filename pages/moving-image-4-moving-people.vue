@@ -2,8 +2,8 @@
   <div>
     <div class="relative h-full">
       <div class="mx-auto max-w-md -mt-12 border-me p-4 mb-16 relative" style="transform: rotate(-2deg);">
-        <h1>Hi, I'm Jack and I make <i>moving image for moving people.</i></h1>
-        <h2>Visuals for club environments. I've worked across projectors, CRT TVs, Flat Screen and LED Panels to create immersive experiences for the fluid club environment.</h2>
+        <h1>Hi, I'm Jack and I make <i>moving image for moving people.</i> Visuals for club environments.</h1>
+        <h2>I've worked across projectors, CRT TVs, flat screen and LED panels to create immersive experiences for the fluid club environment.</h2>
         <figure class="mb-6">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1658181075/Soft%20Refresh/GUTS/GUTS-1875_m0fwok.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Visuals for GUTS party in Glasgow</figcaption>
@@ -37,6 +37,22 @@
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/hyperdome" class="border-me homepage-item" style="background-color: #ffdfbf">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1659100314/Soft%20Refresh/hyperdome/2H6A3882_buo7lz.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Your a long way from home...welcome to the Hyperdome</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/there-is-life-outside-these-walls" class="border-me homepage-item" style="background-color: #7588D4">
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1659100080/Soft%20Refresh/there%20is%20life%20outside%20these%20walls/2H6A5528_wdhnjy.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Two neural networks dreaming</h4>
           </div>
         </nuxt-link>
       </article>
