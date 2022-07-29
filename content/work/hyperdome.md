@@ -22,4 +22,4 @@ media:
 ---
 Visuals for London based label and club night [Hyperdome](https://soundcloud.com/hyperdomeuk).
 
-Centering around the club space as a portal into the hyperdome, I created bespoke visuals for their debut night, held in Aberdeen, Scotland. Custom 3D font, scans of local tunnels and domes and a 'distance from home' ticker where combined to draw the visitors further inside.
+Centering around the club space as a portal into another world, I created bespoke visuals for their debut night, held in Aberdeen, Scotland. Custom 3D font, scans of local tunnels and domes and a 'distance from home' ticker where combined to draw the visitors further into the hyperdome.
