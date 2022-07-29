@@ -4,7 +4,7 @@ date: 2021-08-27T12:53:06.117Z
 project_date: 2021-08-27T12:53:06.128Z
 display_project_date: '2018 - present'
 description: Showcasing the best in World Wide Wadio
-link: https://www.undergroundradiodirectory.com/
+link: https://undergroundradiodirectory.herokuapp.com/
 tags:
   - Radio
   - Website
