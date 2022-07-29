@@ -3,7 +3,7 @@
     <div class="relative h-full">
       <div class="mx-auto max-w-md -mt-12 border-me p-4 mb-16 relative" style="transform: rotate(-2deg);">
         <h1>Hi, I'm Jack and I make <i>moving image for moving people.</i> Visuals for club environments.</h1>
-        <h2>I've worked across projectors, CRT TVs, flat screen and LED panels to create immersive experiences for the fluid club environment.</h2>
+        <h2>I've worked across projectors, CRT TVs, flat screen and LED panels to create immersive experiences for the fluid club space.</h2>
         <figure class="mb-6">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1658181075/Soft%20Refresh/GUTS/GUTS-1875_m0fwok.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Visuals for GUTS party in Glasgow</figcaption>
