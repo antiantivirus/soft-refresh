@@ -2,7 +2,7 @@
 title: Aberdeen Rave Line
 date: 2021-08-27T12:56:31.651Z
 project_date: 2021-08-27T12:56:31.659Z
-display_project_date: '2020 - prese'
+display_project_date: '2020 - 2022'
 description: Text to rave phoneline offering a way out of the 'walled garden'.
 tags:
   - Art
@@ -31,7 +31,7 @@ media:
     alt: Hand holding large paint brush pasting up poster on white brick wall
     caption: 
 ---
-Aberdeen Rave Line is a phone number setup to provide information on the latest raves happening in the Aberdeen area.
+Aberdeen Rave Line was a phone number setup to provide information on the latest raves happening in the Aberdeen area.
 
 Offering a way to move outsie of the 'walled gardens' of social media, users can text rave to 07727 710020 to recieve updates on the latest raves.
 
