@@ -15,7 +15,7 @@
         <nuxt-link to="/links">Links</nuxt-link>
       </li>
       <li>
-        <a href="mailto:jack@antiantivirus.co.uk">Mail Me</a>
+        <a href="mailto:hi@jackmurraybrown.com">Mail Me</a>
       </li>
       <li>
         <nuxt-link to="/cv">CV</nuxt-link>

@@ -16,7 +16,7 @@
         <p>Listed below are my main areas of technical knowledge:</p>
         <p>[Javascript, HTML, CSS, Vue.js, Nuxt.js, p5.js, PHP, Wordpress, Hugo, Illustrator, Figma, Blender, Three.js, Ruby on Rails, Ruby, Liquid, Photoshop]</p>
       </details>
-      <a href="mailto:jack@antiantivirus.co.uk">Mail Me</a><br/>
+      <a href="mailto:hi@jackmurraybrown.com">Mail Me</a><br/>
       <a href="https://twitter.com/the1antivirus" _target="blank">Twitter</a><br/>
       <a href="https://www.are.na/jack-murray-brown" _target="blank">Are.na</a><br/>
 
