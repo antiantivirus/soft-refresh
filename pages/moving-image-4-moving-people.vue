@@ -57,7 +57,7 @@
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link to="/work/A-C-01001001-D" class="border-me homepage-item" style="background-color: #E3D9CE">
+        <nuxt-link to="/work/a-c-01001001-d" class="border-me homepage-item" style="background-color: #E3D9CE">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1644370635/Soft%20Refresh/acid/ACID-HOUSE-SMILEY_-_May_8th_2020_at_11.13.28_PM_tvmc1x.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Visuals for Optimo. A C 01001001 D!</h4>
