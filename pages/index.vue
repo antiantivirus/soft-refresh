@@ -76,7 +76,7 @@
         <nuxt-link to="/work/swampnet" class="border-me homepage-item" style="background-color: #656F30">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-41-pichi_xinhmp.jpg"/>
           <div class="p-4">
-            <h4 class="m-0">What would you put a small internet? (in a swamp)</h4>
+            <h4 class="m-0">What would you put on a small internet? (in a swamp)</h4>
           </div>
         </nuxt-link>
       </article>
