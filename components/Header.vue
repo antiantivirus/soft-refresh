@@ -13,7 +13,7 @@
               </li>
             </ul>
           </details>
-          <nuxt-link class="block" to="/logs">Log</nuxt-link>
+          <!-- <nuxt-link class="block" to="/logs">Log</nuxt-link> -->
           <!-- <nuxt-link class="block" to="/radio">Radio</nuxt-link> -->
           <nuxt-link class="block" to="/links">Links</nuxt-link>
           <a class="block" href="mailto:jack@antiantivirus.co.uk">Mail Me</a>
