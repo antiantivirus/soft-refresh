@@ -4,6 +4,7 @@ date: 2021-08-27T12:57:39.858Z
 project_date: 2021-08-27T12:57:39.865Z
 display_project_date: 2018-2020
 description: Web development and studio assistance for 2day radio, a community radio project that ran between 2018 and 2020.
+link: https://2day-radio.netlify.app/
 tags:
   - Website
   - Radio
