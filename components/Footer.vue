@@ -1,15 +1,7 @@
 <template>
   <footer >
-    <nuxt-link class="no-underline" to="/">
-      <div class="the-grid initial-grid bg-grey z-50" style="background-color: #dcdcdc;">
-        <span class="initial lg:hidden">J</span>
-        <span class="initial lg:hidden">M</span>
-        <span class="initial lg:hidden">B</span>
-        <span class="initial hidden lg:block">{{j}}</span>
-        <span class="initial hidden lg:block">{{m}}</span>
-        <span class="initial hidden lg:block">{{b}}</span>
-      </div>
-    </nuxt-link>
+    <img class="hidden lg:block mt-24" src="~assets/images/thanks.svg" />
+    <img class="lg:hidden mt-12 mb-32 max-w-md mx-auto block" src="~assets/images/thanks-mobile.svg" />
   </footer>
 </template>
 

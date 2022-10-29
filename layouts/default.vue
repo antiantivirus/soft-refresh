@@ -9,9 +9,9 @@
         <div class="lg:py-8 2xl:py-12">
           <Nuxt />
           <Radio />
+          <Footer />
         </div>
       </main>
-      <!-- <Footer /> -->
     </div>
   </div>
 </template>

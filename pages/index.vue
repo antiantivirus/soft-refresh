@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="relative h-full">
-      <div class="mx-auto max-w-sm -mt-12 border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
+      <img class="lg:hidden max-w-md mx-auto block mb-32" src="~assets/images/jmb-mobile.svg"/>
+      <img class="hidden lg:block xl:-mb-16" src="~assets/images/jmb3.svg"/>
+      <div class="mx-auto max-w-sm -mt-12 lg:-mt-40  border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
         <h1>Hi, I'm Jack and welcome to my website.</h1>
         <h2>I'm an artist working between web, radio and visuals currently based in Berlin.</h2>
         <figure class="mb-6">
@@ -15,6 +17,15 @@
     </div>
     <h3 class="italic">Seriously selected work!</h3>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
+      <article>
+        <nuxt-link to="/work/fruitful-fm" class="border-me homepage-item" style="background-color: #91CC8F">
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_1000/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">A radio station housed inside a greenhouse. Flipping the traditional ‘dead’ and hidden space of a radio studio on its head.</h4>
+          </div>
+        </nuxt-link>
+      </article>
       <article>
         <nuxt-link to="/work/guts" class="border-me homepage-item" style="background-color: #F6D4FE">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->

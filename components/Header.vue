@@ -1,7 +1,7 @@
 <template>
-  <header class="lg:w-full" style="background-color: #dcdcdc;">
+  <header class="lg:w-full" style="background-color: #FEFDEC;">
     <transition name="fade-up">\
-      <div id="menu" class="w-full fixed w-screen h-screen top-0 left-0 p-8 box-border lg:w-full 2xl:p-12 lg:h-auto z-10" v-show="mobileMenuOpen" style="background-color: #dcdcdc;">
+      <div id="menu" class="w-full fixed w-screen h-screen top-0 left-0 p-8 box-border lg:w-full 2xl:p-12 lg:h-auto z-10" v-show="mobileMenuOpen" style="background-color: #FEFDEC;">
         <menu class="p-0" >
           <nuxt-link id="home-link" class="block" to="/" >Jack Murray-Brown</nuxt-link>
           <nuxt-link class="block" to="/about">About</nuxt-link>

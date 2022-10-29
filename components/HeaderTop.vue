@@ -1,5 +1,5 @@
 <template>
-  <header class="ml-auto" style="background-color: #dcdcdc; max-width: 250px">
+  <header class="ml-auto" style="background-color: #FEFDEC; max-width: 250px">
     <nuxt-link to="/">JMB</nuxt-link>,
     <nuxt-link to="/about">About</nuxt-link>,
     <!-- <details>
