@@ -1,7 +1,11 @@
 <template>
-  <footer >
-    <img class="hidden lg:block mt-24" src="~assets/images/thanks.svg" />
-    <img class="lg:hidden mt-12 mb-32 max-w-md mx-auto block" src="~assets/images/thanks-mobile.svg" />
+  <footer class="mt-12 mb-32 lg:mt-24 lg:mb-0">
+    <!-- <div class="flex justify-between max-w-sm mx-auto mb-12">
+      <input type="checkbox" checked/>
+      <input type="checkbox"/>
+    </div> -->
+    <img class="hidden lg:block " src="~assets/images/thanks.svg" />
+    <img class="lg:hidden max-w-md mx-auto block" src="~assets/images/thanks-mobile.svg" />
   </footer>
 </template>
 

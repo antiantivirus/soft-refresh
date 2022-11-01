@@ -1,18 +1,19 @@
 <template>
-  <div class="grid xl:grid-cols-12 gap-12">
-    <section class="xl:col-span-5 xl:col-span-5"  @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
+  <div class="">
+    <section class="mb-12"  @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
       <div>
-        <div class="mb-8">
         <h1>{{project.title}}</h1>
-          <p>Date: {{project.display_project_date}}</p>
-          <p class="inline">Tags:</p><ul class="inline p-0 project-tags">
-            [ <li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
-            {{tag}}<span v-if="index+1 < project.tags.length">, </span>
-            </li> ]
+        <h2 class="mb-4 max-w-prose">{{project.description}}</h2>
+        <div>
+          <ul class="inline p-0 project-tags">
+              <li class="inline bg-lime-100 rounded-full px-4 mr-2" v-for="(tag, index) in project.tags" :key="index">
+              {{tag}}
+              </li>
           </ul>
-          <a class="block mt-4" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
+          <span>{{project.display_project_date}}</span>
         </div>
-        <details class="border-me p-4 mb-2" open>
+        <a class="block mt-4 max-w-prose" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
+        <details class="border-me p-4 mt-4 mb-2 max-w-prose">
             <summary>Info</summary>
             <nuxt-content :document="project" />
         </details>
