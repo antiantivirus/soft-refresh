@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-2">
+  <div class="grid grid-cols-1 lg:grid-cols-2 max-w-6xl">
     <div class="text-col ">
       <div class="sticky top-4">
       <h1 class="mb-4">Selected work</h1>
@@ -10,7 +10,7 @@
       </div> -->
       <ul class="list-none m-0 p-0">
         <li v-for="project in projects" :key="project.slug" @mouseover="selectedProject = project" @mouseout="selectedProject = null" @focusin="selectedProject = project" @focusout="selectedProject = null">
-          <nuxt-link  :to="`/work/${project.slug}`">
+          <nuxt-link :to="`/work/${project.slug}`">
             {{project.title}}
           </nuxt-link>
         </li>
@@ -24,8 +24,8 @@
           {{tag}}
           </li>
         </ul>
-        <p class="large mt-4 mb-4" >{{selectedProject.description}}</p>
-        <img :src="selectedProject.media[0].image" />
+        <p class="large mt-4" >{{selectedProject.description}}</p>
+        <img class="mt-4" :src="selectedProject.media[0].image" />
       </div>
     </div>
     <div>

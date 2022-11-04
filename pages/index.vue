@@ -15,7 +15,7 @@
       </div> 
       <!-- <img class="absolute right-0 bottom-0" src="~/assets/images/web-in-park.svg" style="max-width: 250px; bottom: -100px;"/> -->
     </div>
-    <h3 class="italic">Seriously selected work!</h3>
+    <h3 class="italic mb-4">Seriously selected work!</h3>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
       <article>
         <nuxt-link to="/work/norberg-festival-radio" class="border-me homepage-item" style="background-color: #91CC8F">

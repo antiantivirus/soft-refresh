@@ -9,7 +9,7 @@ tags:
   - Web development
   - Radio
 media:
-  - gif: https://res.cloudinary.com/dvckadoiv/image/upload/v1634906014/Soft%20Refresh/2day%20radio/2day-intro3_kwzpjj.gif
+  - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634906014/Soft%20Refresh/2day%20radio/2day-intro3_kwzpjj.gif
     alt: 2Day Radio appears letter by letter in red on a pink background
     caption: Website onboarding animation
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634906402/Soft%20Refresh/2day%20radio/2day-schedule-pichi_zcztjx.png

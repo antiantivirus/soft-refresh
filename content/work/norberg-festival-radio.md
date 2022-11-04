@@ -18,4 +18,4 @@ Norbergfestival is a 22-year running festival, held on the abandoned iron mine s
 In the summer of 2022 I co-ordinated the radio station as part of the Festival. Broadcasting online and on FM in the Norberg area the programme featured radio dramas, interviews with artists including: Moonilena; SØS Gunver Ryberg; Tianzhuo Chen and more, volunteers and the attending festival guests, a collaboration with mimers legendary 40 secs of pure reverb, and the return of the famous 8-minute bonanza.
 
 
-Housed inside a transparent bubble with a capsule like entrance ritual, the studio conditions were particularly challenging. but also very rewarding in the visibility the radio has on the festival grounds.
+Housed inside a transparent bubble with a capsule like entrance ritual, the studio conditions were particularly challenging. However they proved rewarding in the visibility the radio had on the festival grounds.
