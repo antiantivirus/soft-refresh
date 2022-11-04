@@ -3,9 +3,9 @@
     <div class="relative h-full">
       <img class="lg:hidden max-w-md mx-auto block mb-32" src="~assets/images/jmb-mobile.svg"/>
       <img class="hidden lg:block xl:-mb-16 2xl:-mb-72 max-w-screen-xl mx-auto" src="~assets/images/jmb3.svg"/>
-      <div class="mx-auto max-w-sm -mt-12 lg:-mt-40  border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
+      <div class="mx-auto max-w-md -mt-12 lg:-mt-40  border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
         <h1 class="h1-index">Hi, I'm Jack and welcome to my website.</h1>
-        <h2 class="h1-index mb-2">I'm a developer, artist and radio enthusiast currently based in Berlin, focussed on accessibility, sustainability and community engaged projects.</h2>
+        <h2 class="h1-index mb-2">I'm a developer, artist and radio enthusiast, focussed on accessibility, sustainability and community engaged projects. Currently Based in Berlin</h2>
         <figure class="mb-6">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Me just before a swim in the North Sea</figcaption>
@@ -18,20 +18,20 @@
     <h3 class="italic mb-4">Seriously selected work!</h3>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
       <article>
-        <nuxt-link to="/work/norberg-festival-radio" class="border-me homepage-item" style="background-color: #91CC8F">
-          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_1000/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg"/>
-          <div class="p-4">
-            <h4 class="m-0">Co-ordinating the radio station at the 21st edition of Norberg Festival.</h4>
-          </div>
-        </nuxt-link>
-      </article>
-      <article>
         <nuxt-link to="/work/fruitful-fm" class="border-me homepage-item" style="background-color: #91CC8F">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_1000/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg"/>
           <div class="p-4">
             <h4 class="m-0">A radio station housed inside a greenhouse. Flipping the traditional ‘dead’ and hidden space of a radio studio on its head.</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/norbergfestival-radio" class="border-me homepage-item" style="background-color: #8BD3E6">
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_1100,w_900/v1667053155/Soft%20Refresh/norbergfestival%20radio/R1-08651-0001_imxtor.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Co-ordinating the radio station at the 21st edition of Norbergfestival.</h4>
           </div>
         </nuxt-link>
       </article>

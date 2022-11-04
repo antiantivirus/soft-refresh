@@ -20,7 +20,7 @@
     <div class="hidden lg:block">
       <div v-if="selectedProject">
         <ul class="inline p-0 project-tags mb-4" aria-label="Project tags">
-          <li class="inline bg-lime-100 rounded-full px-4 mr-2" v-for="(tag, index) in selectedProject.tags" :key="index" v-if="index < 3">
+          <li class="inline pill rounded-full px-4 mr-2" v-for="(tag, index) in selectedProject.tags" :key="index" v-if="index < 3">
           {{tag}}
           </li>
         </ul>

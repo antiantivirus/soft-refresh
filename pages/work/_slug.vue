@@ -17,7 +17,7 @@
             <summary>Info</summary>
             <nuxt-content :document="project" />
         </details>
-        <a class="block mb-8 max-w-prose" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
+        <a class="mb-8 max-w-prose" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
         <details v-if="project.technical" class="border-me p-4">
             <summary>Technical</summary>
             <nuxt-content :document="project" />

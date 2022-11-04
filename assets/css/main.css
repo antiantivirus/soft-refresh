@@ -118,6 +118,14 @@ figure {
   background-color: #00ff46;
 }
 
+/* focus */
+
+*:focus-visible {
+  outline: 4px solid #00ff46;
+  transition: outline 0.2s;
+}
+
+
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
   .container {
