@@ -112,6 +112,12 @@ figure {
   margin: 0px 0px 2.5rem 0px;
 }
 
+/* pill */
+
+.pill {
+  background-color: #00ff46;
+}
+
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
   .container {

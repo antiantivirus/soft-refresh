@@ -1,23 +1,23 @@
 <template>
-  <div class="">
+  <div class="max-w-4xl">
     <section class="mb-12"  @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
       <div>
-        <span class="italic">{{project.display_project_date}}</span>
-        <h1 class="mb-4">{{project.title}}</h1>
+        <span class="italic inline mr-2">{{project.display_project_date}}</span>
+        <ul class="inline p-0 project-tags" aria-label="Project tags">
+          <li class="inline pill rounded-full px-4 mr-2" v-for="(tag, index) in project.tags" :key="index">
+          {{tag}}
+          </li>
+        </ul>
+        <h1 class="mb-4 mt-2">{{project.title}}</h1>
         <div class="mb-4">
-          <ul class="inline p-0 project-tags">
-              <li class="inline bg-lime-100 rounded-full px-4 mr-2" v-for="(tag, index) in project.tags" :key="index">
-              {{tag}}
-              </li>
-          </ul>
+          
         </div>
-        <h2 class="mb-4 max-w-prose">{{project.description}}</h2>
-
-        <a class="block mt-4 max-w-prose" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
-        <details class="border-me p-4 mt-4 mb-2 max-w-prose">
+        <h2 class="mb-8 max-w-prose">{{project.description}}</h2>
+        <details class="border-me p-4 mb-8 mb-2 max-w-prose">
             <summary>Info</summary>
             <nuxt-content :document="project" />
         </details>
+        <a class="block mb-8 max-w-prose" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
         <details v-if="project.technical" class="border-me p-4">
             <summary>Technical</summary>
             <nuxt-content :document="project" />

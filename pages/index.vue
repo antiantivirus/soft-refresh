@@ -4,8 +4,8 @@
       <img class="lg:hidden max-w-md mx-auto block mb-32" src="~assets/images/jmb-mobile.svg"/>
       <img class="hidden lg:block xl:-mb-16 2xl:-mb-72 max-w-screen-xl mx-auto" src="~assets/images/jmb3.svg"/>
       <div class="mx-auto max-w-sm -mt-12 lg:-mt-40  border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
-        <h1>Hi, I'm Jack and welcome to my website.</h1>
-        <h2 class="h1">I'm a developer, artist and radio enthusiast focussing on accessibility, sustainability and community engaged projects. Currently based in Berlin.</h2>
+        <h1 class="h1-index">Hi, I'm Jack and welcome to my website.</h1>
+        <h2 class="h1-index mb-2">I'm a developer, artist and radio enthusiast currently based in Berlin, focussed on accessibility, sustainability and community engaged projects.</h2>
         <figure class="mb-6">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Me just before a swim in the North Sea</figcaption>
@@ -17,6 +17,15 @@
     </div>
     <h3 class="italic">Seriously selected work!</h3>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
+      <article>
+        <nuxt-link to="/work/norberg-festival-radio" class="border-me homepage-item" style="background-color: #91CC8F">
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_1000/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg"/>
+          <div class="p-4">
+            <h4 class="m-0">Co-ordinating the radio station at the 21st edition of Norberg Festival.</h4>
+          </div>
+        </nuxt-link>
+      </article>
       <article>
         <nuxt-link to="/work/fruitful-fm" class="border-me homepage-item" style="background-color: #91CC8F">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
@@ -51,14 +60,14 @@
           </div>
         </nuxt-link>
       </article>
-      <article>
+      <!-- <article>
         <nuxt-link to="/work/paradigms" class="border-me homepage-item" style="background-color: #8A9EBC">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7052-pichi_klbqme.jpg"/>
           <div class="p-4">
             <h4 class="m-0">Website and hand-stitched publication for a contemporary art exhibition</h4>
           </div>
         </nuxt-link>
-      </article>
+      </article> -->
       <article>
         <nuxt-link to="/work/aerial-community-radio" class="border-me homepage-item" style="background-color: #9e96c4">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg"/>

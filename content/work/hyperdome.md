@@ -5,7 +5,8 @@ project_date: 2021-08-27T13:00:09.465Z
 display_project_date: '2020'
 description: Your a long way from home...welcome to the Hyperdome
 tags:
-  - Visuals, Typography
+  - Visuals
+  - Typography
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1659100817/Soft%20Refresh/hyperdome/font_m2p6wo.jpg
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1659100314/Soft%20Refresh/hyperdome/2H6A3882_buo7lz.jpg
