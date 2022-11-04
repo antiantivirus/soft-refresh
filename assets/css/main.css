@@ -57,11 +57,13 @@ details > summary {
   list-style-type: none;
 	cursor: pointer;
 	position: relative;
+
 	/* padding-left: 15px; */
 }
 
 details[open] > summary {
   list-style-type: none;
+  margin-bottom: 1rem;
 }
 
 

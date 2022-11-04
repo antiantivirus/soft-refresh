@@ -5,7 +5,7 @@
       <img class="hidden lg:block xl:-mb-16 2xl:-mb-72 max-w-screen-xl mx-auto" src="~assets/images/jmb3.svg"/>
       <div class="mx-auto max-w-sm -mt-12 lg:-mt-40  border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
         <h1>Hi, I'm Jack and welcome to my website.</h1>
-        <h2 class="h1">I'm an artist working between web, radio and visuals currently based in Berlin.</h2>
+        <h2 class="h1">I'm a developer, artist and radio enthusiast focussing on accessibility, sustainability and community engaged projects. Currently based in Berlin.</h2>
         <figure class="mb-6">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Me just before a swim in the North Sea</figcaption>

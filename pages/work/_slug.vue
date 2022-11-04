@@ -2,16 +2,17 @@
   <div class="">
     <section class="mb-12"  @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
       <div>
-        <h1>{{project.title}}</h1>
-        <h2 class="mb-4 max-w-prose">{{project.description}}</h2>
-        <div>
+        <span class="italic">{{project.display_project_date}}</span>
+        <h1 class="mb-4">{{project.title}}</h1>
+        <div class="mb-4">
           <ul class="inline p-0 project-tags">
               <li class="inline bg-lime-100 rounded-full px-4 mr-2" v-for="(tag, index) in project.tags" :key="index">
               {{tag}}
               </li>
           </ul>
-          <span>{{project.display_project_date}}</span>
         </div>
+        <h2 class="mb-4 max-w-prose">{{project.description}}</h2>
+
         <a class="block mt-4 max-w-prose" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
         <details class="border-me p-4 mt-4 mb-2 max-w-prose">
             <summary>Info</summary>

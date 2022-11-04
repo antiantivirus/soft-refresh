@@ -7,7 +7,7 @@ description: A radio station housed inside a greenhouse. Flipping the traditiona
 link: https://fruitful.fm/
 tags:
   - Radio
-  - Website
+  - Web development
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667053172/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5965_jvygvb.jpg
     alt: 

@@ -6,7 +6,7 @@ display_project_date: '2021'
 description: Web development and design for SOFT EIS, an independent print magazine published in Berlin.
 link: https://soft-eis.netlify.app/
 tags:
-  - Website
+  - Web development
   - Nuxt
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png

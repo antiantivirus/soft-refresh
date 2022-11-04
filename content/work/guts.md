@@ -6,7 +6,7 @@ display_project_date: '2022'
 description: Website and visuals for a GUTS, Glasgow based club night with a focus on transparency.
 link: https://guts.exposed
 tags:
-  - Website
+  - Web development
   - Visuals
   - Design
   - Nuxt
