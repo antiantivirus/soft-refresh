@@ -10,13 +10,13 @@ tags:
   - Web development
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667053172/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5965_jvygvb.jpg
-    alt: 
+    alt: A latop with sits amongst plants and a mixing desk inside a greenhouse
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg
-    alt: 
+    alt: A blurred plum is held infront of a greenhouse with vinyl reading Fruitful.FM visible
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667053145/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5559_mxmsmg.jpg
-    alt: 
+    alt: A man smiles as he installs a vinyl onto the front of a greenhouse reading Fruitful.FM
     caption: 
 ---
 Fruitful.FM was a temporary radio station housed inside a greenhouse. Flipping the traditional ‘dead’ and hidden (terra incognita) space of a radio studio on its head. Across discussion, live-to-air performances, generative sounds, DJ sets and pre-recorded shows the station explored ecology, folk beliefs, community gardening, environmental issues and the North East of Scotland's musical heritage.
