@@ -12,13 +12,21 @@ tags:
   - Nuxt
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181073/Soft%20Refresh/GUTS/GUTS-1805_beriqp.jpg
+    alt: A TV showing the words GUTs in wobbly 3D font and a 3D character sits above a crowd of people's heads.
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181068/Soft%20Refresh/GUTS/GUTS-1625_aysiwp.jpg
+    alt: A man DJs light by purple light and sunlight from the windows behind him, in the background a TV shows a 3D heads looking towards the DJ.
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg
+    alt: TV with 3D wobbly text reading GUTS is attached to a steel truss
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181078/Soft%20Refresh/GUTS/GUTS-1888_awsqko.jpg
+    alt: A woman DJs in a dimly lit industrial space with the light from a TV showing GUTS in a wobbly 3D font glowing behind her
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181078/Soft%20Refresh/GUTS/GUTS-1679_qb1e5f.jpg
+    alt: A TV shows a splatter of 3D colourful GUTS
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181072/Soft%20Refresh/GUTS/GUTS-1909_yrwbks.jpg
+    alt: A TV shows the words LAST ORDERS!! Used a a way to communicate with clubbers throughout the night
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181075/Soft%20Refresh/GUTS/GUTS-1875_m0fwok.jpg
+    alt: A DJs Jumps hands in the air as the crowd dance barely visibly, in the left of a the photo a TV shines with the 3D wobbly font reading GUTS
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1658181074/Soft%20Refresh/GUTS/GUTS-1919_m6f0vz.jpg
+    alt: Shot at the end of the night this images shows A TV installed on a steel truss with words reading Thanks for coming to GUTS
 ---
 GUTS is a club night based in Glasgow with a difference - transparency woven into the project from the start. With the aim to enable other to follow in the steps of GUTS and provide a outlet for learning more about how to put on club nights. The Lineup featured Jennifer Walton and Proc Fiskal amongst others.
 
