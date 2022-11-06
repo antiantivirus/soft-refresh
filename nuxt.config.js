@@ -31,7 +31,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '@/plugins/vue-lazy-image.js', ssr: false},
+    {src: '@/plugins/vue-lazy-image.js', ssr: false},
     {src: '~plugins/vue-pswipe', ssr: false},
   ],
 
@@ -67,5 +67,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  ignore: [
+    'pages/index-leave-for-now.vue',
+    'pages/index-old.vue',
+    'pages/the-one.vue',
+    'pages/cv.vue',
+    'pages/captcha.vue'
+  ]
 }
