@@ -16,6 +16,6 @@
     "vue-pswipe": "^0.15.3"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^3.4.3"
+    "@nuxtjs/tailwindcss": "^6.1.2"
   }
 }

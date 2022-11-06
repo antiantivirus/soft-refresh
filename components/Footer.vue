@@ -1,15 +1,11 @@
 <template>
-  <footer >
-    <nuxt-link class="no-underline" to="/">
-      <div class="the-grid initial-grid bg-grey z-50" style="background-color: #dcdcdc;">
-        <span class="initial lg:hidden">J</span>
-        <span class="initial lg:hidden">M</span>
-        <span class="initial lg:hidden">B</span>
-        <span class="initial hidden lg:block">{{j}}</span>
-        <span class="initial hidden lg:block">{{m}}</span>
-        <span class="initial hidden lg:block">{{b}}</span>
-      </div>
-    </nuxt-link>
+  <footer class="mt-12 mb-32 lg:mt-24 lg:mb-0">
+    <!-- <div class="flex justify-between max-w-sm mx-auto mb-12">
+      <input type="checkbox" checked/>
+      <input type="checkbox"/>
+    </div> -->
+    <img class="hidden lg:block " src="~assets/images/thanks.svg" />
+    <img class="lg:hidden max-w-md mx-auto block" src="~assets/images/thanks-mobile.svg" />
   </footer>
 </template>
 

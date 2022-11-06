@@ -12,10 +12,11 @@
             100vw
           "
           v-pswp="srcAdjustAspect"
+          :alt="image.alt"
         />
       </Photoswipe>
     </client-only>
-    <figcaption>{{image.caption}}</figcaption>
+    <figcaption v-if="image.caption">{{image.caption}}</figcaption>
   </figure>
 </template>
 

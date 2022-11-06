@@ -1,21 +1,23 @@
 <template>
-  <div class="grid xl:grid-cols-12 gap-12">
-    <section class="xl:col-span-5 xl:col-span-5"  @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
+  <div class="max-w-4xl">
+    <section class="mb-12"  @mouseover="hoverUpdate('m','Murray')" @mouseout="hoverUpdate('m','M')" aria-label="Title and basic info">
       <div>
-        <div class="mb-8">
-        <h1>{{project.title}}</h1>
-          <p>Date: {{project.display_project_date}}</p>
-          <p class="inline">Tags:</p><ul class="inline p-0 project-tags">
-            [ <li class="inline italic" v-for="(tag, index) in project.tags" :key="index">
-            {{tag}}<span v-if="index+1 < project.tags.length">, </span>
-            </li> ]
-          </ul>
-          <a class="block mt-4" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
+        <span class="italic inline mr-2">{{project.display_project_date}}</span>
+        <ul class="inline p-0 project-tags" aria-label="Project tags">
+          <li class="inline pill rounded-full px-4 mr-2" v-for="(tag, index) in project.tags" :key="index">
+          {{tag}}
+          </li>
+        </ul>
+        <h1 class="mb-4 mt-2">{{project.title}}</h1>
+        <div class="mb-4">
+          
         </div>
-        <details class="border-me p-4 mb-2" open>
+        <h2 class="mb-8 max-w-prose">{{project.description}}</h2>
+        <details class="border-me p-4 mb-8 mb-2 max-w-prose">
             <summary>Info</summary>
             <nuxt-content :document="project" />
         </details>
+        <a class="mb-8 max-w-prose" v-if="project.link" :href="project.link" target="_blank">Visit {{project.title}}</a>
         <details v-if="project.technical" class="border-me p-4">
             <summary>Technical</summary>
             <nuxt-content :document="project" />
@@ -45,6 +47,15 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.project.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.project.description },
+        { hid: 'og:image', property: 'og:image', content: this.project.media[0].image },
+      ]
+    }
+  },
   async asyncData({ $content, params, error }) {
     let project;
     try {
@@ -53,11 +64,8 @@ export default {
     } catch (e) {
       error({ message: "Project not found" });
     }
-    const projects = await $content("work").fetch();
-
     return {
-      project,
-      projects
+      project
     };
   },
   methods: {

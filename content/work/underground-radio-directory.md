@@ -7,7 +7,7 @@ description: Showcasing the best in World Wide Wadio
 link: https://undergroundradiodirectory.herokuapp.com/
 tags:
   - Radio
-  - Website
+  - Web development
 colour: '#E69F8B'
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1634897671/Soft%20Refresh/URD/urd_gif_fl24ys.gif
