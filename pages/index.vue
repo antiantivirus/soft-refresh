@@ -124,20 +124,10 @@
 import { mapMutations } from 'vuex'
 
 export default ({
-  data() {
+  head() {
     return {
-      j: 'J',
-      m: 'M',
-      b: 'B'
+      titleTemplate: 'Jack Murray-Brown',
     }
-  },
-  async asyncData({ $content }) {
-    // const projects = await $content("projects").fetch();
-    // const logs = await $content("logs").sortBy('date', 'desc').fetch();
-    // return {
-    //   projects,
-    //   logs
-    // };
   },
   methods: {
     hoverUpdate(item, value){

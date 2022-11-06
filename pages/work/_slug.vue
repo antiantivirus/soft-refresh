@@ -47,6 +47,15 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.project.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.project.description },
+        { hid: 'og:image', property: 'og:image', content: this.project.media[0].image },
+      ]
+    }
+  },
   async asyncData({ $content, params, error }) {
     let project;
     try {
@@ -55,11 +64,8 @@ export default {
     } catch (e) {
       error({ message: "Project not found" });
     }
-    const projects = await $content("work").fetch();
-
     return {
-      project,
-      projects
+      project
     };
   },
   methods: {

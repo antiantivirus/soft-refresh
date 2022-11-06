@@ -25,7 +25,7 @@
           </li>
         </ul>
         <p class="large mt-4" >{{selectedProject.description}}</p>
-        <img class="mt-4" :src="selectedProject.media[0].image" />
+        <img class="mt-4" :src="selectedProject.media[0].image" :alt="selectedProject.media[0].alt" />
       </div>
     </div>
     <div>
@@ -67,6 +67,11 @@ export default{
       allSelected: true,
       filtersSelected: ['Website','Radio','Art','Community','Print'],
       projects: []
+    }
+  },
+  head() {
+    return {
+      title: 'Selected Work'
     }
   },
   async fetch() {
