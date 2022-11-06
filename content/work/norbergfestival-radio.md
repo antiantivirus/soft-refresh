@@ -9,25 +9,25 @@ tags:
   - Radio
 media:
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667602801/Soft%20Refresh/norbergfestival%20radio/norberg_wednesday_aq-2447_ft9ihu.jpg
-    alt: Screenshot of 2Day Radio website. Red text on pink backgrround showing who is live on air, the schedule and also a chatroom.
+    alt: A wooden signs propped up against a tree reads Norbergfestival Radio 107.9 FM
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667602800/Soft%20Refresh/norbergfestival%20radio/norberg-000560520009_cusmls.jpg
-    alt: Screenshot of 2Day Radio website. Red text on pink backgrround showing who is live on air, the schedule and also a chatroom.
+    alt: A group of people sit around a table with mics inside a transarent bubble in amongst green trees
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667602798/Soft%20Refresh/norbergfestival%20radio/R1-08651-0001_imxtor.jpg
-    alt: Screenshot of 2Day Radio website. Red text on pink backgrround showing who is live on air, the schedule and also a chatroom.
+    alt: A person plays guitar inside a transparent bubble with sun light glistening down
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667602803/Soft%20Refresh/norbergfestival%20radio/norberg-000560520011_mqbpji.jpg
-    alt: Screenshot of 2Day Radio website. Red text on pink backgrround showing who is live on air, the schedule and also a chatroom.
+    alt: A person sits arm streched out in a black bathing suit in front of a transprent bubble with a person playing a guitar inside.
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667602803/Soft%20Refresh/norbergfestival%20radio/R1-08651-0002_c7omrn.jpg
-    alt: Screenshot of 2Day Radio website. Red text on pink backgrround showing who is live on air, the schedule and also a chatroom.
+    alt: Two people laying down inside a transprent bubble talk on handgeld mics, blurred by the plastic of the bubble
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667602802/Soft%20Refresh/norbergfestival%20radio/radio_abby_quick_norberg_saturday-3385_ymrifs.jpg
-    alt: Screenshot of 2Day Radio website. Red text on pink backgrround showing who is live on air, the schedule and also a chatroom.
+    alt: Two people smile and make the peace symbol sitting
     caption: 
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1667602800/Soft%20Refresh/norbergfestival%20radio/retreat_radio_himera_abby_quick_norberg_friday-3136_nkbdm4.jpg
-    alt: Screenshot of 2Day Radio website. Red text on pink backgrround showing who is live on air, the schedule and also a chatroom.
+    alt: A person DJs inside a transprent bubble blurred by the plastic of the bubble and surrounding green leaves 
     caption: 
 ---
 Norbergfestival is a 22-year running festival, held on the abandoned iron mine site of [Mimerlaven](https://www.youtube.com/watch?v=X4OZdIGofuQ) in Norberg, Sweden.
