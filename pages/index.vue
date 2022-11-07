@@ -7,7 +7,7 @@
         <h1 class="h1-index">Hi, I'm Jack and welcome to my website.</h1>
         <h2 class="h1-index mb-2">I'm a developer, artist and radio enthusiast, focussed on accessibility, sustainability and community engaged projects. Currently Based in Berlin</h2>
         <figure class="mb-6">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_800/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Me just before a swim in the North Sea</figcaption>
         </figure>
         <!-- <div class="absolute top-0 left-0 w-full h-full lil-intro"></div> -->
@@ -20,7 +20,7 @@
       <article>
         <nuxt-link to="/work/fruitful-fm" class="border-me homepage-item" style="background-color: #91CC8F">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_1000/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg" alt="A blurred plum is held infront of a greenhouse with vinyl reading Fruitful.FM visible"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_540,w_600/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg" alt="A blurred plum is held infront of a greenhouse with vinyl reading Fruitful.FM visible"/>
           <div class="p-4">
             <h4 class="m-0">A radio station housed inside a greenhouse. Flipping the traditional ‘dead’ and hidden space of a radio studio on its head.</h4>
           </div>
@@ -29,7 +29,7 @@
       <article>
         <nuxt-link to="/work/norbergfestival-radio" class="border-me homepage-item" style="background-color: #8BD3E6">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_1100,w_900/v1667053155/Soft%20Refresh/norbergfestival%20radio/R1-08651-0001_imxtor.jpg" alt="A person plays guitar inside a transparent bubble with sun light glistening down"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_825,w_600/v1667053155/Soft%20Refresh/norbergfestival%20radio/R1-08651-0001_imxtor.jpg" alt="A person plays guitar inside a transparent bubble with sun light glistening down"/>
           <div class="p-4">
             <h4 class="m-0">Co-ordinating the radio station at the 21st edition of Norbergfestival.</h4>
           </div>
@@ -38,7 +38,7 @@
       <article>
         <nuxt-link to="/work/guts" class="border-me homepage-item" style="background-color: #F6D4FE">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_800/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg" alt="TV with 3D wobbly text reading GUTS is attached to a steel truss"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_675,w_600/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg" alt="TV with 3D wobbly text reading GUTS is attached to a steel truss"/>
           <div class="p-4">
             <h4 class="m-0">Visuals and website for GUTS, a Glasgow based club night with a focus on transparency.</h4>
           </div>
@@ -46,7 +46,7 @@
       </article>
       <article>
         <nuxt-link to="/work/underground-radio-directory" class="border-me homepage-item" style="background-color: #E69F8B">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg" alt="Website homepage - Black background with images dotted around and Underground Radio Directory text in the middle"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg" alt="Website homepage - Black background with images dotted around and Underground Radio Directory text in the middle"/>
           <div class="p-4">
             <h4 class="m-0">Website showcasing the best in world wide wadio</h4>
           </div>
@@ -54,7 +54,7 @@
       </article>
       <article>
         <nuxt-link to="/work/cultivate-rave-revival" class="border-me homepage-item" style="background-color: #DB400F">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg" alt="LED Panel showing red graffiti is attached to dimly lit scaffolding in the background"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg" alt="LED Panel showing red graffiti is attached to dimly lit scaffolding in the background"/>
           <div class="p-4">
             <h4 class="m-0">Visuals exploring rave archives</h4>
           </div>
@@ -70,7 +70,7 @@
       </article> -->
       <article>
         <nuxt-link to="/work/aerial-community-radio" class="border-me homepage-item" style="background-color: #9e96c4">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg" alt="Aerial website home - skewed elements and text sit ontop of an image of the north sea"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg" alt="Aerial website home - skewed elements and text sit ontop of an image of the north sea"/>
           <div class="p-4">
             <h4 class="m-0">Real community radio hours</h4>
           </div>
@@ -78,7 +78,7 @@
       </article>
       <article>
         <nuxt-link to="/work/opening-the-daw" class="border-me homepage-item" style="background-color: #87837e">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg" alt="Several people sit on laptops on a table learning music production"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg" alt="Several people sit on laptops on a table learning music production"/>
           <div class="p-4">
             <h4 class="m-0">Music production workshops</h4>
           </div>
@@ -86,7 +86,7 @@
       </article>
       <article>
         <nuxt-link to="/work/soft-eis-presse" class="border-me homepage-item" style="background-color: #E1BAD1">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png" alt="SOFT EIS homepage - a magazine folds out to show text and images in front of a webcam from central berlin"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png" alt="SOFT EIS homepage - a magazine folds out to show text and images in front of a webcam from central berlin"/>
           <div class="p-4">
             <h4 class="m-0">Website for a Berlin based magazine</h4>
           </div>
@@ -102,7 +102,7 @@
       </article> -->
       <article>
         <nuxt-link to="/work/come-in-peace" class="border-me homepage-item" style="background-color: #54A589">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg" alt="CRT TV shows text Peace in a grafitti front in the dark"/>
+          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg" alt="CRT TV shows text Peace in a grafitti front in the dark"/>
           <div class="p-4">
             <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
           </div>
