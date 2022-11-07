@@ -4,8 +4,8 @@
       <input type="checkbox" checked/>
       <input type="checkbox"/>
     </div> -->
-    <img class="hidden lg:block " src="~assets/images/thanks.svg" alt=" "/>
-    <img class="lg:hidden max-w-md mx-auto block" src="~assets/images/thanks-mobile.svg" alt=" "/>
+    <img class="hidden lg:block " src="~assets/images/thanks.svg" alt=""/>
+    <img class="lg:hidden max-w-md mx-auto block" src="~assets/images/thanks-mobile.svg" alt=""/>
   </footer>
 </template>
 
