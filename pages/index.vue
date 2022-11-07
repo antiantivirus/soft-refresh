@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="relative h-full">
-      <img class="lg:hidden max-w-md mx-auto block mb-32" src="~assets/images/JMB-mobile.svg"/>
-      <img class="hidden lg:block xl:-mb-16 2xl:-mb-72 max-w-screen-xl mx-auto" src="~assets/images/JMB.svg"/>
+      <img class="lg:hidden max-w-md mx-auto block mb-32" src="~assets/images/JMB-mobile.svg" alt=" "/>
+      <img class="hidden lg:block xl:-mb-16 2xl:-mb-72 max-w-screen-xl mx-auto" src="~assets/images/JMB.svg" alt=" "/>
       <div class="mx-auto max-w-md -mt-12 lg:-mt-40  border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
         <h1 class="h1-index">Hi, I'm Jack and welcome to my website.</h1>
         <h2 class="h1-index mb-2">I'm a developer, artist and radio enthusiast, focussed on accessibility, sustainability and community engaged projects. Currently Based in Berlin</h2>
