@@ -145,13 +145,10 @@ export default ({
 
 <style scoped>
 /* .seriously-selected-grid {
-  grid-template-columns: repeat(9, minmax(1fr));
-  display: grid;
-  gap: 2rem;
-  grid-auto-rows: 1fr;
-  align-items: center;
-}
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+} */
 
+/* 
 article:nth-child(1) {
     grid-row: 1 / span 3;
     grid-column: 2 / span 2;

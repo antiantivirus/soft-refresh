@@ -1,7 +1,7 @@
 <template>
   <header class="lg:w-full" style="background-color: #FEFDEC;">
     <transition name="fade-up">\
-      <div id="menu" class="w-full fixed w-screen h-screen top-0 left-0 p-8 box-border lg:w-full 2xl:p-12 lg:h-auto z-10" v-show="mobileMenuOpen" style="background-color: #FEFDEC;">
+      <div id="menu" class="w-full fixed w-screen h-screen top-0 left-0 p-8 lg:px-6 box-border lg:w-full 2xl:p-12 lg:h-auto z-10" v-show="mobileMenuOpen" style="background-color: #FEFDEC;">
         <nav class="p-0" >
           <ul>
             <li><nuxt-link id="home-link" class="block" to="/" >Jack Murray-Brown</nuxt-link></li>
@@ -84,14 +84,14 @@ menu {
 
 @media (min-width: 1024px) { 
   #menu {
-    max-width: 25vw;
+    max-width: 220px;
     display: block !important;
   }
 }
 
 @media (min-width: 1536px) { 
   #menu {
-  max-width: 16.66vw;
+    max-width: 280px;
   }
 }
 

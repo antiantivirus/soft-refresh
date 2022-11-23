@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="grid lg:grid-cols-12 gap-4" >
-      <div class="lg:col-span-3 2xl:col-span-2 mb-12 lg:mb-0">
+    <div class="grid site-layout-grid gap-4" >
+      <div class="mb-12 lg:mb-0">
       <Header />
       </div>
-      <main class="2xl:px-12 lg:col-span-9 2xl:col-span-10" id="content">
+      <main class="" id="content">
         <!-- <nuxt-link v-if="!home" to="/">← Back home</nuxt-link> -->
         <div class="lg:py-8 2xl:py-12">
           <Nuxt />
@@ -26,6 +26,18 @@
   #content {
     /* margin-right: 150px; */
   }
+  .site-layout-grid {
+    grid-template-columns: 200px 1fr;
+  } 
 }
+
+@media (min-width: 1536px) { 
+  .site-layout-grid {
+    grid-template-columns: 280px 1fr;
+  }
+
+}
+
+
 
 </style>
