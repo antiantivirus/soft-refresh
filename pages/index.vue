@@ -47,7 +47,7 @@
       <article>
         <nuxt-link to="/work/guts" class="border-me homepage-item" style="background-color: #F6D4FE">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_675,w_600/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg" alt="TV with 3D wobbly text reading GUTS is attached to a steel truss"/>
+          <img width="380" height="428" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_675,w_600/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg" alt="TV with 3D wobbly text reading GUTS is attached to a steel truss"/>
           <div class="p-4">
             <h4 class="m-0">Visuals and website for GUTS, a Glasgow based club night with a focus on transparency.</h4>
           </div>
@@ -55,7 +55,7 @@
       </article>
       <article>
         <nuxt-link to="/work/underground-radio-directory" class="border-me homepage-item" style="background-color: #E69F8B">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg" alt="Website homepage - Black background with images dotted around and Underground Radio Directory text in the middle"/>
+          <img width="380" height="200" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg" alt="Website homepage - Black background with images dotted around and Underground Radio Directory text in the middle"/>
           <div class="p-4">
             <h4 class="m-0">Website showcasing the best in world wide wadio</h4>
           </div>
@@ -63,7 +63,7 @@
       </article>
       <article>
         <nuxt-link to="/work/cultivate-rave-revival" class="border-me homepage-item" style="background-color: #DB400F">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg" alt="LED Panel showing red graffiti is attached to dimly lit scaffolding in the background"/>
+          <img width="380" height="253" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg" alt="LED Panel showing red graffiti is attached to dimly lit scaffolding in the background"/>
           <div class="p-4">
             <h4 class="m-0">Visuals exploring rave archives</h4>
           </div>
@@ -79,7 +79,7 @@
       </article> -->
       <article>
         <nuxt-link to="/work/aerial-community-radio" class="border-me homepage-item" style="background-color: #9e96c4">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg" alt="Aerial website home - skewed elements and text sit ontop of an image of the north sea"/>
+          <img width="380" height="217" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg" alt="Aerial website home - skewed elements and text sit ontop of an image of the north sea"/>
           <div class="p-4">
             <h4 class="m-0">Real community radio hours</h4>
           </div>
@@ -87,7 +87,7 @@
       </article>
       <article>
         <nuxt-link to="/work/opening-the-daw" class="border-me homepage-item" style="background-color: #87837e">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg" alt="Several people sit on laptops on a table learning music production"/>
+          <img width="380" height="253" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634916794/Soft%20Refresh/opening%20the%20DAW/opening_the_daw-1284-pichi_wpvcxu.jpg" alt="Several people sit on laptops on a table learning music production"/>
           <div class="p-4">
             <h4 class="m-0">Music production workshops</h4>
           </div>
@@ -110,7 +110,7 @@
         </nuxt-link>
       </article> -->
       <article>
-        <nuxt-link to="/work/come-in-peace" class="border-me homepage-item" style="background-color: #54A589">
+        <nuxt-link width="380" height="253" to="/work/come-in-peace" class="border-me homepage-item" style="background-color: #54A589">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg" alt="CRT TV shows text Peace in a grafitti front in the dark"/>
           <div class="p-4">
             <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
