@@ -72,7 +72,7 @@ export default {
   ignore: [
     'pages/index-leave-for-now.vue',
     'pages/index-old.vue',
-    'pages/the-one.vue',
+    // 'pages/the-one.vue',
     'pages/cv.vue',
     'pages/captcha.vue'
   ]

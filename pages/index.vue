@@ -7,7 +7,7 @@
         <h1 class="h1-index">Hi, I'm Jack and welcome to my website.</h1>
         <h2 class="h1-index mb-2">I'm a developer, artist and radio enthusiast, focussed on accessibility, sustainability and community engaged projects. Currently Based in Berlin</h2>
         <figure class="mb-6">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_800/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
+          <img height="414" width="273" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_800/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg" alt="Jack Murray-Brown"/>
           <figcaption>Me just before a swim in the North Sea</figcaption>
         </figure>
         <!-- <div class="absolute top-0 left-0 w-full h-full lil-intro"></div> -->
@@ -18,9 +18,18 @@
     <h3 class="italic mb-4">Seriously selected work!</h3>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mb-24 lg:mb-0 md:gap-x-6 md:gap-y-12 seriously-selected-grid">
       <article>
+        <a href="https://ra.co/exchange/644" target="_blank" class="border-me homepage-item cursor-alias" style="background-color: #CFB687">
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <img height="500" width="500" src="https://imgproxy.ra.co/_/quality:66/w:1200/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3BvZGNhc3QvZXhjaGFuZ2UvZXg2NDQtY292ZXIuanBn" alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover"/>
+          <div class="p-4">
+            <h4 class="m-0">Delighted to be on RA Exchange 644 discussing folklore, radio and worldbuilding through the web and visuals. </h4>
+          </div>
+        </a>
+      </article>
+      <article>
         <nuxt-link to="/work/fruitful-fm" class="border-me homepage-item" style="background-color: #91CC8F">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_540,w_600/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg" alt="A blurred plum is held infront of a greenhouse with vinyl reading Fruitful.FM visible"/>
+          <img width="380" height="342" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_540,w_600/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg" alt="A blurred plum is held infront of a greenhouse with vinyl reading Fruitful.FM visible"/>
           <div class="p-4">
             <h4 class="m-0">A radio station housed inside a greenhouse. Flipping the traditional ‘dead’ and hidden space of a radio studio on its head.</h4>
           </div>
@@ -29,7 +38,7 @@
       <article>
         <nuxt-link to="/work/norbergfestival-radio" class="border-me homepage-item" style="background-color: #8BD3E6">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_825,w_600/v1667053155/Soft%20Refresh/norbergfestival%20radio/R1-08651-0001_imxtor.jpg" alt="A person plays guitar inside a transparent bubble with sun light glistening down"/>
+          <img width="380" height="448" src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_825,w_700/v1667053155/Soft%20Refresh/norbergfestival%20radio/R1-08651-0001_imxtor.jpg" alt="A person plays guitar inside a transparent bubble with sun light glistening down"/>
           <div class="p-4">
             <h4 class="m-0">Co-ordinating the radio station at the 21st edition of Norbergfestival.</h4>
           </div>
@@ -84,14 +93,14 @@
           </div>
         </nuxt-link>
       </article>
-      <article>
+      <!-- <article>
         <nuxt-link to="/work/soft-eis-presse" class="border-me homepage-item" style="background-color: #E1BAD1">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png" alt="SOFT EIS homepage - a magazine folds out to show text and images in front of a webcam from central berlin"/>
           <div class="p-4">
             <h4 class="m-0">Website for a Berlin based magazine</h4>
           </div>
         </nuxt-link>
-      </article>
+      </article> -->
       <!-- <article>
         <nuxt-link to="/work/swampnet" class="border-me homepage-item" style="background-color: #656F30">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1641225539/Soft%20Refresh/SwampNET/SWAMPISLAND-41-pichi_xinhmp.jpg"/>

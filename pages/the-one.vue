@@ -63,7 +63,7 @@ export default ({
     }
   },
   async asyncData({ $content }) {
-    const projects = await $content("projects").fetch();
+    const projects = await $content("work").fetch();
     return {
       projects,
     };
