@@ -176,6 +176,23 @@
       </article>
       <article>
         <nuxt-link
+          width="380"
+          height="253"
+          to="/work/come-in-peace"
+          class="border-me homepage-item"
+          style="background-color: #54A589"
+        >
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"
+            alt="CRT TV shows text Peace in a grafitti front in the dark"
+          />
+          <div class="p-4">
+            <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <!-- <article>
+        <nuxt-link
           to="/work/cultivate-rave-revival"
           class="border-me homepage-item"
           style="background-color: #DB400F"
@@ -190,7 +207,7 @@
             <h4 class="m-0">Visuals exploring rave archives</h4>
           </div>
         </nuxt-link>
-      </article>
+      </article> -->
       <!-- <article>
         <nuxt-link to="/work/paradigms" class="border-me homepage-item" style="background-color: #8A9EBC">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641224434/Soft%20Refresh/Paradigms/2H6A7052-pichi_klbqme.jpg"/>
@@ -249,23 +266,6 @@
           </div>
         </nuxt-link>
       </article> -->
-      <article>
-        <nuxt-link
-          width="380"
-          height="253"
-          to="/work/come-in-peace"
-          class="border-me homepage-item"
-          style="background-color: #54A589"
-        >
-          <img
-            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"
-            alt="CRT TV shows text Peace in a grafitti front in the dark"
-          />
-          <div class="p-4">
-            <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
-          </div>
-        </nuxt-link>
-      </article>
       <!-- <article>
         <nuxt-link to="work/A-C-01001001-D" class="border-me homepage-item" style="background-color: #E3D9CE">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1644370635/Soft%20Refresh/acid/ACID-HOUSE-SMILEY_-_May_8th_2020_at_11.13.28_PM_tvmc1x.jpg"/>
