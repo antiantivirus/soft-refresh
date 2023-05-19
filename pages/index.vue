@@ -163,12 +163,15 @@
           class="border-me homepage-item"
           style="background-color: #E69F8B"
         >
+          <div class="h-24 bg-black" />
           <img
             width="380"
             height="200"
             src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg"
             alt="Website homepage - Black background with images dotted around and Underground Radio Directory text in the middle"
           />
+          <div class="h-24 bg-black" />
+
           <div class="p-4">
             <h4 class="m-0">Website showcasing the best in world wide wadio</h4>
           </div>
