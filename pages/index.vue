@@ -20,18 +20,39 @@
         style="transform: rotate(3deg);"
       >
         <h1 class="h1-index">Hi, I'm Jack and welcome to my website.</h1>
-        <h2 class="h1-index mb-2">
+        <h2 class="h1-index mb-4">
           I'm a developer, artist and radio enthusiast, focussed on
           accessibility, sustainability and community engaged projects.
-          Currently Based in Berlin
         </h2>
-        <figure class="mb-6">
+        <figure class="mb-0 relative">
           <img
             height="414"
             width="273"
             src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_800/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg"
             alt="Jack Murray-Brown"
           />
+          <svg
+            class="absolute top-2 right-2 fill-[#FEFDEC] p-2 -rotate-45"
+            viewBox="0 0 100 100"
+            width="100"
+            height="100"
+          >
+            <defs>
+              <path
+                id="circle"
+                d="
+        M 50, 50
+        m -37, 0
+        a 37,37 0 1,1 74,0
+        a 37,37 0 1,1 -74,0"
+              />
+            </defs>
+            <text font-size="20">
+              <textPath xlink:href="#circle">
+                Currently Based in Berlin...
+              </textPath>
+            </text>
+          </svg>
           <figcaption>Me just before a swim in the North Sea</figcaption>
         </figure>
         <!-- <div class="absolute top-0 left-0 w-full h-full lil-intro"></div> -->
@@ -68,6 +89,36 @@
             <h4 class="m-0">
               Web development, design and software systems consultancy for
               Refuge Worldwide, a community radio station based in Berlin.
+            </h4>
+          </div>
+        </a>
+      </article>
+      <article>
+        <a
+          href="https://refugeworldwide.com/"
+          target="_blank"
+          class="border-me homepage-item cursor-alias"
+          style="background-color: #99B6BA"
+        >
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <div class="relative ">
+            <span
+              class="absolute top-4 left-4 border-black border p-2"
+              style="background-color: #99B6BA"
+              >Current</span
+            >
+            <img
+              height="500"
+              width="500"
+              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1684425448/Screenshot_2023-05-18_at_17.57.07_qdk8a7.png"
+              alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover"
+            />
+          </div>
+          <div class="p-4">
+            <h4 class="m-0">
+              Web development for Metagov.org, an interdisciplinary research
+              collective and Policykit, an engine for building governance in
+              online communities.
             </h4>
           </div>
         </a>
