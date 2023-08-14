@@ -111,7 +111,7 @@
             <img
               height="500"
               width="500"
-              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1689335320/metagov-logo_hakdjk.png"
+              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1692015449/metagov_logo_jrm89m.png"
               alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover"
             />
           </div>
