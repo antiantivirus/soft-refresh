@@ -288,7 +288,7 @@
           </div>
         </nuxt-link>
       </article>
-      <article>
+      <!-- <article>
         <nuxt-link
           to="/work/opening-the-daw"
           class="border-me homepage-item"
@@ -304,7 +304,7 @@
             <h4 class="m-0">Music production workshops</h4>
           </div>
         </nuxt-link>
-      </article>
+      </article> -->
       <!-- <article>
         <nuxt-link to="/work/soft-eis-presse" class="border-me homepage-item" style="background-color: #E1BAD1">
           <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1643577887/Soft%20Refresh/soft%20eis/Screenshot_2022-01-30_at_21.16.44-min_bpmvlc.png" alt="SOFT EIS homepage - a magazine folds out to show text and images in front of a webcam from central berlin"/>
