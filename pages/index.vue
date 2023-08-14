@@ -23,6 +23,7 @@
         <h2 class="h1-index mb-4">
           I'm a developer, artist and radio enthusiast, focussed on
           accessibility, sustainability and community engaged projects.
+          Currently based in Berlin.
         </h2>
         <figure class="mb-0 relative">
           <img
@@ -47,11 +48,11 @@
         a 37,37 0 1,1 -74,0"
               />
             </defs>
-            <text font-size="20">
+            <!-- <text font-size="20">
               <textPath xlink:href="#circle">
                 Currently Based in Berlin...
               </textPath>
-            </text>
+            </text> -->
           </svg>
           <figcaption>Me just before a swim in the North Sea</figcaption>
         </figure>
@@ -110,7 +111,7 @@
             <img
               height="500"
               width="500"
-              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1684425448/Screenshot_2023-05-18_at_17.57.07_qdk8a7.png"
+              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1689335320/metagov-logo_hakdjk.png"
               alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover"
             />
           </div>
