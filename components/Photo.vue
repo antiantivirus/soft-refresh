@@ -16,60 +16,78 @@
         />
       </Photoswipe>
     </client-only>
-    <figcaption v-if="image.caption">{{image.caption}}</figcaption>
+    <!-- <figcaption v-if="image.caption">{{image.caption}}</figcaption> -->
   </figure>
 </template>
 
 <script>
-
 export default {
   props: {
-    image: Object,
+    image: Object
   },
   computed: {
     srcCloudinary() {
       if (this.image.image) {
-        return this.image.image.replace("https://res.cloudinary.com/dvckadoiv/image/upload/", "");
+        return this.image.image.replace(
+          "https://res.cloudinary.com/dvckadoiv/image/upload/",
+          ""
+        );
       } else {
-        return null
+        return null;
       }
       // return 'hello'
     },
     srcCloudinaryTiny() {
       if (this.srcCloudinary) {
-        return 'https://res.cloudinary.com/dvckadoiv/image/upload/' + 'w_20/' + this.srcCloudinary
+        return (
+          "https://res.cloudinary.com/dvckadoiv/image/upload/" +
+          "w_20/" +
+          this.srcCloudinary
+        );
       } else {
-        return null
+        return null;
       }
     },
     srcAdjustAspect() {
       if (this.srcCloudinary) {
-        return 'https://res.cloudinary.com/dvckadoiv/image/upload/' + 'c_fill,w_1600/' + this.srcCloudinary
+        return (
+          "https://res.cloudinary.com/dvckadoiv/image/upload/" +
+          "c_fill,w_1600/" +
+          this.srcCloudinary
+        );
       } else {
-        return null
+        return null;
       }
     },
-    responsiveSrcSet(){
+    responsiveSrcSet() {
       if (this.srcCloudinary) {
-        var sizes = ''
+        var sizes = "";
         //small srcset
-        sizes +=  'https://res.cloudinary.com/dvckadoiv/image/upload/' + 'c_fill,w_640/' + this.srcCloudinary + ' 640px, '
+        sizes +=
+          "https://res.cloudinary.com/dvckadoiv/image/upload/" +
+          "c_fill,w_640/" +
+          this.srcCloudinary +
+          " 640px, ";
         //medium srcset
-        sizes +=  'https://res.cloudinary.com/dvckadoiv/image/upload/' + 'c_fill,w_1536/' + this.srcCloudinary + ' 1536px, '
+        sizes +=
+          "https://res.cloudinary.com/dvckadoiv/image/upload/" +
+          "c_fill,w_1536/" +
+          this.srcCloudinary +
+          " 1536px, ";
         //large srcset
-        sizes +=  'https://res.cloudinary.com/dvckadoiv/image/upload/' + 'c_fill,w_2000/' + this.srcCloudinary + ' 1280px, '
-        return sizes
+        sizes +=
+          "https://res.cloudinary.com/dvckadoiv/image/upload/" +
+          "c_fill,w_2000/" +
+          this.srcCloudinary +
+          " 1280px, ";
+        return sizes;
       }
     }
   }
-}
-
-
+};
 </script>
 
-
 <style>
-
 .pswipe-gallery {
   height: 100%;
 }
@@ -88,5 +106,4 @@ export default {
 .v-lazy-image-loaded {
   filter: blur(0);
 }
-
 </style>

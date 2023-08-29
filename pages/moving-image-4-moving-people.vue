@@ -1,64 +1,117 @@
 <template>
   <div>
     <div class="relative h-full">
-      <div class="mx-auto max-w-md -mt-12 border-me p-4 mb-16 relative" style="transform: rotate(-2deg);">
-        <h1>Hi, I'm Jack and I make <i>moving image for moving people.</i> Visuals for club environments.</h1>
-        <h2>I've worked across projectors, CRT TVs, flat screen and LED panels to create immersive experiences for the fluid club space.</h2>
+      <div class="mx-auto max-w-2xl lg:mt-12 p-4 mb-16 relative">
+        <h1 class="mb-4">
+          Hi, I'm Jack and I make
+          <i class="bg-green italic">moving image for moving people.</i>
+          Visuals for club environments.
+        </h1>
+        <h2 class="mb-4">
+          I've worked across projectors, CRT TVs, flat screen and LED panels to
+          create immersive experiences for the fluid club space.
+        </h2>
         <figure class="mb-6">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1658181075/Soft%20Refresh/GUTS/GUTS-1875_m0fwok.jpg" alt="Jack Murray-Brown"/>
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1658181075/Soft%20Refresh/GUTS/GUTS-1875_m0fwok.jpg"
+            alt="Jack Murray-Brown"
+          />
           <figcaption>Visuals for GUTS party in Glasgow</figcaption>
         </figure>
         <!-- <div class="absolute top-0 left-0 w-full h-full lil-intro"></div> -->
         <!-- <div class="temp-gauge border-me"></div> -->
-      </div> 
+      </div>
       <!-- <img class="absolute right-0 bottom-0" src="~/assets/images/web-in-park.svg" style="max-width: 250px; bottom: -100px;"/> -->
     </div>
-    <h3 class="italic">A selection of visual specific work</h3>
-    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid">
+    <h3 class="italic mb-4">A selection of visual specific work</h3>
+    <div
+      class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid"
+    >
       <article>
-        <nuxt-link to="/work/guts" class="border-me homepage-item" style="background-color: #F6D4FE">
+        <nuxt-link
+          to="/work/guts"
+          class="border-me homepage-item"
+          style="background-color: #F6D4FE"
+        >
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_800/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg"/>
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_900/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg"
+          />
           <div class="p-4">
-            <h4 class="m-0">Visuals and website for GUTS, a Glasgow based club night with a focus on transparency.</h4>
+            <h4 class="m-0">
+              Visuals and website for GUTS, a Glasgow based club night with a
+              focus on transparency.
+            </h4>
           </div>
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link to="/work/cultivate-rave-revival" class="border-me homepage-item" style="background-color: #DB400F">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg"/>
+        <nuxt-link
+          to="/work/cultivate-rave-revival"
+          class="border-me homepage-item"
+          style="background-color: #DB400F"
+        >
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_900/v1634921332/Soft%20Refresh/Cultivate%20Rave%20Revival/2H6A6577-pichi_ov07e8.jpg"
+          />
           <div class="p-4">
             <h4 class="m-0">Visuals exploring rave archives</h4>
           </div>
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link to="/work/come-in-peace" class="border-me homepage-item" style="background-color: #54A589">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"/>
+        <nuxt-link
+          to="/work/come-in-peace"
+          class="border-me homepage-item"
+          style="background-color: #54A589"
+        >
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_900/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"
+          />
           <div class="p-4">
             <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
           </div>
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link to="/work/hyperdome" class="border-me homepage-item" style="background-color: #ffdfbf">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1659100314/Soft%20Refresh/hyperdome/2H6A3882_buo7lz.jpg"/>
+        <nuxt-link
+          to="/work/hyperdome"
+          class="border-me homepage-item"
+          style="background-color: #ffdfbf"
+        >
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_900/v1659100314/Soft%20Refresh/hyperdome/2H6A3882_buo7lz.jpg"
+          />
           <div class="p-4">
-            <h4 class="m-0">Your a long way from home...welcome to the Hyperdome</h4>
+            <h4 class="m-0">
+              Your a long way from home...welcome to the Hyperdome
+            </h4>
           </div>
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link to="/work/there-is-life-outside-these-walls" class="border-me homepage-item" style="background-color: #7588D4">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1659100080/Soft%20Refresh/there%20is%20life%20outside%20these%20walls/2H6A5528_wdhnjy.jpg"/>
+        <nuxt-link
+          to="/work/there-is-life-outside-these-walls"
+          class="border-me homepage-item"
+          style="background-color: #7588D4"
+        >
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_900/v1659100080/Soft%20Refresh/there%20is%20life%20outside%20these%20walls/2H6A5528_wdhnjy.jpg"
+          />
           <div class="p-4">
             <h4 class="m-0">Two neural networks dreaming</h4>
           </div>
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link to="/work/ac01001001d" class="border-me homepage-item" style="background-color: #E3D9CE">
-          <img src="https://res.cloudinary.com/dvckadoiv/image/upload/v1644370635/Soft%20Refresh/acid/ACID-HOUSE-SMILEY_-_May_8th_2020_at_11.13.28_PM_tvmc1x.jpg"/>
+        <nuxt-link
+          to="/work/ac01001001d"
+          class="border-me homepage-item"
+          style="background-color: #E3D9CE"
+        >
+          <img
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_900,w_900/v1644370635/Soft%20Refresh/acid/ACID-HOUSE-SMILEY_-_May_8th_2020_at_11.13.28_PM_tvmc1x.jpg"
+          />
           <div class="p-4">
             <h4 class="m-0">Visuals for Optimo. A C 01001001 D!</h4>
           </div>
@@ -69,15 +122,27 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapMutations } from "vuex";
 
-export default ({
-  data() {
+export default {
+  head() {
     return {
-      j: 'J',
-      m: 'M',
-      b: 'B'
-    }
+      title: "Moving image for moving people",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Hi, I'm Jack and I make moving image for moving people. Visuals for club environments. I've worked across projectors, CRT TVs, flat screen and LED panels to create immersive experiences for the fluid club space."
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content:
+            "https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_1600/v1658181075/Soft%20Refresh/GUTS/GUTS-1875_m0fwok.jpg"
+        }
+      ]
+    };
   },
   async asyncData({ $content }) {
     // const projects = await $content("projects").fetch();
@@ -88,17 +153,17 @@ export default ({
     // };
   },
   methods: {
-    hoverUpdate(item, value){
-      if (item == 'j') {
-        this.$store.commit('updateJ', value)
-      } else if (item == 'm'){
-        this.$store.commit('updateM', value)
+    hoverUpdate(item, value) {
+      if (item == "j") {
+        this.$store.commit("updateJ", value);
+      } else if (item == "m") {
+        this.$store.commit("updateM", value);
       } else {
-        this.$store.commit('updateB', value)
+        this.$store.commit("updateB", value);
       }
-    },
+    }
   }
-})
+};
 </script>
 
 <style scoped>
@@ -176,7 +241,17 @@ article:nth-child(9) {
 
 .lil-intro {
   transform: rotate(-3deg);
-  background: conic-gradient(#CAB54E, #E69F8B, #DB400F, #8A9EBC, #87837e, #E1BAD1, #656F30, #54A589,#CAB54E);
+  background: conic-gradient(
+    #cab54e,
+    #e69f8b,
+    #db400f,
+    #8a9ebc,
+    #87837e,
+    #e1bad1,
+    #656f30,
+    #54a589,
+    #cab54e
+  );
   filter: blur(100px);
   z-index: -1;
 }
@@ -188,7 +263,16 @@ article:nth-child(9) {
   top: 0px;
   right: -10px;
   border: ridge 5px;
-  background: linear-gradient(#CAB54E, #E69F8B, #DB400F, #8A9EBC, #87837e, #E1BAD1, #656F30, #54A589,#CAB54E);
+  background: linear-gradient(
+    #cab54e,
+    #e69f8b,
+    #db400f,
+    #8a9ebc,
+    #87837e,
+    #e1bad1,
+    #656f30,
+    #54a589,
+    #cab54e
+  );
 }
-
 </style>
