@@ -1,22 +1,26 @@
 <template>
   <div>
     <transition name="fade-up">
-      <div :key="show" class="fixed left-0 w-full" style="bottom: -4px;" v-html="show">
-      </div>
+      <div
+        :key="show"
+        class="fixed left-0 w-full"
+        style="bottom: -4px;"
+        v-html="show"
+      ></div>
     </transition>
   </div>
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapMutations } from "vuex";
 
-export default ({
+export default {
   computed: {
     show() {
-      return this.$store.state.radioShow
-    },
+      return this.$store.state.radioShow;
+    }
   }
-})
+};
 </script>
 
 <style scoped>

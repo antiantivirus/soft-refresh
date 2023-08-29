@@ -1,10 +1,12 @@
-html, body {
+html,
+body {
   /* background-color: #dde0d9; */
-  background-color: #FEFDEC;
+  /* background-color: #FEFDEC; */
   /* overflow: hidden; */
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: black;
   background: #00ff46;
 }
@@ -35,7 +37,6 @@ img {
   grid-column: 1;
 }
 
-
 /* borders */
 
 .border-me {
@@ -46,19 +47,19 @@ img {
 /* details */
 
 details {
-	padding-top: 0px;
+  padding-top: 0px;
 }
 
 .details-contents {
-	margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 details > summary {
   list-style-type: none;
-	cursor: pointer;
-	position: relative;
+  cursor: pointer;
+  position: relative;
 
-	/* padding-left: 15px; */
+  /* padding-left: 15px; */
 }
 
 details[open] > summary {
@@ -66,14 +67,13 @@ details[open] > summary {
   margin-bottom: 1rem;
 }
 
-
 details > summary::after {
-	content: '+';
-	width: 15px;
-	display: inline-block;
-	position: absolute;
-	bottom: 1px;
-	right: 0px;
+  content: "+";
+  width: 15px;
+  display: inline-block;
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
 }
 
 details > summary:hover {
@@ -81,7 +81,7 @@ details > summary:hover {
 }
 
 details[open] > summary::after {
-	content: '-';
+  content: "-";
 }
 
 /* grid */
@@ -93,7 +93,7 @@ details[open] > summary::after {
 .initial-grid {
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 1rem;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .contents-grid {
@@ -125,7 +125,6 @@ figure {
   transition: outline 0.2s;
 }
 
-
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
   .container {
@@ -148,7 +147,7 @@ figure {
 }
 
 /* 'xl': '1280px', */
-@media (min-width: 1280px) { 
+@media (min-width: 1280px) {
   .the-grid {
     grid-column-gap: 4rem;
   }
@@ -160,7 +159,7 @@ figure {
 }
 
 /* '2xl': '1536px', */
-@media (min-width: 1536px) { 
+@media (min-width: 1536px) {
   .the-grid {
     grid-column-gap: 6%;
   }
