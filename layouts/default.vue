@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div class="grid site-layout-grid gap-4" >
-      <div class="mb-12 lg:mb-0">
+    <div class="grid site-layout-grid gap-4">
       <Header />
-      </div>
+
       <main class="" id="content">
         <!-- <nuxt-link v-if="!home" to="/">← Back home</nuxt-link> -->
         <div class="lg:py-8 2xl:py-12">
@@ -16,11 +15,7 @@
   </div>
 </template>
 
-
-
 <style scoped>
-
-
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
   #content {
@@ -28,16 +23,12 @@
   }
   .site-layout-grid {
     grid-template-columns: 200px 1fr;
-  } 
+  }
 }
 
-@media (min-width: 1536px) { 
+@media (min-width: 1536px) {
   .site-layout-grid {
     grid-template-columns: 280px 1fr;
   }
-
 }
-
-
-
 </style>
