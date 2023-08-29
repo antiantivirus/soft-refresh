@@ -1,52 +1,66 @@
 @font-face {
-    font-family: "Tex Gyre";
-    src: local("Oxygen"),
-     url(~assets/fonts/texgyreheroscn-regular.woff) format("woff");
+  font-family: "Tex Gyre";
+  src: local("Oxygen"),
+    url(~assets/fonts/texgyreheroscn-regular.woff) format("woff");
 }
 
 html {
-    /* font-family: 'Tex Gyre', sans-serif; */
-    font-family: serif;
+  /* font-family: 'Tex Gyre', sans-serif; */
+  font-family: serif;
 }
 
-h1, h2, h3 {
-    margin-top: 0px;
+h1,
+h2,
+h3 {
+  margin-top: 0px;
 }
 
-h1, .h1 {
-    /* font-size: 3rem; */
-    font-size: 2rem;
-    font-weight: 300;
+h1,
+.h1 {
+  /* font-size: 3rem; */
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .h1-index {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-h2 {
-    font-size: 1.3rem;
+h2,
+.h2 {
+  font-size: 1.3rem;
 }
 
-h3, a, button {
-    font-size: 1.2rem;
-    font-weight: 400;
+h3,
+a,
+button {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
-p, details summary, h4, h5, figcaption, .figcaption, li, span, ul {
-    font-size: 1.2rem;
-    font-weight: 300;
+p,
+details summary,
+h4,
+h5,
+li,
+span,
+ul {
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 p:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-figcaption, .figcaption {
-    font-style: italic;
+figcaption,
+.figcaption {
+  font-style: italic;
+  font-size: 1rem;
 }
 
 /* h1, .h1, p.large, .font-large {
@@ -55,35 +69,35 @@ figcaption, .figcaption {
 } */
 
 h1 {
-    
 }
 
 a {
-    color: black;
-    text-decoration: underline;
-    /* font-size: 2rem; */
-    font-weight: 300;
+  color: black;
+  text-decoration: underline;
+  /* font-size: 2rem; */
+  font-weight: 300;
 }
 
-a:hover, a.nuxt-link-active {
-    background-color: #00ff46;
+a:hover,
+a.nuxt-link-active {
+  background-color: #00ff46;
 }
 
 .initial {
-    font-size: 8rem;
-    text-align: center;
-    text-decoration: none !important;
+  font-size: 8rem;
+  text-align: center;
+  text-decoration: none !important;
 }
-  
+
 .mt-72 {
-    margin-top: 18rem;
+  margin-top: 18rem;
 }
 
 /* button */
 
 button {
-    background: #00ff46;
-    color: black;
-    border: 0px;
-    padding: 20px;
+  background: #00ff46;
+  color: black;
+  border: 0px;
+  padding: 20px;
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="relative h-full">
-      <div class="mx-auto max-w-2xl lg:mt-12 p-4 mb-16 relative">
+      <div class="mx-auto max-w-2xl lg:mt-12 lg:p-4 mb-16 relative">
         <h1 class="mb-4">
           Hi, I'm Jack and I make
           <i style="background-color: #00ff46;"
@@ -25,7 +25,9 @@
       </div>
       <!-- <img class="absolute right-0 bottom-0" src="~/assets/images/web-in-park.svg" style="max-width: 250px; bottom: -100px;"/> -->
     </div>
-    <h3 class="italic mb-4">A selection of visual specific work</h3>
+    <h3 class="mb-6 h2 w-contents inline-block">
+      A selection of visual specific work
+    </h3>
     <div
       class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-24 lg:mb-0 md:gap-6 seriously-selected-grid"
     >
