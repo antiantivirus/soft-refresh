@@ -5,9 +5,8 @@
         <h1 class="mb-4">
           Hi, I'm Jack and I make
           <i style="background-color: #00ff46;"
-            >moving image for moving people.</i
-          >
-          Visuals for club environments.
+            >moving image for moving people</i
+          >. Visuals for club environments.
         </h1>
         <h2 class="mb-4">
           I've worked across projectors, CRT TVs, flat screen and LED panels to
