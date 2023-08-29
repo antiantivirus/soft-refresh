@@ -4,7 +4,9 @@
       <div class="mx-auto max-w-2xl lg:mt-12 p-4 mb-16 relative">
         <h1 class="mb-4">
           Hi, I'm Jack and I make
-          <i class="bg-green italic">moving image for moving people.</i>
+          <i style="background-color: #00ff46;"
+            >moving image for moving people.</i
+          >
           Visuals for club environments.
         </h1>
         <h2 class="mb-4">

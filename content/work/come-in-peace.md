@@ -2,7 +2,7 @@
 title: Come In Peace
 date: 2021-08-27T13:00:41.019Z
 project_date: 2021-08-27T13:00:41.027Z
-display_project_date: '2021'
+display_project_date: "2021"
 description: Visuals for Interplanatary Criminal. Easy now...
 tags:
   - Visuals
@@ -11,8 +11,8 @@ media:
     alt: A night club with crowd in foreground having a great time with their arms raised, 4 CRT TVs show visuals spread across the stage and Interplanatary Criminal DJs in the centre of the stage with a beam of light on him
     caption: Visuals across 4 CRT TVs
   - video: https://res.cloudinary.com/dvckadoiv/video/upload/v1641210759/Soft%20Refresh/Come%20In%20Peace/Live_coding_-_come_in_peace_xjmols.mov
-    alt: 
-    caption: Come In Peace terminal  
+    alt:
+    caption: Come In Peace terminal
   - image: https://res.cloudinary.com/dvckadoiv/image/upload/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6282-pichi_pqiji4.jpg
     alt: A CRT TV show blurred text from computer terminal and green dots causes by interference
     caption: Interference on CRT TV
@@ -35,11 +35,12 @@ media:
     alt: DJ Equiptment in foreground with CRT TV showing 3D metallic logo in the background. A pink hue fills the image from the top right
     caption: Visuals on CRT TV set alongside DJ
   - video: https://res.cloudinary.com/dvckadoiv/video/upload/v1641211081/Soft%20Refresh/Come%20In%20Peace/come_in_peace_gnl1h3.mp4
-    alt: 
+    alt:
     caption: Come In Peace
 ---
+
 Visuals for Manchester based artist and DJ [Interplanatary Criminal](https://soundcloud.com/interplanetary-criminal) as part of [Meld](https://meldrecords.bandcamp.com/) and [Bohemia's](https://www.facebook.com/BohemiaAberdeen/) night at The Tunnels, Aberdeen..
 
 Easy now...Come In Peace
 
-Using a combination of live coding and live visuals. Installed across 4 CRT TVs. The visuals explored the club space as an entry point to another world, a space for imagination, freedom and peace.
+Using a combination of live coding and live visuals, installed across 4 CRT TVs. The visuals explored the club space as an entry point to another world, a space for imagination, freedom and peace.
