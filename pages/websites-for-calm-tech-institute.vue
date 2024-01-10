@@ -17,7 +17,7 @@
 
           <div class="p-4">
             <h4 class="m-0">
-              Refuge Worldwide - a community radio station based in Berlin.
+              Refuge Worldwide - community radio station based in Berlin.
             </h4>
           </div>
         </a>
@@ -31,7 +31,7 @@
         >
           <div class="p-4">
             <h4 class="m-0">
-              SOFT EIS - an independent print magazine published in Berlin.
+              SOFT EIS - independent print magazine published in Berlin.
             </h4>
           </div>
         </a>
@@ -47,7 +47,7 @@
 
           <div class="p-4">
             <h4 class="m-0">
-              GUTS - a Glasgow based club night with a focus on transparency.
+              GUTS - Glasgow based club night with a focus on transparency.
             </h4>
           </div>
         </a>
@@ -62,7 +62,7 @@
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
           <div class="p-4">
             <h4 class="m-0">
-              Fruitful.FM - A radio station housed inside a greenhouse. Flipping
+              Fruitful.FM - radio station housed inside a greenhouse. Flipping
               the traditional ‘dead’ and hidden space of a radio studio on its
               head.
             </h4>
