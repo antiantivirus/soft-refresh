@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-2xl mb-16">
-      Hi Amber, here is a list of websites I have worked on recently.
+      Hi Case, here is a list of websites I have worked on recently.
     </h1>
     <ul
       class="grid md:grid-cols gap-10 mb-24 seriously-selected-grid relative xl:h-[600px]"
