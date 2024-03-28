@@ -211,16 +211,16 @@
       </article>
       <article>
         <nuxt-link
-          to="/work/underground-radio-directory"
+          to="/work/freeform-radio-directory"
           class="border-me homepage-item"
           style="background-color: #E69F8B"
         >
           <div class="h-24 bg-black" />
           <img
             width="380"
-            height="200"
-            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634897778/Soft%20Refresh/URD/URD-homepage-pichi_p7qgqn.jpg"
-            alt="Website homepage - Black background with images dotted around and Underground Radio Directory text in the middle"
+            height="214"
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/v1711644555/freeform-1-pichi-1_aepygs.jpg"
+            alt="Website homepage for freeform radio director in mocked up browser with red shadow on pixelated image"
           />
           <div class="h-24 bg-black" />
 
