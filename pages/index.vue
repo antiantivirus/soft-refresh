@@ -1,24 +1,11 @@
 <template>
   <div>
     <div class="relative h-full">
-      <img
-        width="444"
-        height="314"
-        class="lg:hidden max-w-md mx-auto block mb-32"
-        src="~assets/images/JMB-mobile.svg"
-        alt=""
-      />
-      <img
-        width="1192"
-        height="460"
-        class="hidden lg:block xl:-mb-16 2xl:-mb-72 max-w-screen-xl mx-auto"
-        src="~assets/images/JMB.svg"
-        alt=""
-      />
-      <div
-        class="mx-auto max-w-md -mt-12 lg:-mt-40  border-me p-4 mb-16 relative"
-        style="transform: rotate(3deg);"
-      >
+      <img width="444" height="314" class="lg:hidden max-w-md mx-auto block mb-32" src="~assets/images/JMB-mobile.svg"
+        alt="" />
+      <img width="1192" height="460" class="hidden lg:block xl:-mb-16 2xl:-mb-72 max-w-screen-xl mx-auto"
+        src="~assets/images/JMB.svg" alt="" />
+      <div class="mx-auto max-w-md -mt-12 lg:-mt-40  border-me p-4 mb-16 relative" style="transform: rotate(3deg);">
         <h1 class="h1-index">Hi, I'm Jack and welcome to my website.</h1>
         <h2 class="h1-index mb-4">
           I'm a developer, artist and radio enthusiast, focussed on
@@ -26,27 +13,17 @@
           Currently based in Berlin.
         </h2>
         <figure class="mb-0 relative">
-          <img
-            height="414"
-            width="273"
+          <img height="414" width="273"
             src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_800/v1634915332/Soft%20Refresh/antivirus-pichi_kk6r4v.jpg"
-            alt="Jack Murray-Brown"
-          />
-          <svg
-            class="absolute top-2 right-2 fill-[#FEFDEC] p-2 -rotate-45"
-            viewBox="0 0 100 100"
-            width="100"
-            height="100"
-          >
+            alt="Jack Murray-Brown" />
+          <svg class="absolute top-2 right-2 fill-[#FEFDEC] p-2 -rotate-45" viewBox="0 0 100 100" width="100"
+            height="100">
             <defs>
-              <path
-                id="circle"
-                d="
+              <path id="circle" d="
         M 50, 50
         m -37, 0
         a 37,37 0 1,1 74,0
-        a 37,37 0 1,1 -74,0"
-              />
+        a 37,37 0 1,1 -74,0" />
             </defs>
             <!-- <text font-size="20">
               <textPath xlink:href="#circle">
@@ -62,29 +39,17 @@
       <!-- <img class="absolute right-0 bottom-0" src="~/assets/images/web-in-park.svg" style="max-width: 250px; bottom: -100px;"/> -->
     </div>
     <h3 class="italic mb-4">Seriously selected work!</h3>
-    <div
-      class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mb-24 lg:mb-0 md:gap-x-6 md:gap-y-12 seriously-selected-grid"
-    >
+    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mb-24 lg:mb-0 md:gap-x-6 md:gap-y-12 seriously-selected-grid">
+
       <article>
-        <a
-          href="https://refugeworldwide.com/"
-          target="_blank"
-          class="border-me homepage-item cursor-alias"
-          style="background-color: #fd8d7e"
-        >
+        <a href="https://refugeworldwide.com/" target="_blank" class="border-me homepage-item cursor-alias"
+          style="background-color: #fd8d7e">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
           <div class="relative ">
-            <span
-              class="absolute top-4 left-4 border-black border p-2"
-              style="background-color: #fd8d7e"
-              >Current</span
-            >
-            <img
-              height="500"
-              width="500"
+            <span class="absolute top-4 left-4 border-black border p-2" style="background-color: #fd8d7e">Current</span>
+            <img height="500" width="500"
               src="https://res.cloudinary.com/dvckadoiv/image/upload/v1684425448/Screenshot_2023-05-18_at_17.57.07_qdk8a7.png"
-              alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover"
-            />
+              alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover" />
           </div>
           <div class="p-4">
             <h4 class="m-0">
@@ -95,25 +60,57 @@
         </a>
       </article>
       <article>
-        <a
-          href="https://metagov.org/"
-          target="_blank"
-          class="border-me homepage-item cursor-alias"
-          style="background-color: #99B6BA"
-        >
+        <a href="https://toolkitty.org/" target="_blank" class="border-me homepage-item cursor-alias"
+          style="background-color: #C5E2ED">
+          <div class="relative">
+            <img height="500" width="500"
+              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1744626836/Screenshot_2025-04-14_at_12.30.31-pichi_tl2tu4.jpg"
+              alt="" />
+          </div>
+          <div class="p-4">
+            <h4 class="m-0">
+              Toolkitty - P2P coordination app for collectives, organisers and venues.
+            </h4>
+          </div>
+        </a>
+      </article>
+      <article>
+        <a href="https://reader.futureartecosystems.org/briefing/fae4" target="_blank"
+          class="border-me homepage-item cursor-alias" style="background-color: #E3D6F4">
+          <div class="relative ">
+            <img height="500" width="500"
+              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1744623915/fae4_lg3ryn.jpg" alt="" />
+          </div>
+          <div class="p-4">
+            <h4 class="m-0">
+              Serpentine Galleries - Future Art Ecosystems 4: Art x Public AI
+            </h4>
+          </div>
+        </a>
+      </article>
+      <article>
+        <a href="https://www.are.na/jack-murray-brown/community-archives-and-shared-infrastructures" target="_blank"
+          class="border-me homepage-item cursor-alias" style="background-color: #98DC89">
+          <div class="relative ">
+            <img height="500" width="500"
+              src="https://res.cloudinary.com/dvckadoiv/image/upload/v1744624027/community_archives_svzx3d.jpg"
+              alt="" />
+          </div>
+          <div class="p-4">
+            <h4 class="m-0">
+              Community archives and shared infrastructures workshop for ICRN.
+            </h4>
+          </div>
+        </a>
+      </article>
+      <article>
+        <a href="https://metagov.org/" target="_blank" class="border-me homepage-item cursor-alias"
+          style="background-color: #99B6BA">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
           <div class="relative ">
-            <span
-              class="absolute top-4 left-4 border-black border p-2"
-              style="background-color: #99B6BA"
-              >Current</span
-            >
-            <img
-              height="500"
-              width="500"
+            <img height="500" width="500"
               src="https://res.cloudinary.com/dvckadoiv/image/upload/v1692015449/metagov_logo_jrm89m.png"
-              alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover"
-            />
+              alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover" />
           </div>
           <div class="p-4">
             <h4 class="m-0">
@@ -125,19 +122,12 @@
         </a>
       </article>
       <article>
-        <a
-          href="https://ra.co/exchange/644"
-          target="_blank"
-          class="border-me homepage-item cursor-alias"
-          style="background-color: #CFB687"
-        >
+        <a href="https://ra.co/exchange/644" target="_blank" class="border-me homepage-item cursor-alias"
+          style="background-color: #CFB687">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img
-            height="500"
-            width="500"
+          <img height="500" width="500"
             src="https://imgproxy.ra.co/_/quality:66/w:1200/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3BvZGNhc3QvZXhjaGFuZ2UvZXg2NDQtY292ZXIuanBn"
-            alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover"
-          />
+            alt="EX.644 Source Material: Scottish Music's Mythic Imaginary exchange cover" />
           <div class="p-4">
             <h4 class="m-0">
               Delighted to be on RA Exchange 644 discussing folklore, radio and
@@ -146,40 +136,13 @@
           </div>
         </a>
       </article>
+
       <article>
-        <nuxt-link
-          to="/work/fruitful-fm"
-          class="border-me homepage-item"
-          style="background-color: #91CC8F"
-        >
+        <nuxt-link to="/work/norbergfestival-radio" class="border-me homepage-item" style="background-color: #8BD3E6">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img
-            width="380"
-            height="342"
-            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_540,w_600/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg"
-            alt="A blurred plum is held infront of a greenhouse with vinyl reading Fruitful.FM visible"
-          />
-          <div class="p-4">
-            <h4 class="m-0">
-              A radio station housed inside a greenhouse. Flipping the
-              traditional ‘dead’ and hidden space of a radio studio on its head.
-            </h4>
-          </div>
-        </nuxt-link>
-      </article>
-      <article>
-        <nuxt-link
-          to="/work/norbergfestival-radio"
-          class="border-me homepage-item"
-          style="background-color: #8BD3E6"
-        >
-          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img
-            width="380"
-            height="448"
+          <img width="380" height="448"
             src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_825,w_700/v1667053155/Soft%20Refresh/norbergfestival%20radio/R1-08651-0001_imxtor.jpg"
-            alt="A person plays guitar inside a transparent bubble with sun light glistening down"
-          />
+            alt="A person plays guitar inside a transparent bubble with sun light glistening down" />
           <div class="p-4">
             <h4 class="m-0">
               Co-ordinating the radio station at the 21st edition of
@@ -189,18 +152,11 @@
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link
-          to="/work/guts"
-          class="border-me homepage-item"
-          style="background-color: #F6D4FE"
-        >
+        <nuxt-link to="/work/guts" class="border-me homepage-item" style="background-color: #F6D4FE">
           <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
-          <img
-            width="380"
-            height="428"
+          <img width="380" height="428"
             src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_675,w_600/v1658181066/Soft%20Refresh/GUTS/GUTS-1622_t4ktnx.jpg"
-            alt="TV with 3D wobbly text reading GUTS is attached to a steel truss"
-          />
+            alt="TV with 3D wobbly text reading GUTS is attached to a steel truss" />
           <div class="p-4">
             <h4 class="m-0">
               Visuals and website for GUTS, a Glasgow based club night with a
@@ -210,39 +166,42 @@
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link
-          to="/work/freeform-radio-directory"
-          class="border-me homepage-item"
-          style="background-color: #E69F8B"
-        >
-          <img
-            width="380"
-            height="214"
+        <nuxt-link to="/work/fruitful-fm" class="border-me homepage-item" style="background-color: #91CC8F">
+          <!-- <span style="position: absolute; font-size: 5rem; top: -10%; right: -10%;">🪵</span> -->
+          <img width="380" height="342"
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,h_540,w_600/v1667053155/Soft%20Refresh/fruitful/TERRA_INCOGNITA-5937_vcyz6z.jpg"
+            alt="A blurred plum is held infront of a greenhouse with vinyl reading Fruitful.FM visible" />
+          <div class="p-4">
+            <h4 class="m-0">
+              A radio station housed inside a greenhouse. Flipping the
+              traditional ‘dead’ and hidden space of a radio studio on its head.
+            </h4>
+          </div>
+        </nuxt-link>
+      </article>
+      <article>
+        <nuxt-link to="/work/freeform-radio-directory" class="border-me homepage-item"
+          style="background-color: #E69F8B">
+          <img width="380" height="214"
             src="https://res.cloudinary.com/dvckadoiv/image/upload/v1711644555/freeform-1-pichi-1_aepygs.jpg"
-            alt="Website homepage for freeform radio director in mocked up browser with red shadow on pixelated image"
-          />
+            alt="Website homepage for freeform radio director in mocked up browser with red shadow on pixelated image" />
           <div class="p-4">
             <h4 class="m-0">Website showcasing the best in world wide wadio</h4>
           </div>
         </nuxt-link>
       </article>
       <article>
-        <nuxt-link
-          width="380"
-          height="253"
-          to="/work/come-in-peace"
-          class="border-me homepage-item"
-          style="background-color: #54A589"
-        >
+        <nuxt-link width="380" height="253" to="/work/come-in-peace" class="border-me homepage-item"
+          style="background-color: #54A589">
           <img
             src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1641219313/Soft%20Refresh/Come%20In%20Peace/2H6A6270-pichi_vdlz5r.jpg"
-            alt="CRT TV shows text Peace in a grafitti front in the dark"
-          />
+            alt="CRT TV shows text Peace in a grafitti front in the dark" />
           <div class="p-4">
             <h4 class="m-0">Visuals for Interplanatary Criminal</h4>
           </div>
         </nuxt-link>
       </article>
+
       <!-- <article>
         <nuxt-link
           to="/work/cultivate-rave-revival"
@@ -269,17 +228,10 @@
         </nuxt-link>
       </article> -->
       <article>
-        <nuxt-link
-          to="/work/aerial-community-radio"
-          class="border-me homepage-item"
-          style="background-color: #9e96c4"
-        >
-          <img
-            width="380"
-            height="217"
+        <nuxt-link to="/work/aerial-community-radio" class="border-me homepage-item" style="background-color: #9e96c4">
+          <img width="380" height="217"
             src="https://res.cloudinary.com/dvckadoiv/image/upload/c_fill,w_600/v1634915652/Soft%20Refresh/aerial%20community%20radio/Screenshot_2020-10-30_at_00.28.38-pichi_y2vwxp.jpg"
-            alt="Aerial website home - skewed elements and text sit ontop of an image of the north sea"
-          />
+            alt="Aerial website home - skewed elements and text sit ontop of an image of the north sea" />
           <div class="p-4">
             <h4 class="m-0">Real community radio hours</h4>
           </div>
@@ -425,17 +377,15 @@ article:nth-child(9) {
 
 .lil-intro {
   transform: rotate(-3deg);
-  background: conic-gradient(
-    #cab54e,
-    #e69f8b,
-    #db400f,
-    #8a9ebc,
-    #87837e,
-    #e1bad1,
-    #656f30,
-    #54a589,
-    #cab54e
-  );
+  background: conic-gradient(#cab54e,
+      #e69f8b,
+      #db400f,
+      #8a9ebc,
+      #87837e,
+      #e1bad1,
+      #656f30,
+      #54a589,
+      #cab54e);
   filter: blur(100px);
   z-index: -1;
 }
@@ -447,16 +397,14 @@ article:nth-child(9) {
   top: 0px;
   right: -10px;
   border: ridge 5px;
-  background: linear-gradient(
-    #cab54e,
-    #e69f8b,
-    #db400f,
-    #8a9ebc,
-    #87837e,
-    #e1bad1,
-    #656f30,
-    #54a589,
-    #cab54e
-  );
+  background: linear-gradient(#cab54e,
+      #e69f8b,
+      #db400f,
+      #8a9ebc,
+      #87837e,
+      #e1bad1,
+      #656f30,
+      #54a589,
+      #cab54e);
 }
 </style>
