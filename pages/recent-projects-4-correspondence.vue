@@ -107,7 +107,7 @@
 export default {
   head() {
     return {
-      title: "Websites I have worked on recently"
+      title: "Projects I have worked on recently"
     };
   }
 };
