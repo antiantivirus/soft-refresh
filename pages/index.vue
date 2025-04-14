@@ -63,6 +63,8 @@
         <a href="https://toolkitty.org/" target="_blank" class="border-me homepage-item cursor-alias"
           style="background-color: #C5E2ED">
           <div class="relative">
+            <span class="absolute top-4 left-4 border-black border p-2" style="background-color: #C5E2ED">Current</span>
+
             <img height="500" width="500"
               src="https://res.cloudinary.com/dvckadoiv/image/upload/v1744626836/Screenshot_2025-04-14_at_12.30.31-pichi_tl2tu4.jpg"
               alt="" />

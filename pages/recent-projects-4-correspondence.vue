@@ -34,7 +34,7 @@
           </div>
           <div class="p-4">
             <h4 class="m-0">
-              Toolkitty - P2P coordination app for collectives, organisers and venues.
+              Front-end developer for Toolkitty, a P2P coordination app for collectives, organisers and venues.
             </h4>
           </div>
         </a>
@@ -48,7 +48,7 @@
           </div>
           <div class="p-4">
             <h4 class="m-0">
-              Serpentine Galleries - Future Art Ecosystems 4: Art x Public AI
+              Web development for Serpentine Galleries - Future Art Ecosystems 4: Art x Public AI
             </h4>
           </div>
         </a>
@@ -64,9 +64,7 @@
           </div>
           <div class="p-4">
             <h4 class="m-0">
-              Web development for Metagov.org, an interdisciplinary research
-              collective and Policykit, an engine for building governance in
-              online communities.
+              Web development for Metagov.org, a laboratory for digital governance.
             </h4>
           </div>
         </a>
@@ -100,6 +98,8 @@
       from the University of Aberdeen. He has experience working with React, Vue, Svelte, HTMX, Alpine JS, Contentful
       CMS,
       Sanity CMS, Wordpress, Directus CMS and Decap CMS.</p>
+    <p class="my-12">. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.</p>
+
   </div>
 </template>
 
