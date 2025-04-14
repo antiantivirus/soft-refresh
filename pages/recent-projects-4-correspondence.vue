@@ -97,7 +97,7 @@
       Science
       from the University of Aberdeen. He has experience working with React, Vue, Svelte, HTMX, Alpine JS, Contentful
       CMS,
-      Sanity CMS, Wordpress, Directus CMS and Decap CMS.</p>
+      Sanity CMS, Wordpress, Kirby CMS, Directus CMS and Decap CMS.</p>
     <p class="my-12">. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.</p>
 
   </div>
