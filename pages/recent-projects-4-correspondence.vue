@@ -94,10 +94,9 @@
     </p>
 
     <p class="mb-4 max-w-prose">He has been working as a developer for the last 6 years since graduating in Computing
-      Science
-      from the University of Aberdeen. He has experience working with React, Vue, Svelte, HTMX, Alpine JS, Contentful
-      CMS,
-      Sanity CMS, Wordpress, Kirby CMS, Directus CMS and Decap CMS.</p>
+      Science from the University of Aberdeen. He has experience working with React, Next.js, Vue, Nuxt, Svelte,
+      Sveltekit HTMX,
+      Alpine.js, Contentful CMS, Sanity CMS, Wordpress, Kirby CMS, Directus CMS and Decap CMS.</p>
     <p class="my-12">. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.</p>
 
   </div>
