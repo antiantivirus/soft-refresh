@@ -2,7 +2,7 @@
   <div>
     <h1 class="text-2xl mb-16">
       Hey TRNSTN RADIO •ᴗ•
-      <br /> Here is a list of recent work.
+      <br /> Here is a list of projects I have worked on recently.
     </h1>
 
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mb-24 lg:mb-0 md:gap-x-6 md:gap-y-12 seriously-selected-grid">
@@ -91,6 +91,19 @@
           </div>
         </a>
       </div>
+
+      <div>
+        <nuxt-link to="/work/freeform-radio-directory" class="border-me homepage-item"
+          style="background-color: #E69F8B">
+          <img width="380" height="214"
+            src="https://res.cloudinary.com/dvckadoiv/image/upload/v1711644555/freeform-1-pichi-1_aepygs.jpg"
+            alt="Website homepage for freeform radio director in mocked up browser with red shadow on pixelated image" />
+          <div class="p-4">
+            <h4 class="m-0">Freeform Radio Directory, showcasing the best in world wide wadio</h4>
+          </div>
+        </nuxt-link>
+      </div>
+
       <div>
         <a href="https://metagov.org/" target="_blank" class="border-me homepage-item cursor-alias"
           style="background-color: #99B6BA">
@@ -122,7 +135,6 @@
           </div>
         </nuxt-link>
       </div>
-
 
     </div>
 
